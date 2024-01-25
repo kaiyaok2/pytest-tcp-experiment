@@ -2571,4 +2571,1978 @@ tests/test_bug.py .
 current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bug.py: 651.4942083358765s cumulative, 45.2988715171814s individual
 
 
-tests/test_a_star_variants.py 
+tests/test_a_star_variants.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_variants.py: 674.8579723834991s cumulative, 23.36376404762268s individual
+
+
+tests/test_frenet_optimal_trajectory.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/FrenetOptimalTrajectory/frenet_optimal_trajectory.py start!!
+Finish
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_frenet_optimal_trajectory.py: 677.9869868755341s cumulative, 3.129014492034912s individual
+
+
+tests/test_bezier_path.py .
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bezier_path.py: 678.0857419967651s cumulative, 0.0987551212310791s individual
+
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bezier_path.py: 678.1159400939941s cumulative, 0.030198097229003906s individual
+
+
+tests/test_a_star.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star.py: 678.4293165206909s cumulative, 0.31337642669677734s individual
+
+
+tests/test_LQR_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/LQRPlanner/lqr_planner.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_LQR_planner.py: 678.4662456512451s cumulative, 0.03692913055419922s individual
+
+
+tests/test_fast_slam2.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/FastSLAM2/fast_slam2.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_fast_slam2.py: 691.2938272953033s cumulative, 12.827581644058228s individual
+
+
+tests/test_probabilistic_road_map.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/ProbabilisticRoadMap/probabilistic_road_map.py start!!
+goal is found!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_probabilistic_road_map.py: 693.264886379242s cumulative, 1.9710590839385986s individual
+
+
+tests/test_flow_field.py .
+current test PASSED/SKIPPED -- test in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_flow_field.py: 693.698047876358s cumulative, 0.43316149711608887s individual
+
+
+tests/test_rrt.py start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRT/rrt.py
+found path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt.py: 693.7038099765778s cumulative, 0.0057621002197265625s individual
+
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt.py: 693.7346520423889s cumulative, 0.030842065811157227s individual
+
+
+tests/test_rrt_star_dubins.py Start rrt star with dubins planning
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 1
+Iter: 2 , number of nodes: 1
+Iter: 3 , number of nodes: 1
+Iter: 4 , number of nodes: 1
+Iter: 5 , number of nodes: 2
+Iter: 6 , number of nodes: 2
+Iter: 7 , number of nodes: 2
+Iter: 8 , number of nodes: 3
+Iter: 9 , number of nodes: 3
+Iter: 10 , number of nodes: 4
+Iter: 11 , number of nodes: 5
+Iter: 12 , number of nodes: 6
+Iter: 13 , number of nodes: 7
+Iter: 14 , number of nodes: 8
+Iter: 15 , number of nodes: 9
+Iter: 16 , number of nodes: 10
+Iter: 17 , number of nodes: 10
+Iter: 18 , number of nodes: 11
+Iter: 19 , number of nodes: 12
+Iter: 20 , number of nodes: 12
+Iter: 21 , number of nodes: 13
+Iter: 22 , number of nodes: 14
+Iter: 23 , number of nodes: 15
+Iter: 24 , number of nodes: 16
+Iter: 25 , number of nodes: 17
+Iter: 26 , number of nodes: 18
+Iter: 27 , number of nodes: 19
+Iter: 28 , number of nodes: 20
+Iter: 29 , number of nodes: 21
+Iter: 30 , number of nodes: 21
+Iter: 31 , number of nodes: 22
+Iter: 32 , number of nodes: 23
+Iter: 33 , number of nodes: 24
+Iter: 34 , number of nodes: 25
+Iter: 35 , number of nodes: 26
+Iter: 36 , number of nodes: 27
+Iter: 37 , number of nodes: 27
+Iter: 38 , number of nodes: 28
+Iter: 39 , number of nodes: 29
+Iter: 40 , number of nodes: 29
+Iter: 41 , number of nodes: 30
+Iter: 42 , number of nodes: 31
+Iter: 43 , number of nodes: 32
+Iter: 44 , number of nodes: 33
+Iter: 45 , number of nodes: 33
+Iter: 46 , number of nodes: 34
+Iter: 47 , number of nodes: 35
+Iter: 48 , number of nodes: 36
+Iter: 49 , number of nodes: 37
+Iter: 50 , number of nodes: 37
+Iter: 51 , number of nodes: 38
+Iter: 52 , number of nodes: 39
+Iter: 53 , number of nodes: 40
+Iter: 54 , number of nodes: 41
+Iter: 55 , number of nodes: 42
+Iter: 56 , number of nodes: 42
+Iter: 57 , number of nodes: 43
+Iter: 58 , number of nodes: 44
+Iter: 59 , number of nodes: 44
+Iter: 60 , number of nodes: 45
+Iter: 61 , number of nodes: 45
+Iter: 62 , number of nodes: 46
+Iter: 63 , number of nodes: 46
+Iter: 64 , number of nodes: 47
+Iter: 65 , number of nodes: 47
+Iter: 66 , number of nodes: 47
+Iter: 67 , number of nodes: 48
+Iter: 68 , number of nodes: 49
+Iter: 69 , number of nodes: 50
+Iter: 70 , number of nodes: 51
+Iter: 71 , number of nodes: 52
+Iter: 72 , number of nodes: 52
+Iter: 73 , number of nodes: 53
+Iter: 74 , number of nodes: 54
+Iter: 75 , number of nodes: 54
+Iter: 76 , number of nodes: 55
+Iter: 77 , number of nodes: 56
+Iter: 78 , number of nodes: 57
+Iter: 79 , number of nodes: 58
+Iter: 80 , number of nodes: 59
+Iter: 81 , number of nodes: 59
+Iter: 82 , number of nodes: 60
+Iter: 83 , number of nodes: 61
+Iter: 84 , number of nodes: 61
+Iter: 85 , number of nodes: 62
+Iter: 86 , number of nodes: 63
+Iter: 87 , number of nodes: 64
+Iter: 88 , number of nodes: 64
+Iter: 89 , number of nodes: 65
+Iter: 90 , number of nodes: 65
+Iter: 91 , number of nodes: 66
+Iter: 92 , number of nodes: 66
+Iter: 93 , number of nodes: 67
+Iter: 94 , number of nodes: 68
+Iter: 95 , number of nodes: 69
+Iter: 96 , number of nodes: 69
+Iter: 97 , number of nodes: 70
+Iter: 98 , number of nodes: 71
+Iter: 99 , number of nodes: 72
+Iter: 100 , number of nodes: 73
+Iter: 101 , number of nodes: 74
+Iter: 102 , number of nodes: 75
+Iter: 103 , number of nodes: 76
+Iter: 104 , number of nodes: 77
+Iter: 105 , number of nodes: 77
+Iter: 106 , number of nodes: 77
+Iter: 107 , number of nodes: 78
+Iter: 108 , number of nodes: 79
+Iter: 109 , number of nodes: 79
+Iter: 110 , number of nodes: 80
+Iter: 111 , number of nodes: 81
+Iter: 112 , number of nodes: 82
+Iter: 113 , number of nodes: 83
+Iter: 114 , number of nodes: 84
+Iter: 115 , number of nodes: 85
+Iter: 116 , number of nodes: 85
+Iter: 117 , number of nodes: 86
+Iter: 118 , number of nodes: 87
+Iter: 119 , number of nodes: 88
+Iter: 120 , number of nodes: 89
+Iter: 121 , number of nodes: 90
+Iter: 122 , number of nodes: 90
+Iter: 123 , number of nodes: 90
+Iter: 124 , number of nodes: 91
+Iter: 125 , number of nodes: 92
+Iter: 126 , number of nodes: 92
+Iter: 127 , number of nodes: 92
+Iter: 128 , number of nodes: 92
+Iter: 129 , number of nodes: 92
+Iter: 130 , number of nodes: 93
+Iter: 131 , number of nodes: 93
+Iter: 132 , number of nodes: 93
+Iter: 133 , number of nodes: 94
+Iter: 134 , number of nodes: 95
+Iter: 135 , number of nodes: 96
+Iter: 136 , number of nodes: 97
+Iter: 137 , number of nodes: 98
+Iter: 138 , number of nodes: 98
+Iter: 139 , number of nodes: 99
+Iter: 140 , number of nodes: 100
+Iter: 141 , number of nodes: 100
+Iter: 142 , number of nodes: 101
+Iter: 143 , number of nodes: 102
+Iter: 144 , number of nodes: 103
+Iter: 145 , number of nodes: 104
+Iter: 146 , number of nodes: 105
+Iter: 147 , number of nodes: 106
+Iter: 148 , number of nodes: 107
+Iter: 149 , number of nodes: 107
+Iter: 150 , number of nodes: 108
+Iter: 151 , number of nodes: 109
+Iter: 152 , number of nodes: 110
+Iter: 153 , number of nodes: 110
+Iter: 154 , number of nodes: 111
+Iter: 155 , number of nodes: 112
+Iter: 156 , number of nodes: 113
+Iter: 157 , number of nodes: 113
+Iter: 158 , number of nodes: 113
+Iter: 159 , number of nodes: 113
+Iter: 160 , number of nodes: 114
+Iter: 161 , number of nodes: 115
+Iter: 162 , number of nodes: 116
+Iter: 163 , number of nodes: 116
+Iter: 164 , number of nodes: 117
+Iter: 165 , number of nodes: 118
+Iter: 166 , number of nodes: 119
+Iter: 167 , number of nodes: 120
+Iter: 168 , number of nodes: 121
+Iter: 169 , number of nodes: 121
+Iter: 170 , number of nodes: 122
+Iter: 171 , number of nodes: 123
+Iter: 172 , number of nodes: 124
+Iter: 173 , number of nodes: 125
+Iter: 174 , number of nodes: 126
+Iter: 175 , number of nodes: 127
+Iter: 176 , number of nodes: 128
+Iter: 177 , number of nodes: 129
+Iter: 178 , number of nodes: 129
+Iter: 179 , number of nodes: 130
+Iter: 180 , number of nodes: 131
+Iter: 181 , number of nodes: 132
+Iter: 182 , number of nodes: 133
+Iter: 183 , number of nodes: 134
+Iter: 184 , number of nodes: 134
+Iter: 185 , number of nodes: 135
+Iter: 186 , number of nodes: 136
+Iter: 187 , number of nodes: 137
+Iter: 188 , number of nodes: 138
+Iter: 189 , number of nodes: 139
+Iter: 190 , number of nodes: 140
+Iter: 191 , number of nodes: 141
+Iter: 192 , number of nodes: 142
+Iter: 193 , number of nodes: 143
+Iter: 194 , number of nodes: 144
+Iter: 195 , number of nodes: 145
+Iter: 196 , number of nodes: 145
+Iter: 197 , number of nodes: 145
+Iter: 198 , number of nodes: 146
+Iter: 199 , number of nodes: 147
+reached max iteration
+final
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_dubins.py: 740.6168994903564s cumulative, 46.88224744796753s individual
+
+
+tests/test_wavefront_coverage_path_planner.py .
+current test PASSED/SKIPPED -- test_wavefront_CPP_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 741.0059332847595s cumulative, 0.38903379440307617s individual
+
+.
+current test PASSED/SKIPPED -- test_wavefront_CPP_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 741.4518375396729s cumulative, 0.4459042549133301s individual
+
+backtracing to (16, 20)
+backtracing to (16, 20)
+.
+current test PASSED/SKIPPED -- test_wavefront_CPP_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 741.8610484600067s cumulative, 0.4092109203338623s individual
+
+
+tests/test_lqr_speed_steer_control.py LQR steering control tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_speed_steer_control.py: 744.9468574523926s cumulative, 3.0858089923858643s individual
+
+
+tests/test_grid_map_lib.py .
+current test PASSED/SKIPPED -- test_position_set in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 744.9531960487366s cumulative, 0.006338596343994141s individual
+
+.
+current test PASSED/SKIPPED -- test_polygon_set in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 747.621185541153s cumulative, 2.667989492416382s individual
+
+.
+current test PASSED/SKIPPED -- test_xy_and_grid_index_conversion in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 747.6393268108368s cumulative, 0.01814126968383789s individual
+
+
+tests/test_graph_based_slam.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/GraphBasedSLAM/graph_based_slam.py start!!
+start graph based slam
+cost: 12747.735963555138 ,n_edge: 225
+iteration: 1, diff: 0.202578
+cost: 34.49765791816127 ,n_edge: 225
+iteration: 2, diff: 0.013385
+cost: 28.491507765188985 ,n_edge: 225
+iteration: 3, diff: 0.000002
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_graph_based_slam.py: 748.0968205928802s cumulative, 0.45749378204345703s individual
+
+
+tests/test_reeds_shepp_path_planning.py Reeds Shepp path planner sample start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_reeds_shepp_path_planning.py: 748.130407333374s cumulative, 0.033586740493774414s individual
+
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_reeds_shepp_path_planning.py: 748.1830163002014s cumulative, 0.05260896682739258s individual
+
+
+tests/test_iterative_closest_point.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/iterative_closest_point/iterative_closest_point.py start!!
+Residual: 6122.025538902908
+Residual: 5420.518280956449
+Residual: 4685.550206806066
+Residual: 3993.207296674747
+Residual: 3251.4800115798694
+Residual: 2357.063560031851
+Residual: 1266.8186220917255
+Residual: 186.6087776461309
+Residual: 2.0048016254562966e-11
+Residual: 2.4287951254123217e-11
+Not Converge... 2.0048016254562966e-11 -4.239934999560251e-12 10
+R: [[ 9.84816039e-01 -3.03221514e-04 -1.73600916e-01]
+ [-1.08796764e-04  9.99997200e-01 -2.36384387e-03]
+ [ 1.73601147e-01  2.34683858e-03  9.84813248e-01]]
+T: [-1.1726354  -2.01454615  4.86257721]
+Residual: 6103.907877736928
+Residual: 5317.090692040612
+Residual: 4637.534817961223
+Residual: 4008.875419691265
+Residual: 3324.825835666146
+Residual: 2574.9238380848783
+Residual: 1596.7997473844955
+Residual: 450.27073616604736
+Residual: 5.303624696059553
+Residual: 3.111810297170891e-11
+Residual: 3.009318115157063e-11
+Converge 3.009318115157063e-11 1.024921820138285e-12 11
+R: [[ 9.84837614e-01 -3.95484709e-04 -1.73478292e-01]
+ [-5.20663423e-04  9.99986159e-01 -5.23551476e-03]
+ [ 1.73477961e-01  5.24645567e-03  9.84823777e-01]]
+T: [-1.14498566 -2.0420891   4.86415502]
+Residual: 6178.843682700725
+Residual: 5520.355175380115
+Residual: 4831.675562414473
+Residual: 4185.787956544261
+Residual: 3463.6362020630045
+Residual: 2746.9112570669777
+Residual: 1866.6822616426796
+Residual: 684.0841538321376
+Residual: 17.836621227320066
+Residual: 1.2884919748600528e-11
+Residual: 1.859785709815115e-11
+Not Converge... 1.2884919748600528e-11 -5.7129373495506226e-12 11
+R: [[ 0.98485979 -0.00182458 -0.17334319]
+ [ 0.00100424  0.99998788 -0.00482003]
+ [ 0.17334988  0.00457297  0.98484969]]
+T: [-1.12397325 -1.9810011   4.90477675]
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_iterative_closest_point.py: 773.5092475414276s cumulative, 25.326231241226196s individual
+
+/home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/iterative_closest_point/iterative_closest_point.py start!!
+Residual: 3732.607265169418
+Residual: 3580.7852770594814
+Residual: 3428.9460142412445
+Residual: 3278.855652351809
+Residual: 3120.891188225729
+Residual: 3006.5489767824106
+Residual: 2888.912866529232
+Residual: 2783.696164612529
+Residual: 2676.911970274002
+Residual: 2573.3702210083143
+Residual: 2492.5672857682534
+Residual: 2407.761389281986
+Residual: 2342.100097768435
+Residual: 2278.2825298804896
+Residual: 2221.102666667278
+Residual: 2160.877476189446
+Residual: 2105.155857986953
+Residual: 2032.2613283472667
+Residual: 1956.332442848109
+Residual: 1885.7401841716792
+Residual: 1793.9113868556744
+Residual: 1704.9123918210628
+Residual: 1601.8118877745756
+Residual: 1504.0699463013823
+Residual: 1367.7584374529094
+Residual: 1226.0845291148746
+Residual: 1076.3760791895688
+Residual: 895.0501594114306
+Residual: 641.4569826686956
+Residual: 327.8350727597011
+Residual: 70.79884622687733
+Residual: 1.0115309836670978
+Residual: 2.0808675053894482e-11
+Residual: 2.0857292869432255e-11
+Not Converge... 2.0808675053894482e-11 -4.8617815537772936e-14 34
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.04646452 -2.03231329]
+Residual: 3753.7886083929334
+Residual: 3615.3251174028333
+Residual: 3484.5823572843856
+Residual: 3366.1925124487298
+Residual: 3266.516507204458
+Residual: 3163.0176300633993
+Residual: 3047.625553522546
+Residual: 2948.3245289400897
+Residual: 2847.79856091292
+Residual: 2772.6425422517623
+Residual: 2711.055666907766
+Residual: 2615.0530226105393
+Residual: 2517.6699082980895
+Residual: 2420.677450165582
+Residual: 2326.3326573639215
+Residual: 2230.6979534310467
+Residual: 2138.5450806958406
+Residual: 2030.5901407030767
+Residual: 1926.0988676818235
+Residual: 1825.2736646810831
+Residual: 1704.8550218891965
+Residual: 1603.9099227503766
+Residual: 1492.6925092889826
+Residual: 1389.320695063232
+Residual: 1266.8338657758745
+Residual: 1123.7126238220546
+Residual: 943.3419260153283
+Residual: 722.0269705481979
+Residual: 433.17182806996135
+Residual: 166.80055172453996
+Residual: 10.286570896758148
+Residual: 1.4024470064482458e-11
+Residual: 1.039323355651351e-11
+Converge 1.039323355651351e-11 3.6312365079689475e-12 33
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.08795467 -2.07701424]
+Residual: 3738.1861841834157
+Residual: 3578.207182544207
+Residual: 3421.739531564305
+Residual: 3285.8930756877717
+Residual: 3164.2972697567934
+Residual: 3044.7923336805416
+Residual: 2922.827840952676
+Residual: 2792.4462526661778
+Residual: 2712.632181726886
+Residual: 2626.7890038313712
+Residual: 2530.3776310960707
+Residual: 2446.3854145541018
+Residual: 2367.645738129413
+Residual: 2278.8422743982337
+Residual: 2169.8427986610823
+Residual: 2073.18574182081
+Residual: 1971.9383692757256
+Residual: 1870.4217258019155
+Residual: 1782.3574458636772
+Residual: 1690.9936599112536
+Residual: 1585.2003708590603
+Residual: 1461.7963142187812
+Residual: 1325.1421330325297
+Residual: 1180.0698842555291
+Residual: 1028.2552140111534
+Residual: 823.3807077168517
+Residual: 567.6192297845259
+Residual: 273.95101310317614
+Residual: 38.23343078565081
+Residual: 1.156953649374343e-11
+Residual: 1.2295841092349289e-11
+Not Converge... 1.156953649374343e-11 -7.263045986058595e-13 31
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.12681604 -2.01949352]
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_iterative_closest_point.py: 819.3423311710358s cumulative, 45.833083629608154s individual
+
+
+tests/test_dubins_path_planning.py .
+current test PASSED/SKIPPED -- test_path_plannings_types in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 819.3500909805298s cumulative, 0.007759809494018555s individual
+
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 819.3551290035248s cumulative, 0.005038022994995117s individual
+
+.
+current test PASSED/SKIPPED -- test_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 819.3739674091339s cumulative, 0.01883840560913086s individual
+
+Dubins path planner sample start!!
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 819.380010843277s cumulative, 0.006043434143066406s individual
+
+
+tests/test_clothoidal_paths.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_clothoidal_paths.py: 828.1395907402039s cumulative, 8.75957989692688s individual
+
+
+tests/test_n_joint_arm_to_point_control.py Solution could not be found.
+Solution found in 2231 iterations.
+Solution found in 10 iterations.
+Solution found in 3923 iterations.
+Solution found in 3 iterations.
+Solution found in 4 iterations.
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_n_joint_arm_to_point_control.py: 894.7025284767151s cumulative, 66.56293773651123s individual
+
+
+tests/test_dijkstra.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/Dijkstra/dijkstra.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dijkstra.py: 894.9818847179413s cumulative, 0.2793562412261963s individual
+
+
+tests/test_rrt_dubins.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRTDubins/rrt_dubins.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 1
+Iter: 2 , number of nodes: 1
+Iter: 3 , number of nodes: 1
+Iter: 4 , number of nodes: 1
+Iter: 5 , number of nodes: 2
+Iter: 6 , number of nodes: 2
+Iter: 7 , number of nodes: 2
+Iter: 8 , number of nodes: 3
+Iter: 9 , number of nodes: 3
+Iter: 10 , number of nodes: 4
+Iter: 11 , number of nodes: 5
+Iter: 12 , number of nodes: 6
+Iter: 13 , number of nodes: 7
+Iter: 14 , number of nodes: 8
+Iter: 15 , number of nodes: 9
+Iter: 16 , number of nodes: 10
+Iter: 17 , number of nodes: 10
+Iter: 18 , number of nodes: 11
+Iter: 19 , number of nodes: 12
+Iter: 20 , number of nodes: 12
+Iter: 21 , number of nodes: 12
+Iter: 22 , number of nodes: 13
+Iter: 23 , number of nodes: 14
+Iter: 24 , number of nodes: 15
+Iter: 25 , number of nodes: 15
+Iter: 26 , number of nodes: 16
+Iter: 27 , number of nodes: 17
+Iter: 28 , number of nodes: 18
+Iter: 29 , number of nodes: 19
+Iter: 30 , number of nodes: 19
+Iter: 31 , number of nodes: 20
+Iter: 32 , number of nodes: 21
+Iter: 33 , number of nodes: 22
+Iter: 34 , number of nodes: 23
+Iter: 35 , number of nodes: 23
+Iter: 36 , number of nodes: 24
+Iter: 37 , number of nodes: 24
+Iter: 38 , number of nodes: 25
+Iter: 39 , number of nodes: 26
+Iter: 40 , number of nodes: 26
+Iter: 41 , number of nodes: 27
+Iter: 42 , number of nodes: 28
+Iter: 43 , number of nodes: 29
+Iter: 44 , number of nodes: 30
+Iter: 45 , number of nodes: 30
+Iter: 46 , number of nodes: 30
+Iter: 47 , number of nodes: 31
+Iter: 48 , number of nodes: 32
+Iter: 49 , number of nodes: 33
+Iter: 50 , number of nodes: 33
+Iter: 51 , number of nodes: 34
+Iter: 52 , number of nodes: 35
+Iter: 53 , number of nodes: 36
+Iter: 54 , number of nodes: 36
+Iter: 55 , number of nodes: 37
+Iter: 56 , number of nodes: 37
+Iter: 57 , number of nodes: 38
+Iter: 58 , number of nodes: 39
+Iter: 59 , number of nodes: 39
+Iter: 60 , number of nodes: 40
+Iter: 61 , number of nodes: 40
+Iter: 62 , number of nodes: 41
+Iter: 63 , number of nodes: 41
+Iter: 64 , number of nodes: 42
+Iter: 65 , number of nodes: 42
+Iter: 66 , number of nodes: 42
+Iter: 67 , number of nodes: 43
+Iter: 68 , number of nodes: 43
+Iter: 69 , number of nodes: 44
+Iter: 70 , number of nodes: 45
+Iter: 71 , number of nodes: 46
+Iter: 72 , number of nodes: 46
+Iter: 73 , number of nodes: 47
+Iter: 74 , number of nodes: 48
+Iter: 75 , number of nodes: 48
+Iter: 76 , number of nodes: 49
+Iter: 77 , number of nodes: 50
+Iter: 78 , number of nodes: 51
+Iter: 79 , number of nodes: 52
+Iter: 80 , number of nodes: 53
+Iter: 81 , number of nodes: 53
+Iter: 82 , number of nodes: 54
+Iter: 83 , number of nodes: 55
+Iter: 84 , number of nodes: 55
+Iter: 85 , number of nodes: 56
+Iter: 86 , number of nodes: 57
+Iter: 87 , number of nodes: 58
+Iter: 88 , number of nodes: 58
+Iter: 89 , number of nodes: 58
+Iter: 90 , number of nodes: 58
+Iter: 91 , number of nodes: 59
+Iter: 92 , number of nodes: 59
+Iter: 93 , number of nodes: 60
+Iter: 94 , number of nodes: 61
+Iter: 95 , number of nodes: 61
+Iter: 96 , number of nodes: 61
+Iter: 97 , number of nodes: 62
+Iter: 98 , number of nodes: 63
+Iter: 99 , number of nodes: 64
+Iter: 100 , number of nodes: 65
+Iter: 101 , number of nodes: 66
+Iter: 102 , number of nodes: 67
+Iter: 103 , number of nodes: 68
+Iter: 104 , number of nodes: 69
+Iter: 105 , number of nodes: 69
+Iter: 106 , number of nodes: 69
+Iter: 107 , number of nodes: 70
+Iter: 108 , number of nodes: 71
+Iter: 109 , number of nodes: 71
+Iter: 110 , number of nodes: 72
+Iter: 111 , number of nodes: 72
+Iter: 112 , number of nodes: 73
+Iter: 113 , number of nodes: 74
+Iter: 114 , number of nodes: 75
+Iter: 115 , number of nodes: 75
+Iter: 116 , number of nodes: 75
+Iter: 117 , number of nodes: 75
+Iter: 118 , number of nodes: 76
+Iter: 119 , number of nodes: 77
+Iter: 120 , number of nodes: 78
+Iter: 121 , number of nodes: 78
+Iter: 122 , number of nodes: 78
+Iter: 123 , number of nodes: 78
+Iter: 124 , number of nodes: 79
+Iter: 125 , number of nodes: 80
+Iter: 126 , number of nodes: 80
+Iter: 127 , number of nodes: 80
+Iter: 128 , number of nodes: 80
+Iter: 129 , number of nodes: 80
+Iter: 130 , number of nodes: 81
+Iter: 131 , number of nodes: 81
+Iter: 132 , number of nodes: 81
+Iter: 133 , number of nodes: 82
+Iter: 134 , number of nodes: 83
+Iter: 135 , number of nodes: 84
+Iter: 136 , number of nodes: 85
+Iter: 137 , number of nodes: 85
+Iter: 138 , number of nodes: 85
+Iter: 139 , number of nodes: 85
+Iter: 140 , number of nodes: 86
+Iter: 141 , number of nodes: 86
+Iter: 142 , number of nodes: 87
+Iter: 143 , number of nodes: 87
+Iter: 144 , number of nodes: 87
+Iter: 145 , number of nodes: 88
+Iter: 146 , number of nodes: 89
+Iter: 147 , number of nodes: 89
+Iter: 148 , number of nodes: 89
+Iter: 149 , number of nodes: 89
+Iter: 150 , number of nodes: 90
+Iter: 151 , number of nodes: 91
+Iter: 152 , number of nodes: 92
+Iter: 153 , number of nodes: 92
+Iter: 154 , number of nodes: 93
+Iter: 155 , number of nodes: 93
+Iter: 156 , number of nodes: 93
+Iter: 157 , number of nodes: 93
+Iter: 158 , number of nodes: 93
+Iter: 159 , number of nodes: 93
+Iter: 160 , number of nodes: 94
+Iter: 161 , number of nodes: 95
+Iter: 162 , number of nodes: 96
+Iter: 163 , number of nodes: 96
+Iter: 164 , number of nodes: 97
+Iter: 165 , number of nodes: 98
+Iter: 166 , number of nodes: 99
+Iter: 167 , number of nodes: 100
+Iter: 168 , number of nodes: 101
+Iter: 169 , number of nodes: 101
+Iter: 170 , number of nodes: 102
+Iter: 171 , number of nodes: 103
+Iter: 172 , number of nodes: 104
+Iter: 173 , number of nodes: 105
+Iter: 174 , number of nodes: 106
+Iter: 175 , number of nodes: 107
+Iter: 176 , number of nodes: 108
+Iter: 177 , number of nodes: 109
+Iter: 178 , number of nodes: 109
+Iter: 179 , number of nodes: 110
+Iter: 180 , number of nodes: 110
+Iter: 181 , number of nodes: 111
+Iter: 182 , number of nodes: 112
+Iter: 183 , number of nodes: 113
+Iter: 184 , number of nodes: 113
+Iter: 185 , number of nodes: 114
+Iter: 186 , number of nodes: 115
+Iter: 187 , number of nodes: 116
+Iter: 188 , number of nodes: 117
+Iter: 189 , number of nodes: 118
+Iter: 190 , number of nodes: 119
+Iter: 191 , number of nodes: 120
+Iter: 192 , number of nodes: 121
+Iter: 193 , number of nodes: 122
+Iter: 194 , number of nodes: 122
+Iter: 195 , number of nodes: 123
+Iter: 196 , number of nodes: 123
+Iter: 197 , number of nodes: 123
+Iter: 198 , number of nodes: 123
+Iter: 199 , number of nodes: 124
+reached max iteration
+final
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_dubins.py: 895.4439895153046s cumulative, 0.46210479736328125s individual
+
+
+tests/test_quintic_polynomials_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/QuinticPolynomialsPlanner/quintic_polynomials_planner.py start!!
+find path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_quintic_polynomials_planner.py: 895.4672608375549s cumulative, 0.02327132225036621s individual
+
+
+tests/test_particle_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/particle_filter/particle_filter.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_particle_filter.py: 900.2820703983307s cumulative, 4.814809560775757s individual
+
+
+tests/test_extended_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/extended_kalman_filter/extended_kalman_filter.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_extended_kalman_filter.py: 900.6263902187347s cumulative, 0.34431982040405273s individual
+
+
+tests/test_state_lattice_planner.py path is ok cost is:0.04221100365766913
+find good path
+path is ok cost is:0.019844473759990926
+find good path
+path is ok cost is:0.014291111746631733
+find good path
+path is ok cost is:0.011092663444560391
+find good path
+path is ok cost is:0.0873473869552384
+find good path
+path is ok cost is:0.05251336932405904
+find good path
+path is ok cost is:0.007148028178927957
+find good path
+path is ok cost is:0.000828533873370531
+find good path
+path is ok cost is:0.043942717497843564
+find good path
+path is ok cost is:0.01736925929436362
+find good path
+path is ok cost is:0.07066982916339272
+find good path
+path is ok cost is:0.01071010406958354
+find good path
+path is ok cost is:0.03216622419285561
+find good path
+path is ok cost is:0.01541532343351105
+find good path
+path is ok cost is:0.0067777139692366045
+find good path
+finish path generation
+Done
+path is ok cost is:0.019294739969345075
+find good path
+path is ok cost is:0.05169225782639636
+find good path
+path is ok cost is:0.017776082082962563
+find good path
+path is ok cost is:0.06373256278821715
+find good path
+path is ok cost is:0.08587967949918521
+find good path
+path is ok cost is:0.08418700482439834
+find good path
+path is ok cost is:0.01897726050227365
+find good path
+path is ok cost is:0.02984413530254466
+find good path
+path is ok cost is:0.02788680094576185
+find good path
+path is ok cost is:0.01837353953874741
+find good path
+path is ok cost is:0.021854293193754967
+find good path
+path is ok cost is:0.03057818844073531
+find good path
+path is ok cost is:0.04448412769337831
+find good path
+path is ok cost is:0.07350762219422942
+find good path
+path is ok cost is:0.05386842699925778
+find good path
+path is ok cost is:0.04674010974511508
+find good path
+path is ok cost is:0.08530333385154258
+find good path
+path is ok cost is:0.06682698249907659
+find good path
+finish path generation
+Done
+path is ok cost is:0.02540015369942225
+find good path
+path is ok cost is:0.04088378647101566
+find good path
+path is ok cost is:0.023166666446306432
+find good path
+path is ok cost is:0.09035576747280247
+find good path
+path is ok cost is:0.015340441509203977
+find good path
+path is ok cost is:0.03802924316706426
+find good path
+path is ok cost is:0.005111837690109362
+find good path
+path is ok cost is:0.007411050330047442
+find good path
+path is ok cost is:0.022930606856218866
+find good path
+path is ok cost is:0.08744605925542065
+find good path
+path is ok cost is:0.04920566742515244
+find good path
+path is ok cost is:0.03529331501828848
+find good path
+path is ok cost is:0.023373900640072363
+find good path
+path is ok cost is:0.017526985880430127
+find good path
+path is ok cost is:0.0038959760247210774
+find good path
+path is ok cost is:0.017525828657050182
+find good path
+path is ok cost is:0.04152272758790844
+find good path
+path is ok cost is:0.07138061429504076
+find good path
+path is ok cost is:0.015599875959042985
+find good path
+path is ok cost is:0.03215160739194317
+find good path
+path is ok cost is:0.05462787739872502
+find good path
+path is ok cost is:0.01575043960373134
+find good path
+path is ok cost is:0.038678062190271145
+find good path
+path is ok cost is:0.0063119855932111365
+find good path
+path is ok cost is:0.024442792858028792
+find good path
+path is ok cost is:0.0005596115175286807
+find good path
+path is ok cost is:0.01912282388422721
+find good path
+path is ok cost is:0.0010098815201312254
+find good path
+path is ok cost is:0.017159359713049514
+find good path
+path is ok cost is:0.0998229909125277
+find good path
+path is ok cost is:0.0162128761420572
+find good path
+path is ok cost is:0.09954992957961259
+find good path
+path is ok cost is:0.08775593536319738
+find good path
+path is ok cost is:0.09848505293240498
+find good path
+path is ok cost is:0.09336415044034964
+find good path
+path is ok cost is:0.004384700025206569
+find good path
+path is ok cost is:0.09915340007700318
+find good path
+path is ok cost is:0.00809590823817753
+find good path
+path is ok cost is:0.09885967334232006
+find good path
+path is ok cost is:0.02594526662205015
+find good path
+path is ok cost is:0.028594560230795176
+find good path
+path is ok cost is:0.06498090798284674
+find good path
+path is ok cost is:0.03153112383597395
+find good path
+path is ok cost is:0.02997609184075338
+find good path
+path is ok cost is:0.047087714703664636
+find good path
+path is ok cost is:0.062124439164398235
+find good path
+path is ok cost is:0.04738154848155065
+find good path
+path is ok cost is:0.07139773312806509
+find good path
+path is ok cost is:0.04919864049528032
+find good path
+path is ok cost is:0.038368130977485114
+find good path
+path is ok cost is:0.05576393524435756
+find good path
+path is ok cost is:0.056652221559717435
+find good path
+path is ok cost is:0.06641441051837423
+find good path
+path is ok cost is:0.034429584659219664
+find good path
+path is ok cost is:0.003976314441029788
+find good path
+path is ok cost is:0.043074548124525464
+find good path
+path is ok cost is:0.0951788970684111
+find good path
+path is ok cost is:0.04371490596516535
+find good path
+finish path generation
+path is ok cost is:0.011624057265900772
+find good path
+path is ok cost is:0.058264086616448885
+find good path
+path is ok cost is:0.028880433392484972
+find good path
+path is ok cost is:0.04212660844031317
+find good path
+path is ok cost is:0.08670102380460931
+find good path
+path is ok cost is:0.07734058054078179
+find good path
+path is ok cost is:0.03700663798440769
+find good path
+path is ok cost is:0.01039155045378387
+find good path
+path is ok cost is:0.05405424413887301
+find good path
+path is ok cost is:0.006219351458018206
+find good path
+path is ok cost is:0.013546046562169118
+find good path
+path is ok cost is:0.06488222409110173
+find good path
+path is ok cost is:0.04027835208928918
+find good path
+path is ok cost is:0.025954807910385274
+find good path
+path is ok cost is:0.0061127430536620534
+find good path
+path is ok cost is:0.04568056781465162
+find good path
+path is ok cost is:0.007528215673857807
+find good path
+path is ok cost is:0.021564135979154745
+find good path
+path is ok cost is:0.041263857381764635
+find good path
+path is ok cost is:0.044575268967232455
+find good path
+path is ok cost is:0.04926081718065855
+find good path
+path is ok cost is:0.02544281379095104
+find good path
+path is ok cost is:0.007120206937893008
+find good path
+path is ok cost is:0.03613499097848104
+find good path
+path is ok cost is:0.020961307067125002
+find good path
+path is ok cost is:0.015934839668882584
+find good path
+path is ok cost is:0.003638218934719396
+find good path
+path is ok cost is:0.041943902816062216
+find good path
+path is ok cost is:0.048771575177718955
+find good path
+finish path generation
+path is ok cost is:0.062268517597409326
+find good path
+path is ok cost is:0.07898796281478135
+find good path
+path is ok cost is:0.0029391252951607894
+find good path
+path is ok cost is:0.03003033233491929
+find good path
+path is ok cost is:0.05055814422140915
+find good path
+finish path generation
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_state_lattice_planner.py: 981.3779425621033s cumulative, 80.75155234336853s individual
+
+
+tests/test_grid_based_sweep_coverage_path_planner.py width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 264
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 310
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 263
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 264
+.
+current test PASSED/SKIPPED -- test_planning3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 981.5692090988159s cumulative, 0.19126653671264648s individual
+
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+.
+current test PASSED/SKIPPED -- test_planning2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 981.7330932617188s cumulative, 0.16388416290283203s individual
+
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 197
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 197
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 195
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 195
+.
+current test PASSED/SKIPPED -- test_planning1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 981.8383755683899s cumulative, 0.10528230667114258s individual
+
+
+tests/test_lqr_steer_control.py LQR steering control tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_steer_control.py: 983.3109242916107s cumulative, 1.4725487232208252s individual
+
+
+tests/test_a_star_searching_two_side.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star_searching_from_two_side.py start!
+There is no path to the goal! Start point is blocked!
+None
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_searching_two_side.py: 983.3914711475372s cumulative, 0.08054685592651367s individual
+
+/home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star_searching_from_two_side.py start!
+Path found!
+[[17 14]
+ [17 13]
+ [18 12]
+ [19 11]
+ [20 10]
+ [20  9]
+ [21  8]
+ [21  7]
+ [21  6]
+ [21  6]
+ [21  5]
+ [21  4]
+ [20  3]
+ [20  2]
+ [21  1]]
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_searching_two_side.py: 983.4851167201996s cumulative, 0.09364557266235352s individual
+
+
+tests/test_potential_field_planning.py potential_field_planning start
+Goal!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_potential_field_planning.py: 984.0693559646606s cumulative, 0.5842392444610596s individual
+
+
+tests/test_unscented_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/unscented_kalman_filter/unscented_kalman_filter.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_unscented_kalman_filter.py: 987.0398635864258s cumulative, 2.9705076217651367s individual
+
+
+tests/test_rrt_star_reeds_shepp.py Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 3
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 5
+Iter: 4 , number of nodes: 5
+Iter: 5 , number of nodes: 5
+Iter: 6 , number of nodes: 5
+Iter: 7 , number of nodes: 5
+Iter: 8 , number of nodes: 5
+Iter: 9 , number of nodes: 5
+Iter: 10 , number of nodes: 7
+Iter: 11 , number of nodes: 7
+Iter: 12 , number of nodes: 7
+Iter: 13 , number of nodes: 9
+Iter: 14 , number of nodes: 9
+Iter: 15 , number of nodes: 9
+Iter: 16 , number of nodes: 9
+Iter: 17 , number of nodes: 9
+Iter: 18 , number of nodes: 9
+Iter: 19 , number of nodes: 9
+Iter: 20 , number of nodes: 9
+Iter: 21 , number of nodes: 11
+Iter: 22 , number of nodes: 11
+Iter: 23 , number of nodes: 11
+Iter: 24 , number of nodes: 12
+Iter: 25 , number of nodes: 12
+Iter: 26 , number of nodes: 12
+Iter: 27 , number of nodes: 12
+Iter: 28 , number of nodes: 12
+Iter: 29 , number of nodes: 12
+Iter: 30 , number of nodes: 13
+Iter: 31 , number of nodes: 13
+Iter: 32 , number of nodes: 13
+Iter: 33 , number of nodes: 13
+Iter: 34 , number of nodes: 13
+Iter: 35 , number of nodes: 13
+Iter: 36 , number of nodes: 13
+Iter: 37 , number of nodes: 13
+Iter: 38 , number of nodes: 13
+Iter: 39 , number of nodes: 13
+Iter: 40 , number of nodes: 13
+Iter: 41 , number of nodes: 13
+Iter: 42 , number of nodes: 13
+Iter: 43 , number of nodes: 13
+Iter: 44 , number of nodes: 13
+Iter: 45 , number of nodes: 13
+Iter: 46 , number of nodes: 13
+Iter: 47 , number of nodes: 13
+Iter: 48 , number of nodes: 13
+Iter: 49 , number of nodes: 13
+Iter: 50 , number of nodes: 13
+Iter: 51 , number of nodes: 15
+Iter: 52 , number of nodes: 15
+Iter: 53 , number of nodes: 15
+Iter: 54 , number of nodes: 15
+Iter: 55 , number of nodes: 15
+Iter: 56 , number of nodes: 15
+Iter: 57 , number of nodes: 15
+Iter: 58 , number of nodes: 15
+Iter: 59 , number of nodes: 15
+Iter: 60 , number of nodes: 15
+Iter: 61 , number of nodes: 15
+Iter: 62 , number of nodes: 15
+Iter: 63 , number of nodes: 15
+Iter: 64 , number of nodes: 15
+Iter: 65 , number of nodes: 17
+Iter: 66 , number of nodes: 17
+Iter: 67 , number of nodes: 17
+Iter: 68 , number of nodes: 17
+Iter: 69 , number of nodes: 17
+Iter: 70 , number of nodes: 17
+Iter: 71 , number of nodes: 17
+Iter: 72 , number of nodes: 17
+Iter: 73 , number of nodes: 17
+Iter: 74 , number of nodes: 17
+Iter: 75 , number of nodes: 17
+Iter: 76 , number of nodes: 17
+Iter: 77 , number of nodes: 17
+Iter: 78 , number of nodes: 17
+Iter: 79 , number of nodes: 17
+Iter: 80 , number of nodes: 17
+Iter: 81 , number of nodes: 17
+Iter: 82 , number of nodes: 17
+Iter: 83 , number of nodes: 17
+Iter: 84 , number of nodes: 17
+Iter: 85 , number of nodes: 17
+Iter: 86 , number of nodes: 17
+Iter: 87 , number of nodes: 17
+Iter: 88 , number of nodes: 17
+Iter: 89 , number of nodes: 17
+Iter: 90 , number of nodes: 17
+Iter: 91 , number of nodes: 17
+Iter: 92 , number of nodes: 17
+Iter: 93 , number of nodes: 17
+Iter: 94 , number of nodes: 17
+Iter: 95 , number of nodes: 17
+Iter: 96 , number of nodes: 17
+Iter: 97 , number of nodes: 19
+Iter: 98 , number of nodes: 19
+Iter: 99 , number of nodes: 19
+reached max iteration
+goal_indexes: 8
+final_goal_indexes: 8
+min_cost: 55.5653357677636
+.
+current test PASSED/SKIPPED -- test3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 987.3421084880829s cumulative, 0.3022449016571045s individual
+
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 4
+Iter: 4 , number of nodes: 4
+Iter: 5 , number of nodes: 5
+Iter: 6 , number of nodes: 6
+Iter: 7 , number of nodes: 7
+Iter: 8 , number of nodes: 8
+Iter: 9 , number of nodes: 9
+Iter: 10 , number of nodes: 10
+Iter: 11 , number of nodes: 12
+Iter: 12 , number of nodes: 13
+Iter: 13 , number of nodes: 14
+Iter: 14 , number of nodes: 15
+Iter: 15 , number of nodes: 16
+Iter: 16 , number of nodes: 17
+Iter: 17 , number of nodes: 18
+Iter: 18 , number of nodes: 19
+Iter: 19 , number of nodes: 20
+Iter: 20 , number of nodes: 21
+Iter: 21 , number of nodes: 23
+Iter: 22 , number of nodes: 24
+Iter: 23 , number of nodes: 25
+Iter: 24 , number of nodes: 26
+Iter: 25 , number of nodes: 27
+Iter: 26 , number of nodes: 28
+Iter: 27 , number of nodes: 29
+Iter: 28 , number of nodes: 30
+Iter: 29 , number of nodes: 31
+Iter: 30 , number of nodes: 33
+Iter: 31 , number of nodes: 34
+Iter: 32 , number of nodes: 34
+Iter: 33 , number of nodes: 34
+Iter: 34 , number of nodes: 35
+Iter: 35 , number of nodes: 35
+Iter: 36 , number of nodes: 37
+Iter: 37 , number of nodes: 38
+Iter: 38 , number of nodes: 39
+Iter: 39 , number of nodes: 40
+Iter: 40 , number of nodes: 41
+Iter: 41 , number of nodes: 41
+Iter: 42 , number of nodes: 42
+Iter: 43 , number of nodes: 43
+Iter: 44 , number of nodes: 44
+Iter: 45 , number of nodes: 44
+Iter: 46 , number of nodes: 45
+Iter: 47 , number of nodes: 46
+Iter: 48 , number of nodes: 47
+Iter: 49 , number of nodes: 48
+Iter: 50 , number of nodes: 50
+Iter: 51 , number of nodes: 51
+Iter: 52 , number of nodes: 52
+Iter: 53 , number of nodes: 53
+Iter: 54 , number of nodes: 54
+Iter: 55 , number of nodes: 56
+Iter: 56 , number of nodes: 57
+Iter: 57 , number of nodes: 58
+Iter: 58 , number of nodes: 60
+Iter: 59 , number of nodes: 62
+Iter: 60 , number of nodes: 63
+Iter: 61 , number of nodes: 64
+Iter: 62 , number of nodes: 65
+Iter: 63 , number of nodes: 65
+Iter: 64 , number of nodes: 67
+Iter: 65 , number of nodes: 68
+Iter: 66 , number of nodes: 69
+Iter: 67 , number of nodes: 70
+Iter: 68 , number of nodes: 71
+Iter: 69 , number of nodes: 71
+Iter: 70 , number of nodes: 72
+Iter: 71 , number of nodes: 73
+Iter: 72 , number of nodes: 74
+Iter: 73 , number of nodes: 74
+Iter: 74 , number of nodes: 75
+Iter: 75 , number of nodes: 76
+Iter: 76 , number of nodes: 77
+Iter: 77 , number of nodes: 78
+Iter: 78 , number of nodes: 79
+Iter: 79 , number of nodes: 80
+Iter: 80 , number of nodes: 81
+Iter: 81 , number of nodes: 82
+Iter: 82 , number of nodes: 83
+Iter: 83 , number of nodes: 84
+Iter: 84 , number of nodes: 85
+Iter: 85 , number of nodes: 86
+Iter: 86 , number of nodes: 88
+Iter: 87 , number of nodes: 89
+Iter: 88 , number of nodes: 90
+Iter: 89 , number of nodes: 90
+Iter: 90 , number of nodes: 91
+Iter: 91 , number of nodes: 92
+Iter: 92 , number of nodes: 93
+Iter: 93 , number of nodes: 94
+Iter: 94 , number of nodes: 95
+Iter: 95 , number of nodes: 96
+Iter: 96 , number of nodes: 98
+Iter: 97 , number of nodes: 99
+Iter: 98 , number of nodes: 100
+Iter: 99 , number of nodes: 101
+reached max iteration
+goal_indexes: 11
+final_goal_indexes: 11
+min_cost: 21.594317688697938
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 1037.2692902088165s cumulative, 49.92718172073364s individual
+
+Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRTStarReedsShepp/rrt_star_reeds_shepp.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 2
+Iter: 3 , number of nodes: 3
+Iter: 4 , number of nodes: 4
+reached max iteration
+goal_indexes: 0
+final_goal_indexes: 0
+Cannot find path
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 1037.7762875556946s cumulative, 0.5069973468780518s individual
+
+
+tests/test_rear_wheel_feedback.py rear wheel feedback tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rear_wheel_feedback.py: 1039.5933651924133s cumulative, 1.81707763671875s individual
+
+
+tests/test_batch_informed_rrt_star.py Starting Batch Informed Trees Star planning
+g_Score goal id:  inf
+Batch:  0
+Finding the path
+cannot find Path
+Done
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_batch_informed_rrt_star.py: 1039.947520017624s cumulative, 0.3541548252105713s individual
+
+
+tests/test_cubature_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/cubature_kalman_filter/cubature_kalman_filter.py start!!
+CKF Over
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_cubature_kalman_filter.py: 1040.996943950653s cumulative, 1.0494239330291748s individual
+
+
+tests/test_spiral_spanning_tree_coverage_path_planner.py .
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 1041.0281109809875s cumulative, 0.031167030334472656s individual
+
+.
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 1041.0532834529877s cumulative, 0.02517247200012207s individual
+
+.
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 1041.0823974609375s cumulative, 0.0291140079498291s individual
+
+
+tests/test_lqr_rrt_star.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/LQRRRTStar/lqr_rrt_star.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 2
+Iter: 3 , number of nodes: 2
+Iter: 4 , number of nodes: 3
+Iter: 5 , number of nodes: 3
+Iter: 6 , number of nodes: 4
+Iter: 7 , number of nodes: 5
+Iter: 8 , number of nodes: 6
+Iter: 9 , number of nodes: 7
+Iter: 10 , number of nodes: 8
+Iter: 11 , number of nodes: 9
+Iter: 12 , number of nodes: 10
+Iter: 13 , number of nodes: 11
+Iter: 14 , number of nodes: 12
+Iter: 15 , number of nodes: 13
+Iter: 16 , number of nodes: 14
+Iter: 17 , number of nodes: 15
+Iter: 18 , number of nodes: 16
+Iter: 19 , number of nodes: 17
+Iter: 20 , number of nodes: 18
+Iter: 21 , number of nodes: 19
+Iter: 22 , number of nodes: 19
+Iter: 23 , number of nodes: 20
+Iter: 24 , number of nodes: 21
+Iter: 25 , number of nodes: 22
+Iter: 26 , number of nodes: 23
+Iter: 27 , number of nodes: 23
+Iter: 28 , number of nodes: 24
+Iter: 29 , number of nodes: 25
+Iter: 30 , number of nodes: 26
+Iter: 31 , number of nodes: 27
+Iter: 32 , number of nodes: 28
+Iter: 33 , number of nodes: 29
+Iter: 34 , number of nodes: 30
+Iter: 35 , number of nodes: 31
+Iter: 36 , number of nodes: 32
+Iter: 37 , number of nodes: 33
+Iter: 38 , number of nodes: 34
+Iter: 39 , number of nodes: 35
+Iter: 40 , number of nodes: 36
+Iter: 41 , number of nodes: 37
+Iter: 42 , number of nodes: 38
+Iter: 43 , number of nodes: 39
+Iter: 44 , number of nodes: 40
+Iter: 45 , number of nodes: 41
+Iter: 46 , number of nodes: 42
+Iter: 47 , number of nodes: 43
+Iter: 48 , number of nodes: 44
+Iter: 49 , number of nodes: 45
+Iter: 50 , number of nodes: 46
+Iter: 51 , number of nodes: 47
+Iter: 52 , number of nodes: 48
+Iter: 53 , number of nodes: 49
+Iter: 54 , number of nodes: 50
+Iter: 55 , number of nodes: 51
+Iter: 56 , number of nodes: 52
+Iter: 57 , number of nodes: 53
+Iter: 58 , number of nodes: 54
+Iter: 59 , number of nodes: 55
+Iter: 60 , number of nodes: 56
+Iter: 61 , number of nodes: 57
+Iter: 62 , number of nodes: 58
+Iter: 63 , number of nodes: 59
+Iter: 64 , number of nodes: 60
+Iter: 65 , number of nodes: 61
+Iter: 66 , number of nodes: 62
+Iter: 67 , number of nodes: 63
+Iter: 68 , number of nodes: 64
+Iter: 69 , number of nodes: 64
+Iter: 70 , number of nodes: 65
+Iter: 71 , number of nodes: 66
+Iter: 72 , number of nodes: 67
+Iter: 73 , number of nodes: 68
+Iter: 74 , number of nodes: 69
+Iter: 75 , number of nodes: 70
+Iter: 76 , number of nodes: 71
+Iter: 77 , number of nodes: 72
+Iter: 78 , number of nodes: 73
+Iter: 79 , number of nodes: 74
+Iter: 80 , number of nodes: 75
+Iter: 81 , number of nodes: 76
+Iter: 82 , number of nodes: 77
+Iter: 83 , number of nodes: 77
+Iter: 84 , number of nodes: 78
+Iter: 85 , number of nodes: 79
+Iter: 86 , number of nodes: 80
+Iter: 87 , number of nodes: 81
+Iter: 88 , number of nodes: 82
+Iter: 89 , number of nodes: 83
+Iter: 90 , number of nodes: 84
+Iter: 91 , number of nodes: 85
+Iter: 92 , number of nodes: 85
+Iter: 93 , number of nodes: 86
+Iter: 94 , number of nodes: 87
+Iter: 95 , number of nodes: 88
+Iter: 96 , number of nodes: 89
+Iter: 97 , number of nodes: 90
+Iter: 98 , number of nodes: 91
+Iter: 99 , number of nodes: 92
+Iter: 100 , number of nodes: 93
+Iter: 101 , number of nodes: 94
+Iter: 102 , number of nodes: 94
+Iter: 103 , number of nodes: 95
+Iter: 104 , number of nodes: 96
+Iter: 105 , number of nodes: 97
+Iter: 106 , number of nodes: 98
+Iter: 107 , number of nodes: 99
+Iter: 108 , number of nodes: 100
+Iter: 109 , number of nodes: 101
+Iter: 110 , number of nodes: 102
+Iter: 111 , number of nodes: 103
+Iter: 112 , number of nodes: 104
+Iter: 113 , number of nodes: 105
+Iter: 114 , number of nodes: 106
+Iter: 115 , number of nodes: 107
+Iter: 116 , number of nodes: 108
+Iter: 117 , number of nodes: 109
+Iter: 118 , number of nodes: 109
+Iter: 119 , number of nodes: 110
+Iter: 120 , number of nodes: 111
+Iter: 121 , number of nodes: 112
+Iter: 122 , number of nodes: 113
+Iter: 123 , number of nodes: 114
+Iter: 124 , number of nodes: 115
+Iter: 125 , number of nodes: 116
+Iter: 126 , number of nodes: 117
+Iter: 127 , number of nodes: 118
+Iter: 128 , number of nodes: 118
+Iter: 129 , number of nodes: 118
+Iter: 130 , number of nodes: 119
+Iter: 131 , number of nodes: 120
+Iter: 132 , number of nodes: 121
+Iter: 133 , number of nodes: 122
+Iter: 134 , number of nodes: 123
+Iter: 135 , number of nodes: 124
+Iter: 136 , number of nodes: 125
+Iter: 137 , number of nodes: 126
+Iter: 138 , number of nodes: 127
+Iter: 139 , number of nodes: 128
+Iter: 140 , number of nodes: 129
+Iter: 141 , number of nodes: 130
+Iter: 142 , number of nodes: 131
+Iter: 143 , number of nodes: 132
+Iter: 144 , number of nodes: 133
+Iter: 145 , number of nodes: 134
+Iter: 146 , number of nodes: 135
+Iter: 147 , number of nodes: 136
+Iter: 148 , number of nodes: 137
+Iter: 149 , number of nodes: 138
+Iter: 150 , number of nodes: 139
+Iter: 151 , number of nodes: 140
+Iter: 152 , number of nodes: 141
+Iter: 153 , number of nodes: 142
+Iter: 154 , number of nodes: 143
+Iter: 155 , number of nodes: 144
+Iter: 156 , number of nodes: 145
+Iter: 157 , number of nodes: 146
+Iter: 158 , number of nodes: 147
+Iter: 159 , number of nodes: 148
+Iter: 160 , number of nodes: 149
+Iter: 161 , number of nodes: 150
+Iter: 162 , number of nodes: 151
+Iter: 163 , number of nodes: 152
+Iter: 164 , number of nodes: 153
+Iter: 165 , number of nodes: 154
+Iter: 166 , number of nodes: 154
+Iter: 167 , number of nodes: 155
+Iter: 168 , number of nodes: 156
+Iter: 169 , number of nodes: 157
+Iter: 170 , number of nodes: 158
+Iter: 171 , number of nodes: 158
+Iter: 172 , number of nodes: 159
+Iter: 173 , number of nodes: 160
+Iter: 174 , number of nodes: 161
+Iter: 175 , number of nodes: 162
+Iter: 176 , number of nodes: 163
+Iter: 177 , number of nodes: 164
+Iter: 178 , number of nodes: 165
+Iter: 179 , number of nodes: 166
+Iter: 180 , number of nodes: 167
+Iter: 181 , number of nodes: 168
+Iter: 182 , number of nodes: 169
+Iter: 183 , number of nodes: 170
+Iter: 184 , number of nodes: 171
+Iter: 185 , number of nodes: 172
+Iter: 186 , number of nodes: 173
+Iter: 187 , number of nodes: 174
+Iter: 188 , number of nodes: 175
+Iter: 189 , number of nodes: 176
+Iter: 190 , number of nodes: 177
+Iter: 191 , number of nodes: 178
+Iter: 192 , number of nodes: 179
+Iter: 193 , number of nodes: 180
+Iter: 194 , number of nodes: 181
+Iter: 195 , number of nodes: 182
+Iter: 196 , number of nodes: 183
+Iter: 197 , number of nodes: 184
+Iter: 198 , number of nodes: 185
+Iter: 199 , number of nodes: 186
+reached max iteration
+final
+Done
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_rrt_star.py: 1198.3233103752136s cumulative, 157.24091291427612s individual
+
+
+tests/test_bspline_path.py .
+current test PASSED/SKIPPED -- test_list_input in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1198.350801229477s cumulative, 0.027490854263305664s individual
+
+.
+current test PASSED/SKIPPED -- test_array_input in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1198.3700568675995s cumulative, 0.019255638122558594s individual
+
+.
+current test PASSED/SKIPPED -- test_degree_change in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1198.4060089588165s cumulative, 0.035952091217041016s individual
+
+
+tests/test_rocket_powered_landing.py start!!
+------------------ Iteration 01 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 5.099526882171631 s
+------------------ Iteration 02 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.687145233154297 s
+------------------ Iteration 03 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.998541593551636 s
+------------------ Iteration 04 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 2.7899556159973145 s
+------------------ Iteration 05 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 3.165769338607788 s
+------------------ Iteration 06 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 3.851058006286621 s
+------------------ Iteration 07 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 3.7698450088500977 s
+------------------ Iteration 08 ------------------
+delta_norm 256.62884235174687
+sigma_norm 3.74968918841504
+nu_norm 0.5152538755836552
+Time for iteration 3.4392409324645996 s
+------------------ Iteration 09 ------------------
+delta_norm 177.3699232722239
+sigma_norm 0.5010839936412497
+nu_norm 2.683386916753744e-12
+Time for iteration 4.789108514785767 s
+------------------ Iteration 10 ------------------
+delta_norm 768.3857268796684
+sigma_norm 0.5600011673276949
+nu_norm 0.06444913752001621
+Time for iteration 2.765099287033081 s
+------------------ Iteration 11 ------------------
+delta_norm 375.496913126428
+sigma_norm 0.15212083751239794
+nu_norm 0.06838111206962495
+Time for iteration 3.4323790073394775 s
+------------------ Iteration 12 ------------------
+delta_norm 59.06618195249257
+sigma_norm 0.7657596847691621
+nu_norm 1.0072054051565893e-12
+Time for iteration 3.4990344047546387 s
+------------------ Iteration 13 ------------------
+delta_norm 204.441934846538
+sigma_norm 0.7382017167699559
+nu_norm 4.6409045456830006e-11
+Time for iteration 4.332162380218506 s
+------------------ Iteration 14 ------------------
+delta_norm 34.39523681714569
+sigma_norm 0.04042909456233701
+nu_norm 1.2821713039873021e-11
+Time for iteration 7.199768304824829 s
+------------------ Iteration 15 ------------------
+delta_norm 14.905723353579978
+sigma_norm 0.11527396300629311
+nu_norm 2.307108158507574e-11
+Time for iteration 9.489215612411499 s
+------------------ Iteration 16 ------------------
+delta_norm 1.3342210234648642
+sigma_norm 0.0011836570303610846
+nu_norm 9.563510119328835e-12
+Time for iteration 4.973655700683594 s
+------------------ Iteration 17 ------------------
+delta_norm 0.019476310735108675
+sigma_norm 0.0036709060223305513
+nu_norm 4.0744904378745226e-11
+Time for iteration 4.079046964645386 s
+------------------ Iteration 18 ------------------
+delta_norm 0.000300997177788909
+sigma_norm 0.0006654551441603513
+nu_norm 6.575165992772809e-11
+Time for iteration 3.21235728263855 s
+Converged after 18 iterations.
+done!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rocket_powered_landing.py: 1278.5672237873077s cumulative, 80.16121482849121s individual
+
+
+tests/test_raycasting_grid_map.py /home/kaiyaok2/PythonProjects/PythonRobotics/Mapping/raycasting_grid_map/raycasting_grid_map.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_raycasting_grid_map.py: 1278.6745567321777s cumulative, 0.10733294486999512s individual
+
+
+tests/test_point_cloud_sampling.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_point_cloud_sampling.py: 1278.8737664222717s cumulative, 0.19920969009399414s individual
+
+
+tests/test_utils.py .
+current test PASSED/SKIPPED -- test_rot_mat_2d in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_utils.py: 1278.8881928920746s cumulative, 0.014426469802856445s individual
+
+.
+current test PASSED/SKIPPED -- test_angle_mod in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_utils.py: 1278.901959657669s cumulative, 0.013766765594482422s individual
+
+
+tests/test_visibility_road_map_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/VoronoiRoadMap/voronoi_road_map.py start!!
+goal is found!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_visibility_road_map_planner.py: 1280.1598818302155s cumulative, 1.2579221725463867s individual
+
+
+
+=================================== FAILURES ===================================
+_____________________________________ test _____________________________________
+
+    def test():
+        project_dir_path = os.path.dirname(
+            os.path.dirname(os.path.abspath(__file__)))
+        print(f"{project_dir_path=}")
+    
+        config_path = os.path.join(project_dir_path, "mypy.ini")
+        print(f"{config_path=}")
+    
+        for sub_package_name in SUBPACKAGE_LIST:
+>           rc, errors = run_mypy(sub_package_name, project_dir_path, config_path)
+
+tests/test_mypy_type_check.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_mypy_type_check.py:20: in run_mypy
+    res = subprocess.run(
+/usr/lib/python3.10/subprocess.py:503: in run
+    with Popen(*popenargs, **kwargs) as process:
+/usr/lib/python3.10/subprocess.py:971: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['mypy', '--config-file', '/home/kaiyaok2/Pyth...>
+args = ['mypy', '--config-file', '/home/kaiyaok2/PythonProjects/PythonRobotics/mypy.ini', '-p', 'AerialNavigation']
+executable = b'mypy', preexec_fn = None, close_fds = True, pass_fds = ()
+cwd = '/home/kaiyaok2/PythonProjects/PythonRobotics', env = None
+startupinfo = None, creationflags = 0, shell = False, p2cread = -1
+p2cwrite = -1, c2pread = 5, c2pwrite = 6, errread = -1, errwrite = -1
+restore_signals = True, gid = None, gids = None, uid = None, umask = -1
+start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: 'mypy'
+
+/usr/lib/python3.10/subprocess.py:1863: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_mypy_type_check.py::test - FileNotFoundError: [Errno 2] No ...
+================== 1 failed, 105 passed in 1303.88s (0:21:43) ==================
