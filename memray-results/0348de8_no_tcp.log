@@ -1336,3 +1336,1454 @@ current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in 
 .
 current test PASSED/SKIPPED -- test_partial_munmap_split_in_middle in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 373.64019441604614s cumulative, 1.3042266368865967s individual
 
+.
+current test PASSED/SKIPPED -- test_partial_munmap in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 375.14172649383545s cumulative, 1.5015320777893066s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations_while_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 376.6185610294342s cumulative, 1.4768345355987549s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 377.95315408706665s cumulative, 1.3345930576324463s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 379.28209495544434s cumulative, 1.3289408683776855s individual
+
+.
+current test PASSED/SKIPPED -- test_freed_before_high_watermark_do_not_appear in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 380.723575592041s cumulative, 1.4414806365966797s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 382.0701937675476s cumulative, 1.3466181755065918s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 383.46674728393555s cumulative, 1.3965535163879395s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 384.8198792934418s cumulative, 1.3531320095062256s individual
+
+.
+current test PASSED/SKIPPED -- test_munmap_multiple_mmaps in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 386.12329173088074s cumulative, 1.3034124374389648s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 387.4948019981384s cumulative, 1.3715102672576904s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations_while_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 388.8105173110962s cumulative, 1.3157153129577637s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 391.17160058021545s cumulative, 2.3610832691192627s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 393.1370162963867s cumulative, 1.9654157161712646s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_aggregation_on_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 394.76193618774414s cumulative, 1.6249198913574219s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 396.2870514392853s cumulative, 1.5251152515411377s individual
+
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 397.67728209495544s cumulative, 1.390230655670166s individual
+
+.
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 398.3827247619629s cumulative, 0.7054426670074463s individual
+
+.
+current test PASSED/SKIPPED -- test_get_header in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 399.8664424419403s cumulative, 1.483717679977417s individual
+
+.
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 400.68303990364075s cumulative, 0.8165974617004395s individual
+
+.
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 401.86278223991394s cumulative, 1.1797423362731934s individual
+
+.
+current test PASSED/SKIPPED -- test_get_header_after_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 403.610387802124s cumulative, 1.747605562210083s individual
+
+.
+current test PASSED/SKIPPED -- test_memory_snapshots_tick_interval in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 406.00877809524536s cumulative, 2.398390293121338s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_when_filling_vector_without_preallocating_small_buffer in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 407.43250918388367s cumulative, 1.4237310886383057s individual
+
+.
+current test PASSED/SKIPPED -- test_memory_snapshots_limit_when_reading in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 409.0307528972626s cumulative, 1.5982437133789062s individual
+
+.
+current test PASSED/SKIPPED -- test_memory_snapshots_are_written in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 410.5698699951172s cumulative, 1.5391170978546143s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_when_filling_vector_without_preallocating in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 412.67924308776855s cumulative, 2.109373092651367s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 414.16231656074524s cumulative, 1.4830734729766846s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 415.5859043598175s cumulative, 1.4235877990722656s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 416.9923279285431s cumulative, 1.406423568725586s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 418.3696234226227s cumulative, 1.3772954940795898s individual
+
+.
+current test PASSED/SKIPPED -- test_unmatched_allocations_are_not_reported in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 419.8280339241028s cumulative, 1.4584105014801025s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 421.18720626831055s cumulative, 1.3591723442077637s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_with_two_allocators_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 422.57483100891113s cumulative, 1.387624740600586s individual
+
+.
+current test PASSED/SKIPPED -- test_intertwined_temporary_allocations_in_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 424.1032555103302s cumulative, 1.5284245014190674s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 425.4626748561859s cumulative, 1.359419345855713s individual
+
+.
+current test PASSED/SKIPPED -- test_thread_allocations_multiple_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 426.8197708129883s cumulative, 1.3570959568023682s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_that_happen_in_the_same_function_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 428.18963837623596s cumulative, 1.3698675632476807s individual
+
+.
+current test PASSED/SKIPPED -- test_thread_allocations_multiple_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 429.53912830352783s cumulative, 1.3494899272918701s individual
+
+.
+current test PASSED/SKIPPED -- test_unmatched_deallocations_are_not_reported in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 430.8922276496887s cumulative, 1.3530993461608887s individual
+
+.
+current test PASSED/SKIPPED -- test_leak_that_happens_in_the_middle_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 432.2770371437073s cumulative, 1.3848094940185547s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_allocations_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 433.6983222961426s cumulative, 1.4212851524353027s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_the_same_function_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 435.0223138332367s cumulative, 1.3239915370941162s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_that_are_freed_do_not_appear_as_leaks in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 436.4609749317169s cumulative, 1.4386610984802246s individual
+
+.
+current test PASSED/SKIPPED -- test_unmatched_deallocations_are_not_reported in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 438.2144947052002s cumulative, 1.7535197734832764s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_allocations_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 440.5406255722046s cumulative, 2.3261308670043945s individual
+
+.
+current test PASSED/SKIPPED -- test_leak_that_happens_in_the_middle_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 442.1904151439667s cumulative, 1.649789571762085s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 443.69556498527527s cumulative, 1.5051498413085938s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_the_same_function_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 445.2342929840088s cumulative, 1.5387279987335205s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_that_are_freed_do_not_appear_as_leaks in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 446.720253944397s cumulative, 1.4859609603881836s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 448.1356391906738s cumulative, 1.4153852462768555s individual
+
+.
+current test PASSED/SKIPPED -- test_thread_allocations_multiple_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 449.5505955219269s cumulative, 1.4149563312530518s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_simple_call_chain_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 456.7424623966217s cumulative, 7.191866874694824s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_in_a_thread in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 462.80471634864807s cumulative, 6.062253952026367s individual
+
+['PyType_GenericAlloc', '<unknown>', '_PyObject_MakeTpCall', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+['_PyObject_GC_NewVar', '<unknown>', '<unknown>', '<unknown>', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+['_PyObject_GC_NewVar', '<unknown>', '_PyFunction_Vectorcall', '_PyObject_CallFunction_SizeT', 'run_recursive', '<unknown>', '_PyObject_MakeTpCall', '<unknown>', 'foo', '<unknown>', '<unknown>', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_of_allocations_inside_ceval in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 471.4027633666992s cumulative, 8.598047018051147s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_in_recursive_python_c_call in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 477.31012058258057s cumulative, 5.907357215881348s individual
+
+.
+current test PASSED/SKIPPED -- test_inlined_call_chain_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 481.97762632369995s cumulative, 4.667505741119385s individual
+
+.
+current test PASSED/SKIPPED -- test_multithreaded_extension_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 497.4100797176361s cumulative, 15.432453393936157s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_in_pure_python_with_callbacks in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 498.9832079410553s cumulative, 1.5731282234191895s individual
+
+.
+current test PASSED/SKIPPED -- test_native_tracing_header in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 500.48824644088745s cumulative, 1.5050384998321533s individual
+
+.
+current test PASSED/SKIPPED -- test_deep_call_chain_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 504.7762007713318s cumulative, 4.287954330444336s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_of_python_thread_starts_with_native_frames in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 506.0624535083771s cumulative, 1.286252737045288s individual
+
+.
+current test PASSED/SKIPPED -- test_native_tracing_header in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 507.4954798221588s cumulative, 1.4330263137817383s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_in_pure_python in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 509.0674510002136s cumulative, 1.5719711780548096s individual
+
+
+unit/test_summary_reporter.py .
+current test PASSED/SKIPPED -- test_with_multiple_allocations_and_native_traces in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 509.2185742855072s cumulative, 0.1511232852935791s individual
+
+.
+current test PASSED/SKIPPED -- test_with_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 509.42764258384705s cumulative, 0.20906829833984375s individual
+
+.
+current test PASSED/SKIPPED -- test_sort_column in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 509.6615834236145s cumulative, 0.23394083976745605s individual
+
+.
+current test PASSED/SKIPPED -- test_non_sequence_iterable in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 509.7847728729248s cumulative, 0.12318944931030273s individual
+
+.
+current test PASSED/SKIPPED -- test_max_rows in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 509.9190125465393s cumulative, 0.13423967361450195s individual
+
+
+unit/test_stats_reporter.py .
+current test PASSED/SKIPPED -- test_stats_output_json in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 509.9771695137024s cumulative, 0.05815696716308594s individual
+
+.
+current test PASSED/SKIPPED -- test_get_histogram_databins_rounding in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.0084984302521s cumulative, 0.03132891654968262s individual
+
+.
+current test PASSED/SKIPPED -- test_get_histogram_databins_invalid_bins in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.03197717666626s cumulative, 0.02347874641418457s individual
+
+.
+current test PASSED/SKIPPED -- test_draw_histogram_smaller_scale_factor in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.0577943325043s cumulative, 0.025817155838012695s individual
+
+.
+current test PASSED/SKIPPED -- test_stats_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.1111590862274s cumulative, 0.05336475372314453s individual
+
+.
+current test PASSED/SKIPPED -- test_draw_histogram in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.13948225975037s cumulative, 0.02832317352294922s individual
+
+.
+current test PASSED/SKIPPED -- test_draw_histogram_invalid_input in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.16187143325806s cumulative, 0.02238917350769043s individual
+
+.
+current test PASSED/SKIPPED -- test_get_histogram_over_bound in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.18546652793884s cumulative, 0.023595094680786133s individual
+
+.
+current test PASSED/SKIPPED -- test_get_histogram_all_allocations_same_size in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.2087321281433s cumulative, 0.023265600204467773s individual
+
+.
+current test PASSED/SKIPPED -- test_get_histogram_databins in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_stats_reporter.py: 510.23207688331604s cumulative, 0.023344755172729492s individual
+
+
+integration/test_greenlet.py .
+current test PASSED/SKIPPED -- test_importing_greenlet_after_tracking_starts in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_greenlet.py: 511.16678261756897s cumulative, 0.9347057342529297s individual
+
+.
+current test PASSED/SKIPPED -- test_integration_with_greenlet in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_greenlet.py: 512.0422687530518s cumulative, 0.8754861354827881s individual
+
+
+integration/test_extensions.py .
+current test PASSED/SKIPPED -- test_extension_that_uses_pygilstate_ensure in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 517.1282444000244s cumulative, 5.085975646972656s individual
+
+.
+current test PASSED/SKIPPED -- test_misbehaving_extension in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 522.4457399845123s cumulative, 5.317495584487915s individual
+
+.
+current test PASSED/SKIPPED -- test_native_dlopen in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 529.2005653381348s cumulative, 6.7548253536224365s individual
+
+.
+current test PASSED/SKIPPED -- test_hard_exit in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 529.694030046463s cumulative, 0.49346470832824707s individual
+
+.
+current test PASSED/SKIPPED -- test_valloc_at_thread_exit_in_subprocess in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 533.4514701366425s cumulative, 3.7574400901794434s individual
+
+.
+current test PASSED/SKIPPED -- test_multithreaded_extension in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 538.24245262146s cumulative, 4.790982484817505s individual
+
+.
+current test PASSED/SKIPPED -- test_valloc_at_thread_exit in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 542.80211353302s cumulative, 4.559660911560059s individual
+
+.
+current test PASSED/SKIPPED -- test_hard_exit in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 543.3211598396301s cumulative, 0.5190463066101074s individual
+
+
+integration/test_socket.py E
+current test FAILED -- test_single_allocation_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.350786447525s cumulative, 0.02962660789489746s individual
+
+E
+current test FAILED -- test_multi_allocation_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.3656299114227s cumulative, 0.014843463897705078s individual
+
+E
+current test FAILED -- test_empty_snapshot_after_free in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.3842051029205s cumulative, 0.018575191497802734s individual
+
+E
+current test FAILED -- test_command_line in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.3986501693726s cumulative, 0.014445066452026367s individual
+
+E
+current test FAILED -- test_multiple_context_entries_does_not_crash in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.4145390987396s cumulative, 0.01588892936706543s individual
+
+E
+current test FAILED -- test_reading_allocations_while_reading_stack_traces in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.4354417324066s cumulative, 0.020902633666992188s individual
+
+E
+current test FAILED -- test_nested_context_is_diallowed in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.449539899826s cumulative, 0.014098167419433594s individual
+
+E
+current test FAILED -- test_get_is_active_after_context in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.4627423286438s cumulative, 0.013202428817749023s individual
+
+E
+current test FAILED -- test_get_current_snapshot_raises_before_context in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.4737026691437s cumulative, 0.01096034049987793s individual
+
+E
+current test FAILED -- test_get_current_snapshot_first_yield_after_context_raises in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.4881188869476s cumulative, 0.014416217803955078s individual
+
+E
+current test FAILED -- test_get_current_snapshot_raises_after_context in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 543.500020980835s cumulative, 0.011902093887329102s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_show_uninteresting_idempotency in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 545.0231585502625s cumulative, 1.5231375694274902s individual
+
+.
+current test PASSED/SKIPPED -- test_single_chain_is_expanded in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 546.4705061912537s cumulative, 1.447347640991211s individual
+
+.
+current test PASSED/SKIPPED -- test_hide_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 548.4020926952362s cumulative, 1.931586503982544s individual
+
+.
+current test PASSED/SKIPPED -- test_expand_linear_chain in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 551.5511744022369s cumulative, 3.1490817070007324s individual
+
+.
+current test PASSED/SKIPPED -- test_render_runs_the_app in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 551.5821423530579s cumulative, 0.03096795082092285s individual
+
+.
+current test PASSED/SKIPPED -- test_show_uninteresting_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 552.9493441581726s cumulative, 1.367201805114746s individual
+
+.
+current test PASSED/SKIPPED -- test_uninteresting_leaves in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 553.7911849021912s cumulative, 0.8418407440185547s individual
+
+.
+current test PASSED/SKIPPED -- test_very_deep_call_is_limited in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 568.0675055980682s cumulative, 14.276320695877075s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 570.7591941356659s cumulative, 2.6916885375976562s individual
+
+.
+current test PASSED/SKIPPED -- test_hide_import_system_idempotency in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 572.8599400520325s cumulative, 2.100745916366577s individual
+
+.
+current test PASSED/SKIPPED -- test_only_biggest_chain_is_expanded in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 574.5967710018158s cumulative, 1.7368309497833252s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_recursive_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 574.6309545040131s cumulative, 0.034183502197265625s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_merged_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 574.6606638431549s cumulative, 0.029709339141845703s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 574.6877408027649s cumulative, 0.02707695960998535s individual
+
+.
+current test PASSED/SKIPPED -- test_uses_hybrid_stack_for_native_traces in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 574.7155995368958s cumulative, 0.027858734130859375s individual
+
+F
+current test FAILED -- test_biggest_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.4777002334595s cumulative, 0.7621006965637207s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_split_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.5091829299927s cumulative, 0.031482696533203125s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_multiple_stacks_from_same_caller in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.5416247844696s cumulative, 0.03244185447692871s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_multiple_top_level_nodes in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.574187040329s cumulative, 0.032562255859375s individual
+
+.
+current test PASSED/SKIPPED -- test_drops_cpython_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.6033039093018s cumulative, 0.02911686897277832s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_multiple_stacks_from_same_caller_two_frames_above in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.6365056037903s cumulative, 0.03320169448852539s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_single_call in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 575.6760678291321s cumulative, 0.039562225341796875s individual
+
+.
+current test PASSED/SKIPPED -- test_basic_node_selected_not_leaf in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 579.4426701068878s cumulative, 3.7666022777557373s individual
+
+F
+current test FAILED -- test_show_uninteresting_and_hide_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 583.267308473587s cumulative, 3.8246383666992188s individual
+
+F
+current test FAILED -- test_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 588.3196105957031s cumulative, 5.052302122116089s individual
+
+F
+current test FAILED -- test_two_chains in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 591.4099140167236s cumulative, 3.090303421020508s individual
+
+F
+current test FAILED -- test_show_uninteresting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 593.8076887130737s cumulative, 2.3977746963500977s individual
+
+.
+current test PASSED/SKIPPED -- test_select_screen in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 597.1187875270844s cumulative, 3.31109881401062s individual
+
+F
+current test FAILED -- test_allocations_of_different_sizes in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 603.9737002849579s cumulative, 6.854912757873535s individual
+
+.
+current test PASSED/SKIPPED -- test_basic_node_selected_leaf in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 608.8354496955872s cumulative, 4.8617494106292725s individual
+
+.
+current test PASSED/SKIPPED -- test_two_chains_after_expanding_second in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 614.169549703598s cumulative, 5.334100008010864s individual
+
+F
+current test FAILED -- test_hide_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 617.4174807071686s cumulative, 3.2479310035705566s individual
+
+
+integration/test_threads.py .
+current test PASSED/SKIPPED -- test_thread_allocations_after_tracker_is_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_threads.py: 619.051465511322s cumulative, 1.6339848041534424s individual
+
+.
+current test PASSED/SKIPPED -- test_thread_name in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_threads.py: 620.8551299571991s cumulative, 1.8036644458770752s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 623.8762390613556s cumulative, 3.021109104156494s individual
+
+.
+current test PASSED/SKIPPED -- test_missing_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 623.8930013179779s cumulative, 0.016762256622314453s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 630.1124770641327s cumulative, 6.219475746154785s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 633.2196218967438s cumulative, 3.107144832611084s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_pause in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 643.7879631519318s cumulative, 10.568341255187988s individual
+
+.
+current test PASSED/SKIPPED -- test_sorting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 649.9189484119415s cumulative, 6.130985260009766s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 653.711277961731s cumulative, 3.7923295497894287s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 653.740318775177s cumulative, 0.029040813446044922s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 657.0853807926178s cumulative, 3.345062017440796s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_pause in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 661.2806708812714s cumulative, 4.1952900886535645s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 668.2861504554749s cumulative, 7.005479574203491s individual
+
+.
+current test PASSED/SKIPPED -- test_pid_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 670.9838137626648s cumulative, 2.6976633071899414s individual
+
+.
+current test PASSED/SKIPPED -- test_pid_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 673.643942117691s cumulative, 2.660128355026245s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 679.0789456367493s cumulative, 5.4350035190582275s individual
+
+.
+current test PASSED/SKIPPED -- test_native_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 679.0978727340698s cumulative, 0.01892709732055664s individual
+
+.
+current test PASSED/SKIPPED -- test_header_with_empty_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 681.6854302883148s cumulative, 2.587557554244995s individual
+
+.
+current test PASSED/SKIPPED -- test_update_thread in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 684.4632909297943s cumulative, 2.777860641479492s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 692.4075379371643s cumulative, 7.944247007369995s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_gradient in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 697.4596576690674s cumulative, 5.052119731903076s individual
+
+.
+current test PASSED/SKIPPED -- test_switching_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 706.8397090435028s cumulative, 9.380051374435425s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 712.0050842761993s cumulative, 5.165375232696533s individual
+
+.
+current test PASSED/SKIPPED -- test_header_with_no_snapshots in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 715.0445578098297s cumulative, 3.039473533630371s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_pause in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 721.5266580581665s cumulative, 6.482100248336792s individual
+
+.
+current test PASSED/SKIPPED -- test_update_thread in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.6516952514648s cumulative, 2.12503719329834s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_lower_than_max in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.6980166435242s cumulative, 0.04632139205932617s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_points_scattered in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.7697911262512s cumulative, 0.07177448272705078s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_points in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.8445739746094s cumulative, 0.0747828483581543s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_bigger_than_max_after_resize in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.9043743610382s cumulative, 0.05980038642883301s individual
+
+.
+current test PASSED/SKIPPED -- test_empty in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 723.9481303691864s cumulative, 0.04375600814819336s individual
+
+.
+current test PASSED/SKIPPED -- test_size_of_graph in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 724.0210936069489s cumulative, 0.07296323776245117s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_bigger_than_max in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 724.0597140789032s cumulative, 0.0386204719543457s individual
+
+
+unit/test_flamegraph_reporter.py .
+current test PASSED/SKIPPED -- test_works_with_multiple_top_level_nodes in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 724.0896673202515s cumulative, 0.0299532413482666s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_importlib_partial_stack_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 724.1351335048676s cumulative, 0.04546618461608887s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 724.1610534191132s cumulative, 0.02591991424560547s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_two_branches_first_is_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 724.2044386863708s cumulative, 0.04338526725769043s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_single_call in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 724.2421748638153s cumulative, 0.03773617744445801s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_very_deep_call_is_limited in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 730.9743690490723s cumulative, 6.732194185256958s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_split_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 730.9938855171204s cumulative, 0.019516468048095703s individual
+
+.
+current test PASSED/SKIPPED -- test_importlib_full_stack_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 731.0133550167084s cumulative, 0.019469499588012695s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_sanity_check_with_real_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 732.7795634269714s cumulative, 1.7662084102630615s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_uses_hybrid_stack_for_native_traces in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 732.80859375s cumulative, 0.029030323028564453s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_multiple_stacks_from_same_caller_two_frames_above in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 732.8349900245667s cumulative, 0.02639627456665039s individual
+
+.
+current test PASSED/SKIPPED -- test_sanity_check_with_real_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.2144212722778s cumulative, 1.3794312477111816s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_drops_cpython_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.2358424663544s cumulative, 0.021421194076538086s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_two_branches_both_are_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.2577047348022s cumulative, 0.021862268447875977s individual
+
+.
+current test PASSED/SKIPPED -- test_single_importlib_frame_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.2734980583191s cumulative, 0.015793323516845703s individual
+
+.
+current test PASSED/SKIPPED -- test_importlib_partial_stack_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.2933411598206s cumulative, 0.019843101501464844s individual
+
+.
+current test PASSED/SKIPPED -- test_two_branches_both_are_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.313371181488s cumulative, 0.02003002166748047s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_merged_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.3532247543335s cumulative, 0.039853572845458984s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_single_call in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 734.3944928646088s cumulative, 0.041268110275268555s individual
+
+.
+current test PASSED/SKIPPED -- test_very_deep_call_is_limited in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.8035223484039s cumulative, 1.409029483795166s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_two_branches_second_is_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.8492410182953s cumulative, 0.04571866989135742s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_merged_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.8705961704254s cumulative, 0.021355152130126953s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.8892512321472s cumulative, 0.018655061721801758s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_importlib_full_stack_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.9109737873077s cumulative, 0.02172255516052246s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_single_importlib_frame_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.929235458374s cumulative, 0.01826167106628418s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_recursive_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.9630436897278s cumulative, 0.033808231353759766s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_multiple_stacks_from_same_caller_two_frames_above in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 735.9878151416779s cumulative, 0.024771451950073242s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_multiple_stacks_from_same_caller in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.0111711025238s cumulative, 0.023355960845947266s individual
+
+.
+current test PASSED/SKIPPED -- test_drops_cpython_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.0374526977539s cumulative, 0.02628159523010254s individual
+
+.
+current test PASSED/SKIPPED -- test_two_branches_first_is_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.0656976699829s cumulative, 0.028244972229003906s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_one_top_level_node in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.0875499248505s cumulative, 0.02185225486755371s individual
+
+.
+current test PASSED/SKIPPED -- test_works_with_split_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.10555768013s cumulative, 0.018007755279541016s individual
+
+.
+current test PASSED/SKIPPED -- test_two_branches_second_is_importlib in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.126300573349s cumulative, 0.02074289321899414s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_multiple_top_level_nodes_with_merge in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.155597448349s cumulative, 0.029296875s individual
+
+.
+current test PASSED/SKIPPED -- test_inverted_works_with_recursive_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.1853904724121s cumulative, 0.02979302406311035s individual
+
+.
+current test PASSED/SKIPPED -- test_uses_hybrid_stack_for_native_traces in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 736.2043769359589s cumulative, 0.01898646354675293s individual
+
+
+unit/test_reader.py .
+current test PASSED/SKIPPED -- test_filereader_fails_to_open_file in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 736.2339639663696s cumulative, 0.0295870304107666s individual
+
+.
+current test PASSED/SKIPPED -- test_read_pid in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 737.6987900733948s cumulative, 1.4648261070251465s individual
+
+.
+current test PASSED/SKIPPED -- test_rejects_different_header_version in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 739.2009592056274s cumulative, 1.502169132232666s individual
+
+.
+current test PASSED/SKIPPED -- test_rejects_different_header_magic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 740.7188456058502s cumulative, 1.5178864002227783s individual
+
+
+unit/test_attach.py Error usage: memray [-h] [-v] [-V]
+              {run,flamegraph,table,live,tree,parse,summary,stats,transform,attach,detach}
+              ...
+memray: error: Can't use aggregated mode without an output file.
+
+.
+current test PASSED/SKIPPED -- test_memray_attach_aggregated_without_output_file in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_attach.py: 740.8395795822144s cumulative, 0.12073397636413574s individual
+
+
+unit/test_table_reporter.py .
+current test PASSED/SKIPPED -- test_single_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 740.8586916923523s cumulative, 0.019112110137939453s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 740.8799383640289s cumulative, 0.021246671676635742s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_stack_trace in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 740.8994629383087s cumulative, 0.019524574279785156s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 740.920786857605s cumulative, 0.02132391929626465s individual
+
+.
+current test PASSED/SKIPPED -- test_single_native_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 740.9531753063202s cumulative, 0.03238844871520996s individual
+
+
+integration/test_ipython.py 
+
+Results saved to memray-results/tmpa9nkdoln/flamegraph.html
+.
+current test PASSED/SKIPPED -- test_ipython_profiling in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 742.6338903903961s cumulative, 1.6807150840759277s individual
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mZeroDivisionError[0m                         Traceback (most recent call last)
+Cell [0;32mIn[1], line 9[0m
+[1;32m      2[0m [38;5;28;01mwith[39;00m Tracker(
+[1;32m      3[0m     [38;5;124m"[39m[38;5;124mmemray-results/tmpyoaoiyk7/memray.dump[39m[38;5;124m"[39m,
+[1;32m      4[0m     native_traces[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m      5[0m     trace_python_allocators[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m      6[0m     follow_fork[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m      7[0m ) [38;5;28;01mas[39;00m tracker:
+[1;32m      8[0m     x [38;5;241m=[39m [38;5;124m"[39m[38;5;124ma[39m[38;5;124m"[39m [38;5;241m*[39m [38;5;241m10000[39m
+[0;32m----> 9[0m     [38;5;241;43m1[39;49m[38;5;241;43m/[39;49m[38;5;241;43m0[39;49m
+
+[0;31mZeroDivisionError[0m: division by zero
+
+
+Results saved to memray-results/tmpyoaoiyk7/flamegraph.html
+.
+current test PASSED/SKIPPED -- test_exception_while_ipython_profiling in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 747.8151919841766s cumulative, 5.181301593780518s individual
+
+.
+current test PASSED/SKIPPED -- test_passing_invalid_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 748.1627774238586s cumulative, 0.34758543968200684s individual
+
+.
+current test PASSED/SKIPPED -- test_passing_valid_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 749.965087890625s cumulative, 1.8023104667663574s individual
+
+.
+current test PASSED/SKIPPED -- test_passing_help_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 750.2475881576538s cumulative, 0.2825002670288086s individual
+
+
+
+==================================== ERRORS ====================================
+_ ERROR at setup of TestLiveRemoteSubcommand.test_live_client_exits_properly_on_sigint_before_connecting _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py, line 1494
+      def test_live_client_exits_properly_on_sigint_before_connecting(self, free_port):
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, simple_test_file, snap_compare, snapshot, test_file_returns_from_fork, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py:1494
+_ ERROR at setup of TestLiveRemoteSubcommand.test_live_tracking_server_when_client_disconnects _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py, line 1402
+      def test_live_tracking_server_when_client_disconnects(self, free_port, tmp_path):
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, simple_test_file, snap_compare, snapshot, test_file_returns_from_fork, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py:1402
+________ ERROR at setup of TestLiveRemoteSubcommand.test_live_tracking _________
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py, line 1285
+      def test_live_tracking(self, tmp_path, simple_test_file, free_port):
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, simple_test_file, snap_compare, snapshot, test_file_returns_from_fork, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py:1285
+___ ERROR at setup of TestSocketReaderAccess.test_single_allocation_snapshot ___
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 255
+      @pytest.mark.valgrind
+      def test_single_allocation_snapshot(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:255
+___ ERROR at setup of TestSocketReaderAccess.test_multi_allocation_snapshot ____
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 283
+      @pytest.mark.valgrind
+      def test_multi_allocation_snapshot(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:283
+___ ERROR at setup of TestSocketReaderAccess.test_empty_snapshot_after_free ____
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 236
+      @pytest.mark.valgrind
+      def test_empty_snapshot_after_free(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:236
+__________ ERROR at setup of TestSocketReaderAccess.test_command_line __________
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 341
+      @pytest.mark.valgrind
+      def test_command_line(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:341
+_ ERROR at setup of TestSocketReaderAccess.test_multiple_context_entries_does_not_crash _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 311
+      @pytest.mark.valgrind
+      def test_multiple_context_entries_does_not_crash(
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:311
+_ ERROR at setup of TestSocketReaderAccess.test_reading_allocations_while_reading_stack_traces _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 361
+      @pytest.mark.valgrind
+      def test_reading_allocations_while_reading_stack_traces(
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:361
+_ ERROR at setup of TestSocketReaderErrorHandling.test_nested_context_is_diallowed _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 214
+      @pytest.mark.valgrind
+      def test_nested_context_is_diallowed(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:214
+_ ERROR at setup of TestSocketReaderErrorHandling.test_get_is_active_after_context _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 155
+      def test_get_is_active_after_context(self, free_port: int, tmp_path: Path) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:155
+_ ERROR at setup of TestSocketReaderErrorHandling.test_get_current_snapshot_raises_before_context _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 146
+      @pytest.mark.valgrind
+      def test_get_current_snapshot_raises_before_context(self, free_port: int) -> None:
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:146
+_ ERROR at setup of TestSocketReaderErrorHandling.test_get_current_snapshot_first_yield_after_context_raises _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 193
+      @pytest.mark.valgrind
+      def test_get_current_snapshot_first_yield_after_context_raises(
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:193
+_ ERROR at setup of TestSocketReaderErrorHandling.test_get_current_snapshot_raises_after_context _
+file /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py, line 172
+      @pytest.mark.valgrind
+      def test_get_current_snapshot_raises_after_context(
+E       fixture 'free_port' not found
+>       available fixtures: _cookiecutter_config_file, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, class_mocker, cookies, cookies_session, cov, doctest_namespace, event_loop, mocker, module_mocker, monkeypatch, no_cover, package_mocker, pytestconfig, qapp, qapp_args, qapp_cls, qtbot, qtlog, qtmodeltester, record_property, record_testsuite_property, record_xml_attribute, recwarn, run_around_tests, session_mocker, snap_compare, snapshot, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, unused_tcp_port, unused_tcp_port_factory, unused_udp_port, unused_udp_port_factory, worker_id
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py:172
+=================================== FAILURES ===================================
+_____________________ TestRunSubCommand.test_run_with_live _____________________
+
+__wrapped_mock_method__ = <function NonCallableMock.assert_called_with at 0x7fe54d232d40>
+args = (<MagicMock name='LiveCommand().start_live_interface' id='140618611371616'>, 1234)
+kwargs = {'cmdline_override': './directory/foobar.py arg1 arg2'}
+__tracebackhide__ = True
+msg = "expected call not found.\nExpected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')\nA...packages/pytest/__main__.py -s'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}\n  Use -v to get more diff"
+__mock_self = <MagicMock name='LiveCommand().start_live_interface' id='140618611371616'>
+actual_args = (1234,)
+actual_kwargs = {'cmdline_override': '/home/kaiyaok2/.local/lib/python3.10/site-packages/pytest/__main__.py -s'}
+introspection = "\nKwargs:\nassert {'cmdline_ove...main__.py -s'} == {'cmdline_ove...py arg1 arg2'}\n  Differing items:\n  {'cmdline_o...packages/pytest/__main__.py -s'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}\n  Use -v to get more diff"
+@py_assert2 = None, @py_assert1 = False
+
+    def assert_wrapper(
+        __wrapped_mock_method__: Callable[..., Any], *args: Any, **kwargs: Any
+    ) -> None:
+        __tracebackhide__ = True
+        try:
+>           __wrapped_mock_method__(*args, **kwargs)
+
+../../../.local/lib/python3.10/site-packages/pytest_mock/plugin.py:459: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <MagicMock name='LiveCommand().start_live_interface' id='140618611371616'>
+args = (1234,), kwargs = {'cmdline_override': './directory/foobar.py arg1 arg2'}
+expected = call(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+actual = call(1234, cmdline_override='/home/kaiyaok2/.local/lib/python3.10/site-packages/pytest/__main__.py -s')
+_error_message = <function NonCallableMock.assert_called_with.<locals>._error_message at 0x7fe452601120>
+cause = None
+
+    def assert_called_with(self, /, *args, **kwargs):
+        """assert that the last call was made with the specified arguments.
+    
+        Raises an AssertionError if the args and keyword args passed in are
+        different to the last call to the mock."""
+        if self.call_args is None:
+            expected = self._format_mock_call_signature(args, kwargs)
+            actual = 'not called.'
+            error_message = ('expected call not found.\nExpected: %s\nActual: %s'
+                    % (expected, actual))
+            raise AssertionError(error_message)
+    
+        def _error_message():
+            msg = self._format_mock_failure_message(args, kwargs)
+            return msg
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        actual = self._call_matcher(self.call_args)
+        if actual != expected:
+            cause = expected if isinstance(expected, Exception) else None
+>           raise AssertionError(_error_message()) from cause
+E           AssertionError: expected call not found.
+E           Expected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+E           Actual: start_live_interface(1234, cmdline_override='/home/kaiyaok2/.local/lib/python3.10/site-packages/pytest/__main__.py -s')
+
+/usr/lib/python3.10/unittest/mock.py:929: AssertionError
+
+During handling of the above exception, another exception occurred:
+
+self = <tests.unit.test_cli.TestRunSubCommand object at 0x7fe45270ab30>
+live_command_mock = <MagicMock name='LiveCommand' id='140618613191536'>
+popen_mock = <MagicMock name='Popen' id='140618611737744'>
+getpid_mock = <MagicMock name='getpid' id='140618613179872'>
+runpy_mock = <MagicMock name='runpy' id='140618614305696'>
+tracker_mock = <MagicMock name='Tracker' id='140618614294560'>
+validate_mock = <MagicMock name='validate_target_file' id='140618613471600'>
+
+    @patch("memray.commands.run.subprocess.Popen")
+    @patch("memray.commands.run.LiveCommand")
+    def test_run_with_live(
+        self,
+        live_command_mock,
+        popen_mock,
+        getpid_mock,
+        runpy_mock,
+        tracker_mock,
+        validate_mock,
+    ):
+        getpid_mock.return_value = 0
+        popen_mock().__enter__().returncode = 0
+        with patch("memray.commands.run._get_free_port", return_value=1234):
+            assert 0 == main(["run", "--live", "./directory/foobar.py", "arg1", "arg2"])
+        popen_mock.assert_called_with(
+            [
+                sys.executable,
+                "-c",
+                "from memray.commands.run import _child_process;"
+                "_child_process(1234,False,False,False,False,False,"
+                "'./directory/foobar.py',['arg1', 'arg2'])",
+            ],
+            stderr=-1,
+            stdout=-3,
+            text=True,
+        )
+>       live_command_mock().start_live_interface.assert_called_with(
+            1234,
+            cmdline_override="./directory/foobar.py arg1 arg2",
+        )
+E       AssertionError: expected call not found.
+E       Expected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+E       Actual: start_live_interface(1234, cmdline_override='/home/kaiyaok2/.local/lib/python3.10/site-packages/pytest/__main__.py -s')
+E       
+E       pytest introspection follows:
+E       
+E       Kwargs:
+E       assert {'cmdline_ove...main__.py -s'} == {'cmdline_ove...py arg1 arg2'}
+E         Differing items:
+E         {'cmdline_override': '/home/kaiyaok2/.local/lib/python3.10/site-packages/pytest/__main__.py -s'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}
+E         Use -v to get more diff
+
+unit/test_cli.py:178: AssertionError
+_______ TestRunSubCommand.test_run_with_live_and_trace_python_allocators _______
+
+__wrapped_mock_method__ = <function NonCallableMock.assert_called_with at 0x7fe54d232d40>
+args = (<MagicMock name='LiveCommand().start_live_interface' id='140618607920608'>, 1234)
+kwargs = {'cmdline_override': './directory/foobar.py arg1 arg2'}
+__tracebackhide__ = True
+msg = "expected call not found.\nExpected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')\nA...s:\n  {'cmdline_override': '-c'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}\n  Use -v to get more diff"
+__mock_self = <MagicMock name='LiveCommand().start_live_interface' id='140618607920608'>
+actual_args = (1234,), actual_kwargs = {'cmdline_override': '-c'}
+introspection = "\nKwargs:\nassert {'cmdline_override': '-c'} == {'cmdline_ove...py arg1 arg2'}\n  Differing items:\n  {'cmdline_override': '-c'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}\n  Use -v to get more diff"
+@py_assert2 = None, @py_assert1 = False
+
+    def assert_wrapper(
+        __wrapped_mock_method__: Callable[..., Any], *args: Any, **kwargs: Any
+    ) -> None:
+        __tracebackhide__ = True
+        try:
+>           __wrapped_mock_method__(*args, **kwargs)
+
+../../../.local/lib/python3.10/site-packages/pytest_mock/plugin.py:459: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <MagicMock name='LiveCommand().start_live_interface' id='140618607920608'>
+args = (1234,), kwargs = {'cmdline_override': './directory/foobar.py arg1 arg2'}
+expected = call(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+actual = call(1234, cmdline_override='-c')
+_error_message = <function NonCallableMock.assert_called_with.<locals>._error_message at 0x7fe4528bb2e0>
+cause = None
+
+    def assert_called_with(self, /, *args, **kwargs):
+        """assert that the last call was made with the specified arguments.
+    
+        Raises an AssertionError if the args and keyword args passed in are
+        different to the last call to the mock."""
+        if self.call_args is None:
+            expected = self._format_mock_call_signature(args, kwargs)
+            actual = 'not called.'
+            error_message = ('expected call not found.\nExpected: %s\nActual: %s'
+                    % (expected, actual))
+            raise AssertionError(error_message)
+    
+        def _error_message():
+            msg = self._format_mock_failure_message(args, kwargs)
+            return msg
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        actual = self._call_matcher(self.call_args)
+        if actual != expected:
+            cause = expected if isinstance(expected, Exception) else None
+>           raise AssertionError(_error_message()) from cause
+E           AssertionError: expected call not found.
+E           Expected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+E           Actual: start_live_interface(1234, cmdline_override='-c')
+
+/usr/lib/python3.10/unittest/mock.py:929: AssertionError
+
+During handling of the above exception, another exception occurred:
+
+self = <tests.unit.test_cli.TestRunSubCommand object at 0x7fe45270ab90>
+live_command_mock = <MagicMock name='LiveCommand' id='140618613909696'>
+popen_mock = <MagicMock name='Popen' id='140618613901248'>
+getpid_mock = <MagicMock name='getpid' id='140618614402368'>
+runpy_mock = <MagicMock name='runpy' id='140618614396752'>
+tracker_mock = <MagicMock name='Tracker' id='140618607744032'>
+validate_mock = <MagicMock name='validate_target_file' id='140618607751856'>
+
+    @patch("memray.commands.run.subprocess.Popen")
+    @patch("memray.commands.run.LiveCommand")
+    def test_run_with_live_and_trace_python_allocators(
+        self,
+        live_command_mock,
+        popen_mock,
+        getpid_mock,
+        runpy_mock,
+        tracker_mock,
+        validate_mock,
+    ):
+        getpid_mock.return_value = 0
+        popen_mock().__enter__().returncode = 0
+        with patch("memray.commands.run._get_free_port", return_value=1234):
+            assert 0 == main(
+                [
+                    "run",
+                    "--live",
+                    "--trace-python-allocators",
+                    "./directory/foobar.py",
+                    "arg1",
+                    "arg2",
+                ]
+            )
+        popen_mock.assert_called_with(
+            [
+                sys.executable,
+                "-c",
+                "from memray.commands.run import _child_process;"
+                "_child_process(1234,False,True,False,False,False,"
+                "'./directory/foobar.py',['arg1', 'arg2'])",
+            ],
+            stderr=-1,
+            stdout=-3,
+            text=True,
+        )
+>       live_command_mock().start_live_interface.assert_called_with(
+            1234,
+            cmdline_override="./directory/foobar.py arg1 arg2",
+        )
+E       AssertionError: expected call not found.
+E       Expected: start_live_interface(1234, cmdline_override='./directory/foobar.py arg1 arg2')
+E       Actual: start_live_interface(1234, cmdline_override='-c')
+E       
+E       pytest introspection follows:
+E       
+E       Kwargs:
+E       assert {'cmdline_override': '-c'} == {'cmdline_ove...py arg1 arg2'}
+E         Differing items:
+E         {'cmdline_override': '-c'} != {'cmdline_override': './directory/foobar.py arg1 arg2'}
+E         Use -v to get more diff
+
+unit/test_cli.py:219: AssertionError
+__________________ TestTreeReporter.test_biggest_allocations ___________________
+
+self = <tests.unit.test_tree_reporter.TestTreeReporter object at 0x7fe452750f10>
+
+    def test_biggest_allocations(self):
+        # GIVEN
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=index * 1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    (f"function_{index}", "fun.py", 12),
+                ],
+            )
+            for index in range(1000)
+        ]
+    
+        # WHEN
+        reporter = TreeReporter.from_snapshot(
+            peak_allocations, native_traces=False, biggest_allocs=3
+        )
+    
+        # THEN
+>       assert reporter.data == Frame(
+            location=("<ROOT>", "", 0),
+            value=3065856,
+            children={
+                ("function_999", "fun.py", 12): Frame(
+                    location=("function_999", "fun.py", 12),
+                    value=1022976,
+                    children={},
+                    n_allocations=1,
+                    thread_id="0x1",
+                    interesting=True,
+                    import_system=False,
+                ),
+                ("function_998", "fun.py", 12): Frame(
+                    location=("function_998", "fun.py", 12),
+                    value=1021952,
+                    children={},
+                    n_allocations=1,
+                    thread_id="0x1",
+                    interesting=True,
+                    import_system=False,
+                ),
+                ("function_997", "fun.py", 12): Frame(
+                    location=("function_997", "fun.py", 12),
+                    value=1020928,
+                    children={},
+                    n_allocations=1,
+                    thread_id="0x1",
+                    interesting=True,
+                    import_system=False,
+                ),
+            },
+            n_allocations=3,
+            thread_id="",
+            interesting=True,
+            import_system=False,
+        )
+E       AssertionError: assert Frame(locatio..._system=False) == Frame(locatio..._system=False)
+E         
+E         Omitting 5 identical items, use -vv to show
+E         Differing attributes:
+E         ['value', 'n_allocations']
+E         
+E         Drill down into differing attribute value:
+E           value: 511488000 != 3065856...
+E         
+E         ...Full output truncated (4 lines hidden), use '-vv' to show
+
+unit/test_tree_reporter.py:61: AssertionError
+_________ TestTUILooks.test_show_uninteresting_and_hide_import_system __________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452833520>
+compare = <function compare.<locals>.compare_impl at 0x7fe55c441750>
+
+    def test_show_uninteresting_and_hide_import_system(self, compare):
+        # GIVEN
+        code = dedent(
+            """\
+        import itertools
+        def generate_primes():
+            numbers = itertools.count(2)
+            while True:
+                prime = next(numbers)
+                yield prime
+                numbers = filter(lambda x, prime=prime: x % prime, numbers)
+        """
+        )
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024 * 10,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("B", "some other frame", 4),
+                    ("d", "<frozen importlib>", 3),
+                    ("e", "<frozen importlib>", 4),
+                    ("A", "some other frame", 4),
+                    ("a", "runpy.py", 1),
+                    ("b", "runpy.py", 2),
+                    ("c", "runpy.py", 5),
+                ],
+            ),
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me2", "fun2.py", 12),
+                    ("parent2", "fun2.py", 8),
+                    ("grandparent2", "fun2.py", 4),
+                ],
+            ),
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = code.splitlines()
+>           assert compare(peak_allocations, press=["u", "i"])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe55c441750>([MockAllocationRecord(tid=1, address=16777216, size=10240, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocati...ons=1, _stack=[('me2', 'fun2.py', 12), ('parent2', 'fun2.py', 8), ('grandparent2', 'fun2.py', 4)], _hybrid_stack=None)], press=['u', 'i'])
+
+unit/test_tree_reporter.py:1965: AssertionError
+___________________________ TestTUILooks.test_basic ____________________________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452832770>
+compare = <function compare.<locals>.compare_impl at 0x7fe4524b9c60>
+
+    def test_basic(self, compare):
+        # GIVEN
+        code = dedent(
+            """\
+        import itertools
+        def generate_primes():
+            numbers = itertools.count(2)
+            while True:
+                prime = next(numbers)
+                yield prime
+                numbers = filter(lambda x, prime=prime: x % prime, numbers)
+        """
+        )
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me", "fun.py", 12),
+                    ("parent", "fun.py", 8),
+                    ("grandparent", "fun.py", 4),
+                ],
+            ),
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = code.splitlines()
+>           assert compare(peak_allocations, press=[])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe4524b9c60>([MockAllocationRecord(tid=1, address=16777216, size=1024, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocations=1, _stack=[('me', 'fun.py', 12), ('parent', 'fun.py', 8), ('grandparent', 'fun.py', 4)], _hybrid_stack=None)], press=[])
+
+unit/test_tree_reporter.py:1650: AssertionError
+_________________________ TestTUILooks.test_two_chains _________________________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452831f90>
+compare = <function compare.<locals>.compare_impl at 0x7fe55c6bca60>
+
+    def test_two_chains(self, compare):
+        # GIVEN
+        code = dedent(
+            """\
+        import itertools
+        def generate_primes():
+            numbers = itertools.count(2)
+            while True:
+                prime = next(numbers)
+                yield prime
+                numbers = filter(lambda x, prime=prime: x % prime, numbers)
+        """
+        )
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me", "fun.py", 12),
+                    ("parent", "fun.py", 8),
+                    ("grandparent", "fun.py", 4),
+                ],
+            ),
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024 * 10,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me2", "fun2.py", 12),
+                    ("parent2", "fun2.py", 8),
+                    ("grandparent2", "fun2.py", 4),
+                ],
+            ),
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = code.splitlines()
+>           assert compare(peak_allocations, press=[])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe55c6bca60>([MockAllocationRecord(tid=1, address=16777216, size=1024, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocatio...ons=1, _stack=[('me2', 'fun2.py', 12), ('parent2', 'fun2.py', 8), ('grandparent2', 'fun2.py', 4)], _hybrid_stack=None)], press=[])
+
+unit/test_tree_reporter.py:1765: AssertionError
+_____________________ TestTUILooks.test_show_uninteresting _____________________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452832410>
+compare = <function compare.<locals>.compare_impl at 0x7fe55c6bc9d0>
+
+    def test_show_uninteresting(self, compare):
+        # GIVEN
+        code = dedent(
+            """\
+        import itertools
+        def generate_primes():
+            numbers = itertools.count(2)
+            while True:
+                prime = next(numbers)
+                yield prime
+                numbers = filter(lambda x, prime=prime: x % prime, numbers)
+        """
+        )
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024 * 10,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me2", "fun2.py", 12),
+                    ("parent2", "fun2.py", 8),
+                    ("grandparent2", "fun2.py", 4),
+                ],
+            ),
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("a0", "some other frame", 4),
+                    ("a", "runpy.py", 1),
+                    ("b", "runpy.py", 2),
+                    ("c", "runpy.py", 3),
+                    ("d", "runpy.py", 4),
+                    ("e", "runpy.py", 5),
+                ],
+            ),
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = code.splitlines()
+>           assert compare(peak_allocations, press=["u"])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe55c6bc9d0>([MockAllocationRecord(tid=1, address=16777216, size=10240, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocati....py', 1), ('b', 'runpy.py', 2), ('c', 'runpy.py', 3), ('d', 'runpy.py', 4), ('e', 'runpy.py', 5)], _hybrid_stack=None)], press=['u'])
+
+unit/test_tree_reporter.py:1914: AssertionError
+_______________ TestTUILooks.test_allocations_of_different_sizes _______________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452833820>
+compare = <function compare.<locals>.compare_impl at 0x7fe3da293520>
+
+    def test_allocations_of_different_sizes(self, compare):
+        # GIVEN
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=65,
+                allocator=AllocatorType.MALLOC,
+                stack_id=j,
+                n_allocations=1,
+                _stack=[(f"func{i}", f"fun{i}.py", i) for i in range(1, 51)][:j][::-1],
+            )
+            for j in range(1, 51)
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = []
+>           assert compare(peak_allocations, press=[])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe3da293520>([MockAllocationRecord(tid=1, address=16777216, size=65, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocations...', 'fun4.py', 4), ('func3', 'fun3.py', 3), ('func2', 'fun2.py', 2), ('func1', 'fun1.py', 1)], _hybrid_stack=None), ...], press=[])
+
+unit/test_tree_reporter.py:2018: AssertionError
+_____________________ TestTUILooks.test_hide_import_system _____________________
+
+self = <tests.unit.test_tree_reporter.TestTUILooks object at 0x7fe452832680>
+compare = <function compare.<locals>.compare_impl at 0x7fe3da2937f0>
+
+    def test_hide_import_system(self, compare):
+        # GIVEN
+        code = dedent(
+            """\
+        import itertools
+        def generate_primes():
+            numbers = itertools.count(2)
+            while True:
+                prime = next(numbers)
+                yield prime
+                numbers = filter(lambda x, prime=prime: x % prime, numbers)
+        """
+        )
+        peak_allocations = [
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("a0", "some other frame", 4),
+                    ("a", "<frozen importlib>", 1),
+                    ("b", "<frozen importlib>", 2),
+                    ("c", "<frozen importlib>", 3),
+                    ("d", "<frozen importlib>", 4),
+                    ("e", "<frozen importlib>", 5),
+                ],
+            ),
+            MockAllocationRecord(
+                tid=1,
+                address=0x1000000,
+                size=1024 * 10,
+                allocator=AllocatorType.MALLOC,
+                stack_id=1,
+                n_allocations=1,
+                _stack=[
+                    ("me2", "fun2.py", 12),
+                    ("parent2", "fun2.py", 8),
+                    ("grandparent2", "fun2.py", 4),
+                ],
+            ),
+        ]
+    
+        # WHEN / THEN
+        with patch("linecache.getlines") as getlines:
+            getlines.return_value = code.splitlines()
+>           assert compare(peak_allocations, press=["i"])
+E           AssertionError: assert False
+E            +  where False = <function compare.<locals>.compare_impl at 0x7fe3da2937f0>([MockAllocationRecord(tid=1, address=16777216, size=1024, allocator=<AllocatorType.MALLOC: 1>, stack_id=1, n_allocatio...ons=1, _stack=[('me2', 'fun2.py', 12), ('parent2', 'fun2.py', 8), ('grandparent2', 'fun2.py', 4)], _hybrid_stack=None)], press=['i'])
+
+unit/test_tree_reporter.py:1864: AssertionError
+--------------------------- snapshot report summary ----------------------------
+6 snapshots failed. 12 snapshots passed.
+[1;31mTextual Snapshot Report[0m
+
+[1;30;41m6[0m[30;41m mismatched snapshots[0m
+
+[1mView the [0m]8;id=33743;file:///home/kaiyaok2/PythonProjects/memray/tests/snapshot_report.html\[1mfailure report[0m]8;;\[1m.[0m
+
+[2;35m/home/kaiyaok2/PythonProjects/memray/tests/[0m[2;95msnapshot_report.html[0m
+
+=========================== short test summary info ============================
+FAILED unit/test_cli.py::TestRunSubCommand::test_run_with_live - AssertionErr...
+FAILED unit/test_cli.py::TestRunSubCommand::test_run_with_live_and_trace_python_allocators
+FAILED unit/test_tree_reporter.py::TestTreeReporter::test_biggest_allocations
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_show_uninteresting_and_hide_import_system
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_basic - AssertionError:...
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_two_chains - AssertionE...
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_show_uninteresting - As...
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_allocations_of_different_sizes
+FAILED unit/test_tree_reporter.py::TestTUILooks::test_hide_import_system - As...
+ERROR integration/test_main.py::TestLiveRemoteSubcommand::test_live_client_exits_properly_on_sigint_before_connecting
+ERROR integration/test_main.py::TestLiveRemoteSubcommand::test_live_tracking_server_when_client_disconnects
+ERROR integration/test_main.py::TestLiveRemoteSubcommand::test_live_tracking
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_single_allocation_snapshot
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_multi_allocation_snapshot
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_empty_snapshot_after_free
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_command_line
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_multiple_context_entries_does_not_crash
+ERROR integration/test_socket.py::TestSocketReaderAccess::test_reading_allocations_while_reading_stack_traces
+ERROR integration/test_socket.py::TestSocketReaderErrorHandling::test_nested_context_is_diallowed
+ERROR integration/test_socket.py::TestSocketReaderErrorHandling::test_get_is_active_after_context
+ERROR integration/test_socket.py::TestSocketReaderErrorHandling::test_get_current_snapshot_raises_before_context
+ERROR integration/test_socket.py::TestSocketReaderErrorHandling::test_get_current_snapshot_first_yield_after_context_raises
+ERROR integration/test_socket.py::TestSocketReaderErrorHandling::test_get_current_snapshot_raises_after_context
+======= 9 failed, 562 passed, 11 skipped, 14 errors in 781.93s (0:13:01) =======
