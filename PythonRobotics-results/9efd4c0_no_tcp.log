@@ -1,0 +1,4598 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-7.4.0, pluggy-1.3.0
+Using --randomly-seed=1705797787
+PyQt5 5.15.10 -- Qt runtime 5.15.2 -- Qt compiled 5.15.2
+rootdir: /home/kaiyaok2/PythonProjects/PythonRobotics
+plugins: hypothesis-6.81.1, cov-4.1.0, randomly-3.1.0, typeguard-4.1.5, timeout-1.4.2, qt-4.3.1, nbval-0.10.0, xdist-3.5.0, mock-3.12.0, tcp-0.1.1, textual-snapshot-0.4.0, syrupy-4.6.0, anyio-3.7.1
+collected 106 items
+
+tests/test_rrt_star_seven_joint_arm.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/ArmNavigation/rrt_star_seven_joint_arm_control/rrt_star_seven_joint_arm_control.py
+found path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_seven_joint_arm.py: 1.5621411800384521s cumulative, 1.5621411800384521s individual
+
+
+tests/test_move_to_pose_robot.py Initial x: 15.1 m
+Initial y: 5.42 m
+Initial theta: -0.55 rad
+
+Goal x: 4.35 m
+Goal y: 16.74 m
+Goal theta: -2.62 rad
+
+Initial x: 0.57 m
+Initial y: 0.25 m
+Initial theta: -2.84 rad
+
+Goal x: 6.03 m
+Goal y: 12.17 m
+Goal theta: -0.92 rad
+
+Initial x: 14.54 m
+Initial y: 9.27 m
+Initial theta: -2.11 rad
+
+Goal x: 12.64 m
+Goal y: 3.41 m
+Goal theta: 1.38 rad
+
+Initial x: 4.51 m
+Initial y: 1.65 m
+Initial theta: -2.55 rad
+
+Goal x: 6.11 m
+Goal y: 17.77 m
+Goal theta: -0.15 rad
+
+Initial x: 12.58 m
+Initial y: 7.82 m
+Initial theta: -2.04 rad
+
+Goal x: 3.91 m
+Goal y: 17.73 m
+Goal theta: -0.23 rad
+
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_move_to_pose_robot.py: 1.6237657070159912s cumulative, 0.06162452697753906s individual
+
+
+tests/test_rrt_dubins.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRTDubins/rrt_dubins.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 1
+Iter: 2 , number of nodes: 2
+Iter: 3 , number of nodes: 2
+Iter: 4 , number of nodes: 3
+Iter: 5 , number of nodes: 4
+Iter: 6 , number of nodes: 5
+Iter: 7 , number of nodes: 5
+Iter: 8 , number of nodes: 6
+Iter: 9 , number of nodes: 7
+Iter: 10 , number of nodes: 7
+Iter: 11 , number of nodes: 8
+Iter: 12 , number of nodes: 8
+Iter: 13 , number of nodes: 8
+Iter: 14 , number of nodes: 9
+Iter: 15 , number of nodes: 10
+Iter: 16 , number of nodes: 10
+Iter: 17 , number of nodes: 10
+Iter: 18 , number of nodes: 11
+Iter: 19 , number of nodes: 12
+Iter: 20 , number of nodes: 13
+Iter: 21 , number of nodes: 13
+Iter: 22 , number of nodes: 13
+Iter: 23 , number of nodes: 14
+Iter: 24 , number of nodes: 14
+Iter: 25 , number of nodes: 15
+Iter: 26 , number of nodes: 15
+Iter: 27 , number of nodes: 16
+Iter: 28 , number of nodes: 17
+Iter: 29 , number of nodes: 17
+Iter: 30 , number of nodes: 18
+Iter: 31 , number of nodes: 18
+Iter: 32 , number of nodes: 18
+Iter: 33 , number of nodes: 19
+Iter: 34 , number of nodes: 20
+Iter: 35 , number of nodes: 20
+Iter: 36 , number of nodes: 21
+Iter: 37 , number of nodes: 22
+Iter: 38 , number of nodes: 22
+Iter: 39 , number of nodes: 22
+Iter: 40 , number of nodes: 23
+Iter: 41 , number of nodes: 24
+Iter: 42 , number of nodes: 25
+Iter: 43 , number of nodes: 26
+Iter: 44 , number of nodes: 27
+Iter: 45 , number of nodes: 28
+Iter: 46 , number of nodes: 28
+Iter: 47 , number of nodes: 28
+Iter: 48 , number of nodes: 29
+Iter: 49 , number of nodes: 30
+Iter: 50 , number of nodes: 31
+Iter: 51 , number of nodes: 32
+Iter: 52 , number of nodes: 33
+Iter: 53 , number of nodes: 34
+Iter: 54 , number of nodes: 35
+Iter: 55 , number of nodes: 35
+Iter: 56 , number of nodes: 36
+Iter: 57 , number of nodes: 37
+Iter: 58 , number of nodes: 37
+Iter: 59 , number of nodes: 38
+Iter: 60 , number of nodes: 39
+Iter: 61 , number of nodes: 40
+Iter: 62 , number of nodes: 41
+Iter: 63 , number of nodes: 42
+Iter: 64 , number of nodes: 43
+Iter: 65 , number of nodes: 44
+Iter: 66 , number of nodes: 44
+Iter: 67 , number of nodes: 45
+Iter: 68 , number of nodes: 45
+Iter: 69 , number of nodes: 45
+Iter: 70 , number of nodes: 45
+Iter: 71 , number of nodes: 46
+Iter: 72 , number of nodes: 47
+Iter: 73 , number of nodes: 48
+Iter: 74 , number of nodes: 49
+Iter: 75 , number of nodes: 50
+Iter: 76 , number of nodes: 50
+Iter: 77 , number of nodes: 51
+Iter: 78 , number of nodes: 52
+Iter: 79 , number of nodes: 53
+Iter: 80 , number of nodes: 54
+Iter: 81 , number of nodes: 54
+Iter: 82 , number of nodes: 55
+Iter: 83 , number of nodes: 56
+Iter: 84 , number of nodes: 57
+Iter: 85 , number of nodes: 58
+Iter: 86 , number of nodes: 59
+Iter: 87 , number of nodes: 59
+Iter: 88 , number of nodes: 59
+Iter: 89 , number of nodes: 59
+Iter: 90 , number of nodes: 60
+Iter: 91 , number of nodes: 61
+Iter: 92 , number of nodes: 62
+Iter: 93 , number of nodes: 63
+Iter: 94 , number of nodes: 64
+Iter: 95 , number of nodes: 65
+Iter: 96 , number of nodes: 65
+Iter: 97 , number of nodes: 66
+Iter: 98 , number of nodes: 66
+Iter: 99 , number of nodes: 67
+Iter: 100 , number of nodes: 68
+Iter: 101 , number of nodes: 69
+Iter: 102 , number of nodes: 70
+Iter: 103 , number of nodes: 70
+Iter: 104 , number of nodes: 70
+Iter: 105 , number of nodes: 71
+Iter: 106 , number of nodes: 72
+Iter: 107 , number of nodes: 72
+Iter: 108 , number of nodes: 72
+Iter: 109 , number of nodes: 72
+Iter: 110 , number of nodes: 72
+Iter: 111 , number of nodes: 73
+Iter: 112 , number of nodes: 74
+Iter: 113 , number of nodes: 75
+Iter: 114 , number of nodes: 76
+Iter: 115 , number of nodes: 77
+Iter: 116 , number of nodes: 77
+Iter: 117 , number of nodes: 78
+Iter: 118 , number of nodes: 79
+Iter: 119 , number of nodes: 80
+Iter: 120 , number of nodes: 80
+Iter: 121 , number of nodes: 81
+Iter: 122 , number of nodes: 81
+Iter: 123 , number of nodes: 82
+Iter: 124 , number of nodes: 83
+Iter: 125 , number of nodes: 83
+Iter: 126 , number of nodes: 83
+Iter: 127 , number of nodes: 83
+Iter: 128 , number of nodes: 84
+Iter: 129 , number of nodes: 84
+Iter: 130 , number of nodes: 84
+Iter: 131 , number of nodes: 85
+Iter: 132 , number of nodes: 86
+Iter: 133 , number of nodes: 87
+Iter: 134 , number of nodes: 87
+Iter: 135 , number of nodes: 88
+Iter: 136 , number of nodes: 89
+Iter: 137 , number of nodes: 90
+Iter: 138 , number of nodes: 91
+Iter: 139 , number of nodes: 92
+Iter: 140 , number of nodes: 93
+Iter: 141 , number of nodes: 94
+Iter: 142 , number of nodes: 94
+Iter: 143 , number of nodes: 95
+Iter: 144 , number of nodes: 96
+Iter: 145 , number of nodes: 97
+Iter: 146 , number of nodes: 98
+Iter: 147 , number of nodes: 99
+Iter: 148 , number of nodes: 100
+Iter: 149 , number of nodes: 101
+Iter: 150 , number of nodes: 102
+Iter: 151 , number of nodes: 102
+Iter: 152 , number of nodes: 103
+Iter: 153 , number of nodes: 104
+Iter: 154 , number of nodes: 105
+Iter: 155 , number of nodes: 106
+Iter: 156 , number of nodes: 106
+Iter: 157 , number of nodes: 106
+Iter: 158 , number of nodes: 107
+Iter: 159 , number of nodes: 107
+Iter: 160 , number of nodes: 107
+Iter: 161 , number of nodes: 108
+Iter: 162 , number of nodes: 109
+Iter: 163 , number of nodes: 109
+Iter: 164 , number of nodes: 110
+Iter: 165 , number of nodes: 111
+Iter: 166 , number of nodes: 112
+Iter: 167 , number of nodes: 113
+Iter: 168 , number of nodes: 114
+Iter: 169 , number of nodes: 114
+Iter: 170 , number of nodes: 114
+Iter: 171 , number of nodes: 114
+Iter: 172 , number of nodes: 114
+Iter: 173 , number of nodes: 115
+Iter: 174 , number of nodes: 115
+Iter: 175 , number of nodes: 116
+Iter: 176 , number of nodes: 116
+Iter: 177 , number of nodes: 117
+Iter: 178 , number of nodes: 118
+Iter: 179 , number of nodes: 119
+Iter: 180 , number of nodes: 119
+Iter: 181 , number of nodes: 119
+Iter: 182 , number of nodes: 120
+Iter: 183 , number of nodes: 120
+Iter: 184 , number of nodes: 121
+Iter: 185 , number of nodes: 121
+Iter: 186 , number of nodes: 121
+Iter: 187 , number of nodes: 122
+Iter: 188 , number of nodes: 123
+Iter: 189 , number of nodes: 124
+Iter: 190 , number of nodes: 125
+Iter: 191 , number of nodes: 125
+Iter: 192 , number of nodes: 125
+Iter: 193 , number of nodes: 126
+Iter: 194 , number of nodes: 127
+Iter: 195 , number of nodes: 128
+Iter: 196 , number of nodes: 128
+Iter: 197 , number of nodes: 129
+Iter: 198 , number of nodes: 129
+Iter: 199 , number of nodes: 130
+reached max iteration
+final
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_dubins.py: 2.0752930641174316s cumulative, 0.45152735710144043s individual
+
+
+tests/test_model_predictive_speed_and_steer_control.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathTracking/model_predictive_speed_and_steer_control/model_predictive_speed_and_steer_control.py start!!
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Iterative is max iter
+Goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_model_predictive_speed_and_steer_control.py: 173.00060415267944s cumulative, 170.925311088562s individual
+
+/home/kaiyaok2/PythonProjects/PythonRobotics/PathTracking/model_predictive_speed_and_steer_control/model_predictive_speed_and_steer_control.py start!!
+Goal
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_model_predictive_speed_and_steer_control.py: 238.2296073436737s cumulative, 65.22900319099426s individual
+
+
+tests/test_codestyle.py []
+No lint errors found.
+.
+current test PASSED/SKIPPED -- test in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_codestyle.py: 238.3289921283722s cumulative, 0.09938478469848633s individual
+
+
+tests/test_informed_rrt_star.py Start informed rrt star planning
+Done!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_informed_rrt_star.py: 244.53528308868408s cumulative, 6.20629096031189s individual
+
+
+tests/test_mypy_type_check.py project_dir_path='/home/kaiyaok2/PythonProjects/PythonRobotics'
+config_path='/home/kaiyaok2/PythonProjects/PythonRobotics/mypy.ini'
+F
+current test FAILED -- test in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_mypy_type_check.py: 245.4418122768402s cumulative, 0.9065291881561279s individual
+
+
+tests/test_LQR_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/LQRPlanner/lqr_planner.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_LQR_planner.py: 245.4703347682953s cumulative, 0.028522491455078125s individual
+
+
+tests/test_bezier_path.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bezier_path.py: 245.4880199432373s cumulative, 0.0176851749420166s individual
+
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bezier_path.py: 245.53968811035156s cumulative, 0.05166816711425781s individual
+
+
+tests/test_lqr_rrt_star.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/LQRRRTStar/lqr_rrt_star.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 1
+Iter: 2 , number of nodes: 1
+Iter: 3 , number of nodes: 1
+Iter: 4 , number of nodes: 1
+Iter: 5 , number of nodes: 1
+Iter: 6 , number of nodes: 2
+Iter: 7 , number of nodes: 3
+Iter: 8 , number of nodes: 4
+Iter: 9 , number of nodes: 5
+Iter: 10 , number of nodes: 6
+Iter: 11 , number of nodes: 7
+Iter: 12 , number of nodes: 8
+Iter: 13 , number of nodes: 9
+Iter: 14 , number of nodes: 10
+Iter: 15 , number of nodes: 11
+Iter: 16 , number of nodes: 12
+Iter: 17 , number of nodes: 13
+Iter: 18 , number of nodes: 14
+Iter: 19 , number of nodes: 15
+Iter: 20 , number of nodes: 16
+Iter: 21 , number of nodes: 17
+Iter: 22 , number of nodes: 18
+Iter: 23 , number of nodes: 19
+Iter: 24 , number of nodes: 20
+Iter: 25 , number of nodes: 21
+Iter: 26 , number of nodes: 22
+Iter: 27 , number of nodes: 23
+Iter: 28 , number of nodes: 24
+Iter: 29 , number of nodes: 25
+Iter: 30 , number of nodes: 26
+Iter: 31 , number of nodes: 27
+Iter: 32 , number of nodes: 28
+Iter: 33 , number of nodes: 29
+Iter: 34 , number of nodes: 30
+Iter: 35 , number of nodes: 31
+Iter: 36 , number of nodes: 32
+Iter: 37 , number of nodes: 33
+Iter: 38 , number of nodes: 34
+Iter: 39 , number of nodes: 35
+Iter: 40 , number of nodes: 36
+Iter: 41 , number of nodes: 37
+Iter: 42 , number of nodes: 38
+Iter: 43 , number of nodes: 39
+Iter: 44 , number of nodes: 40
+Iter: 45 , number of nodes: 41
+Iter: 46 , number of nodes: 42
+Iter: 47 , number of nodes: 43
+Iter: 48 , number of nodes: 44
+Iter: 49 , number of nodes: 45
+Iter: 50 , number of nodes: 46
+Iter: 51 , number of nodes: 47
+Iter: 52 , number of nodes: 48
+Iter: 53 , number of nodes: 49
+Iter: 54 , number of nodes: 49
+Iter: 55 , number of nodes: 50
+Iter: 56 , number of nodes: 51
+Iter: 57 , number of nodes: 52
+Iter: 58 , number of nodes: 53
+Iter: 59 , number of nodes: 54
+Iter: 60 , number of nodes: 55
+Iter: 61 , number of nodes: 56
+Iter: 62 , number of nodes: 57
+Iter: 63 , number of nodes: 58
+Iter: 64 , number of nodes: 58
+Iter: 65 , number of nodes: 59
+Iter: 66 , number of nodes: 60
+Iter: 67 , number of nodes: 61
+Iter: 68 , number of nodes: 62
+Iter: 69 , number of nodes: 63
+Iter: 70 , number of nodes: 64
+Iter: 71 , number of nodes: 65
+Iter: 72 , number of nodes: 65
+Iter: 73 , number of nodes: 66
+Iter: 74 , number of nodes: 67
+Iter: 75 , number of nodes: 68
+Iter: 76 , number of nodes: 69
+Iter: 77 , number of nodes: 70
+Iter: 78 , number of nodes: 71
+Iter: 79 , number of nodes: 72
+Iter: 80 , number of nodes: 73
+Iter: 81 , number of nodes: 74
+Iter: 82 , number of nodes: 75
+Iter: 83 , number of nodes: 76
+Iter: 84 , number of nodes: 77
+Iter: 85 , number of nodes: 78
+Iter: 86 , number of nodes: 79
+Iter: 87 , number of nodes: 80
+Iter: 88 , number of nodes: 81
+Iter: 89 , number of nodes: 82
+Iter: 90 , number of nodes: 83
+Iter: 91 , number of nodes: 84
+Iter: 92 , number of nodes: 85
+Iter: 93 , number of nodes: 86
+Iter: 94 , number of nodes: 87
+Iter: 95 , number of nodes: 88
+Iter: 96 , number of nodes: 89
+Iter: 97 , number of nodes: 90
+Iter: 98 , number of nodes: 91
+Iter: 99 , number of nodes: 92
+Iter: 100 , number of nodes: 93
+Iter: 101 , number of nodes: 94
+Iter: 102 , number of nodes: 95
+Iter: 103 , number of nodes: 96
+Iter: 104 , number of nodes: 97
+Iter: 105 , number of nodes: 98
+Iter: 106 , number of nodes: 99
+Iter: 107 , number of nodes: 100
+Iter: 108 , number of nodes: 101
+Iter: 109 , number of nodes: 102
+Iter: 110 , number of nodes: 103
+Iter: 111 , number of nodes: 104
+Iter: 112 , number of nodes: 105
+Iter: 113 , number of nodes: 106
+Iter: 114 , number of nodes: 107
+Iter: 115 , number of nodes: 108
+Iter: 116 , number of nodes: 109
+Iter: 117 , number of nodes: 110
+Iter: 118 , number of nodes: 110
+Iter: 119 , number of nodes: 111
+Iter: 120 , number of nodes: 112
+Iter: 121 , number of nodes: 113
+Iter: 122 , number of nodes: 114
+Iter: 123 , number of nodes: 115
+Iter: 124 , number of nodes: 116
+Iter: 125 , number of nodes: 117
+Iter: 126 , number of nodes: 118
+Iter: 127 , number of nodes: 119
+Iter: 128 , number of nodes: 120
+Iter: 129 , number of nodes: 121
+Iter: 130 , number of nodes: 122
+Iter: 131 , number of nodes: 123
+Iter: 132 , number of nodes: 124
+Iter: 133 , number of nodes: 125
+Iter: 134 , number of nodes: 126
+Iter: 135 , number of nodes: 127
+Iter: 136 , number of nodes: 128
+Iter: 137 , number of nodes: 129
+Iter: 138 , number of nodes: 130
+Iter: 139 , number of nodes: 131
+Iter: 140 , number of nodes: 132
+Iter: 141 , number of nodes: 133
+Iter: 142 , number of nodes: 134
+Iter: 143 , number of nodes: 135
+Iter: 144 , number of nodes: 136
+Iter: 145 , number of nodes: 137
+Iter: 146 , number of nodes: 138
+Iter: 147 , number of nodes: 139
+Iter: 148 , number of nodes: 140
+Iter: 149 , number of nodes: 141
+Iter: 150 , number of nodes: 142
+Iter: 151 , number of nodes: 143
+Iter: 152 , number of nodes: 144
+Iter: 153 , number of nodes: 145
+Iter: 154 , number of nodes: 146
+Iter: 155 , number of nodes: 147
+Iter: 156 , number of nodes: 148
+Iter: 157 , number of nodes: 149
+Iter: 158 , number of nodes: 150
+Iter: 159 , number of nodes: 150
+Iter: 160 , number of nodes: 151
+Iter: 161 , number of nodes: 151
+Iter: 162 , number of nodes: 152
+Iter: 163 , number of nodes: 153
+Iter: 164 , number of nodes: 154
+Iter: 165 , number of nodes: 155
+Iter: 166 , number of nodes: 156
+Iter: 167 , number of nodes: 157
+Iter: 168 , number of nodes: 158
+Iter: 169 , number of nodes: 159
+Iter: 170 , number of nodes: 160
+Iter: 171 , number of nodes: 161
+Iter: 172 , number of nodes: 162
+Iter: 173 , number of nodes: 163
+Iter: 174 , number of nodes: 163
+Iter: 175 , number of nodes: 164
+Iter: 176 , number of nodes: 165
+Iter: 177 , number of nodes: 166
+Iter: 178 , number of nodes: 166
+Iter: 179 , number of nodes: 167
+Iter: 180 , number of nodes: 168
+Iter: 181 , number of nodes: 169
+Iter: 182 , number of nodes: 170
+Iter: 183 , number of nodes: 171
+Iter: 184 , number of nodes: 172
+Iter: 185 , number of nodes: 173
+Iter: 186 , number of nodes: 174
+Iter: 187 , number of nodes: 175
+Iter: 188 , number of nodes: 176
+Iter: 189 , number of nodes: 177
+Iter: 190 , number of nodes: 178
+Iter: 191 , number of nodes: 179
+Iter: 192 , number of nodes: 179
+Iter: 193 , number of nodes: 180
+Iter: 194 , number of nodes: 181
+Iter: 195 , number of nodes: 182
+Iter: 196 , number of nodes: 183
+Iter: 197 , number of nodes: 184
+Iter: 198 , number of nodes: 185
+Iter: 199 , number of nodes: 186
+reached max iteration
+Cannot find path
+Done
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_rrt_star.py: 374.701856136322s cumulative, 129.16216802597046s individual
+
+
+tests/test_lqr_speed_steer_control.py LQR steering control tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_speed_steer_control.py: 376.7492253780365s cumulative, 2.0473692417144775s individual
+
+
+tests/test_two_joint_arm_to_point_control.py .
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_two_joint_arm_to_point_control.py: 376.76826786994934s cumulative, 0.019042491912841797s individual
+
+
+tests/test_cgmres_nmpc.py norm(F) = 1.7468521435594908
+norm(F) = 13.486917967223178
+norm(F) = 5.1689429547075525
+norm(F) = 5.806801267217198
+norm(F) = 4.323731389236066
+norm(F) = 2.667647798505335
+norm(F) = 1.3816244150580583
+norm(F) = 0.7101099833757252
+norm(F) = 0.4722541827972441
+norm(F) = 0.4313119414268838
+norm(F) = 0.46781993371738045
+norm(F) = 0.4880447561961796
+norm(F) = 0.5167410389473174
+norm(F) = 0.5685899202344227
+norm(F) = 0.5479014679228018
+norm(F) = 0.5584152142313994
+norm(F) = 0.5622814976802071
+norm(F) = 0.5626457164033637
+norm(F) = 0.5609777908302725
+norm(F) = 0.5561560315739001
+norm(F) = 0.549005737717919
+norm(F) = 0.5402973293956899
+norm(F) = 0.5321655149331239
+norm(F) = 0.5251958170944038
+norm(F) = 0.5203544267437439
+norm(F) = 0.5174572772829749
+norm(F) = 0.5164276274557575
+norm(F) = 0.5165807320984116
+norm(F) = 0.5182190166863403
+norm(F) = 0.5214867627063102
+norm(F) = 0.526148783872105
+norm(F) = 0.5316526891122486
+norm(F) = 0.5360423573179823
+norm(F) = 0.5412776044412871
+norm(F) = 0.5482114140251616
+norm(F) = 0.5533181486088025
+norm(F) = 0.5585632299160853
+norm(F) = 0.5634831334205986
+norm(F) = 0.5682105418619492
+norm(F) = 0.57293174722434
+norm(F) = 0.5773483189878157
+norm(F) = 0.5815816836616253
+norm(F) = 0.5855194658332681
+norm(F) = 0.589307429026295
+norm(F) = 0.5928807598302419
+norm(F) = 0.5961057979973161
+norm(F) = 0.5991214939629826
+norm(F) = 0.6018039981686649
+norm(F) = 0.6043203324497086
+norm(F) = 0.6067712630751905
+norm(F) = 0.6089898708785711
+norm(F) = 0.6114401728299482
+norm(F) = 0.6130896889736273
+norm(F) = 0.6148602613550183
+norm(F) = 0.6165956444207933
+norm(F) = 0.6182198664759395
+norm(F) = 0.6197878585240073
+norm(F) = 0.6212859651789866
+norm(F) = 0.6226942114867526
+norm(F) = 0.6239731508403363
+norm(F) = 0.6251666098344699
+norm(F) = 0.6262949924572623
+norm(F) = 0.6274146922125455
+norm(F) = 0.6284918409818552
+norm(F) = 0.629598600123293
+norm(F) = 0.6306520359427993
+norm(F) = 0.6318289034946837
+norm(F) = 0.6327946653294256
+norm(F) = 0.6339197144791129
+norm(F) = 0.635083962286842
+norm(F) = 0.6364856859189018
+norm(F) = 0.6382225660097607
+norm(F) = 0.6401968910129979
+norm(F) = 0.6415089093081155
+norm(F) = 0.6424083886203263
+norm(F) = 0.6432525068021724
+norm(F) = 0.6443088395164775
+norm(F) = 0.6453928923268142
+norm(F) = 0.6465502254837827
+norm(F) = 0.6478403393801347
+norm(F) = 0.649229181840478
+norm(F) = 0.6506995108499642
+norm(F) = 0.6522584319516608
+norm(F) = 0.6538480312144881
+norm(F) = 0.6554851593087863
+norm(F) = 0.6572508364838455
+norm(F) = 0.6590725142630105
+norm(F) = 0.6609465843399271
+norm(F) = 0.6629357890420641
+norm(F) = 0.6649186961344965
+norm(F) = 0.6669461777058902
+norm(F) = 0.6690590862746135
+norm(F) = 0.6711905074040506
+norm(F) = 0.6733406325503677
+norm(F) = 0.6755927689809077
+norm(F) = 0.6778941693146568
+norm(F) = 0.6802905160450197
+norm(F) = 0.6827614213554496
+norm(F) = 0.6853622163625122
+norm(F) = 0.6881522640126705
+norm(F) = 0.6914309219368052
+norm(F) = 0.6954521519407509
+norm(F) = 0.6996224509731155
+norm(F) = 0.7022016474907625
+norm(F) = 0.7043476036176562
+norm(F) = 0.706461735929877
+norm(F) = 0.708545870957468
+norm(F) = 0.7105445935735891
+norm(F) = 0.712588745740743
+norm(F) = 0.7144950567628495
+norm(F) = 0.7163882666355893
+norm(F) = 0.7181597371314828
+norm(F) = 0.7198651666617024
+norm(F) = 0.7214875136276375
+norm(F) = 0.7231049636787515
+norm(F) = 0.7246123421757571
+norm(F) = 0.7260205753330065
+norm(F) = 0.7273457901200302
+norm(F) = 0.728583170406606
+norm(F) = 0.7296642308450868
+norm(F) = 0.7304495868034803
+norm(F) = 0.7315168539416173
+norm(F) = 0.7327115101731387
+norm(F) = 0.7342346253504094
+norm(F) = 0.7361373077542498
+norm(F) = 0.7374305947417366
+norm(F) = 0.737570496696663
+norm(F) = 0.7371409089378315
+norm(F) = 0.7363682188872472
+norm(F) = 0.7353656489333356
+norm(F) = 0.7344600029222774
+norm(F) = 0.7332235020239206
+norm(F) = 0.7319066502802539
+norm(F) = 0.730465553913826
+norm(F) = 0.7287586477294591
+norm(F) = 0.7268937841475676
+norm(F) = 0.7248942540505192
+norm(F) = 0.7227377764626227
+norm(F) = 0.7204638235726569
+norm(F) = 0.7180119325000386
+norm(F) = 0.7154397645945834
+norm(F) = 0.7130247219004676
+norm(F) = 0.7107794320803792
+norm(F) = 0.7085425114508309
+norm(F) = 0.7057659620097527
+norm(F) = 0.7023082046163438
+norm(F) = 0.6985759665238915
+norm(F) = 0.6945267678882059
+norm(F) = 0.6903679810820234
+norm(F) = 0.6861234798528554
+norm(F) = 0.6817390011446982
+norm(F) = 0.677280396770087
+norm(F) = 0.6727495868720206
+norm(F) = 0.6682134929286965
+norm(F) = 0.6633850928591905
+norm(F) = 0.6585101155443371
+norm(F) = 0.6536072833304336
+norm(F) = 0.648854533633001
+norm(F) = 0.6440537127709709
+norm(F) = 0.639215184658241
+norm(F) = 0.6346897655073244
+norm(F) = 0.6296388602442047
+norm(F) = 0.6240855052406881
+norm(F) = 0.6184563280143753
+norm(F) = 0.6126759811111168
+norm(F) = 0.6065261605513987
+norm(F) = 0.6005047958045534
+norm(F) = 0.5944686065363789
+norm(F) = 0.5882169433268991
+norm(F) = 0.5819445906516173
+norm(F) = 0.5756456541891287
+norm(F) = 0.5694265293399546
+norm(F) = 0.5632844689248768
+norm(F) = 0.5572984306140243
+norm(F) = 0.5514424019776295
+norm(F) = 0.5452707061191043
+norm(F) = 0.5386753441622744
+norm(F) = 0.5317821209770379
+norm(F) = 0.5247156276370104
+norm(F) = 0.5175713722974533
+norm(F) = 0.5103568260285716
+norm(F) = 0.5030467935688151
+norm(F) = 0.49567309665998915
+norm(F) = 0.4883466608111708
+norm(F) = 0.4810076347928333
+norm(F) = 0.4737180875645768
+norm(F) = 0.46642527720185256
+norm(F) = 0.4591299564539779
+norm(F) = 0.4515840854470293
+norm(F) = 0.44386925319050524
+norm(F) = 0.4357612414082793
+norm(F) = 0.4272965062345938
+norm(F) = 0.4190343253462193
+norm(F) = 0.4107868554337127
+norm(F) = 0.40284017013568757
+norm(F) = 0.3947263778632405
+norm(F) = 0.38669424302994004
+norm(F) = 0.37904750089120254
+norm(F) = 0.37139779283613206
+norm(F) = 0.36391596864162645
+norm(F) = 0.35631046331735927
+norm(F) = 0.34929789417696244
+norm(F) = 0.34226731320758225
+norm(F) = 0.3354666067210797
+norm(F) = 0.32889076268561396
+norm(F) = 0.3226458468705847
+norm(F) = 0.3161417351152819
+norm(F) = 0.31010725187128657
+norm(F) = 0.3044133258237721
+norm(F) = 0.29846050475609975
+norm(F) = 0.2928106190203936
+norm(F) = 0.28732035101154874
+norm(F) = 0.28195482084815376
+norm(F) = 0.2767324512421006
+norm(F) = 0.27164323494589304
+norm(F) = 0.26659465498469037
+norm(F) = 0.2618279646735921
+norm(F) = 0.2571527782340122
+norm(F) = 0.2526003166077272
+norm(F) = 0.24817221297578906
+norm(F) = 0.24386516739664277
+norm(F) = 0.23965006339422215
+norm(F) = 0.23555027193445163
+norm(F) = 0.2315548316326448
+norm(F) = 0.2276552355281565
+norm(F) = 0.22385318573426705
+norm(F) = 0.22014358817841972
+norm(F) = 0.21652311852130118
+norm(F) = 0.21298822379742707
+norm(F) = 0.2095334835928395
+norm(F) = 0.20615062098117887
+norm(F) = 0.20285808910299
+norm(F) = 0.1997656796806374
+norm(F) = 0.19654053996868753
+norm(F) = 0.1935318570347921
+norm(F) = 0.19050063283679078
+norm(F) = 0.18753172929830356
+norm(F) = 0.18464143095026142
+norm(F) = 0.18178778155303574
+norm(F) = 0.17899055257290855
+norm(F) = 0.17625039694048503
+norm(F) = 0.1735659400114176
+norm(F) = 0.17093840112725955
+norm(F) = 0.16836660323295666
+norm(F) = 0.16584852230969527
+norm(F) = 0.1633876700158839
+norm(F) = 0.1609357363096161
+norm(F) = 0.1585729812650829
+norm(F) = 0.15625677085255513
+norm(F) = 0.15398614832704052
+norm(F) = 0.15176473524206927
+norm(F) = 0.14959066653543227
+norm(F) = 0.14746465094001177
+norm(F) = 0.14538576162621877
+norm(F) = 0.14335543283693888
+norm(F) = 0.14137227598709548
+norm(F) = 0.13943907484509255
+norm(F) = 0.13754223571323096
+norm(F) = 0.13566016822184834
+norm(F) = 0.13388833896088367
+norm(F) = 0.1321563223130859
+norm(F) = 0.13047364014598087
+norm(F) = 0.12884581094757835
+norm(F) = 0.12727105837241928
+norm(F) = 0.12574975954381268
+norm(F) = 0.12428200041015972
+norm(F) = 0.12286724333609453
+norm(F) = 0.12150635941360384
+norm(F) = 0.12021065129967604
+norm(F) = 0.11901404847351792
+norm(F) = 0.11792513986457102
+norm(F) = 0.11677781974783583
+norm(F) = 0.115733981324813
+norm(F) = 0.11473457261427053
+norm(F) = 0.11379309920268597
+norm(F) = 0.1129134368994368
+norm(F) = 0.11209456145045553
+norm(F) = 0.11133524918770292
+norm(F) = 0.11063363028245914
+norm(F) = 0.11000628144492183
+norm(F) = 0.1093948922473894
+norm(F) = 0.1088802249313826
+norm(F) = 0.1084086831851777
+norm(F) = 0.10799580635757328
+norm(F) = 0.10763106322333002
+norm(F) = 0.10732238754842197
+norm(F) = 0.10704023702803067
+norm(F) = 0.10679123985608158
+norm(F) = 0.10663262441369273
+norm(F) = 0.1065116471092254
+norm(F) = 0.10643331155017023
+norm(F) = 0.10639638645198948
+norm(F) = 0.10639831911345377
+norm(F) = 0.10643712777810556
+norm(F) = 0.10651085150382722
+norm(F) = 0.10661764831517684
+norm(F) = 0.10675578660307121
+norm(F) = 0.1069235446089492
+norm(F) = 0.10711897757868734
+norm(F) = 0.10733943995334891
+norm(F) = 0.10758075002160312
+norm(F) = 0.10783793504428436
+norm(F) = 0.1081313569215587
+norm(F) = 0.10852955371395336
+norm(F) = 0.10884130238217564
+norm(F) = 0.10927703585610654
+norm(F) = 0.1097128045003237
+norm(F) = 0.11016901507469991
+norm(F) = 0.11064803549270089
+norm(F) = 0.11115389836303322
+norm(F) = 0.11168934601102626
+norm(F) = 0.11225566804600566
+norm(F) = 0.11285273626901034
+norm(F) = 0.1134795435381481
+norm(F) = 0.11413483959821961
+norm(F) = 0.11481749411304767
+norm(F) = 0.11552652227990087
+norm(F) = 0.1162608184048543
+norm(F) = 0.11701872469513697
+norm(F) = 0.1177977469820833
+norm(F) = 0.11859472446876473
+norm(F) = 0.11940636173385798
+norm(F) = 0.12022973564646042
+norm(F) = 0.12106254109777667
+norm(F) = 0.12190308984926583
+norm(F) = 0.12275016869356137
+norm(F) = 0.12360284802566675
+norm(F) = 0.12446030033359384
+norm(F) = 0.12532166524398594
+norm(F) = 0.12618597525087236
+norm(F) = 0.12705213452401753
+norm(F) = 0.1279189316247023
+norm(F) = 0.1287850671461464
+norm(F) = 0.12964918329676942
+norm(F) = 0.13050988903608407
+norm(F) = 0.13136577862853288
+norm(F) = 0.13221544387869708
+norm(F) = 0.13305748111279556
+norm(F) = 0.13389049419823354
+norm(F) = 0.13471309483658653
+norm(F) = 0.13552390166583517
+norm(F) = 0.13632154041183778
+norm(F) = 0.1371046494910671
+norm(F) = 0.1378336863359475
+norm(F) = 0.13864797467407886
+norm(F) = 0.13937329644117805
+norm(F) = 0.14008770101997045
+norm(F) = 0.140781751318334
+norm(F) = 0.14145735483363497
+norm(F) = 0.1421587773847369
+norm(F) = 0.142742613651
+norm(F) = 0.1434314579239804
+norm(F) = 0.14402877044776086
+norm(F) = 0.1445895720017903
+norm(F) = 0.14513620811825922
+norm(F) = 0.1456618553068199
+norm(F) = 0.14616492295926983
+norm(F) = 0.14664355133930085
+norm(F) = 0.1470963305998418
+norm(F) = 0.1475223222214541
+norm(F) = 0.14792099166759853
+norm(F) = 0.14829206775354392
+norm(F) = 0.14863544575668602
+norm(F) = 0.14895111925422239
+norm(F) = 0.14923914410203856
+norm(F) = 0.1494996197537461
+norm(F) = 0.14973268165267095
+norm(F) = 0.1499384986488949
+norm(F) = 0.15011727285426194
+norm(F) = 0.15026924017670953
+norm(F) = 0.15039467083535504
+norm(F) = 0.15049386940462936
+norm(F) = 0.1505671741817026
+norm(F) = 0.15061495561266786
+norm(F) = 0.15060140128661886
+norm(F) = 0.1506480952930234
+norm(F) = 0.1506198402116834
+norm(F) = 0.1505724060376648
+norm(F) = 0.15050120040718507
+norm(F) = 0.1504077086851581
+norm(F) = 0.1502924427010421
+norm(F) = 0.15015607670747044
+norm(F) = 0.1499992963987754
+norm(F) = 0.14982281179076387
+norm(F) = 0.14962735460492887
+norm(F) = 0.14941367568269667
+norm(F) = 0.14918254287958269
+norm(F) = 0.14893473842417615
+norm(F) = 0.14867105623768107
+norm(F) = 0.1483922989468565
+norm(F) = 0.1480992747476536
+norm(F) = 0.14779279419709146
+norm(F) = 0.1474736673394547
+norm(F) = 0.14714270197558885
+norm(F) = 0.14680070458355388
+norm(F) = 0.14644848595610363
+norm(F) = 0.14608687283078808
+norm(F) = 0.1457167225113771
+norm(F) = 0.14533893053645236
+norm(F) = 0.14495442175113468
+norm(F) = 0.144564133025421
+norm(F) = 0.14416901011413732
+norm(F) = 0.14377001594498665
+norm(F) = 0.14336811263963944
+norm(F) = 0.1430034624971174
+norm(F) = 0.14257668792625333
+norm(F) = 0.14221559441752857
+norm(F) = 0.14180530299816307
+norm(F) = 0.14140030228690967
+norm(F) = 0.14099454516093565
+norm(F) = 0.14059593810987125
+norm(F) = 0.1401939652137734
+norm(F) = 0.13979857670994467
+norm(F) = 0.13939960314353092
+norm(F) = 0.13901026994170207
+norm(F) = 0.13862182582291208
+norm(F) = 0.13824404119294736
+norm(F) = 0.13786817314360592
+norm(F) = 0.1374958368591778
+norm(F) = 0.13713035508292454
+norm(F) = 0.13677108021443432
+norm(F) = 0.13641794974104526
+norm(F) = 0.136077850968732
+norm(F) = 0.13572790190519993
+norm(F) = 0.13541320721711023
+norm(F) = 0.13507131566310662
+norm(F) = 0.1347776213369042
+norm(F) = 0.13445516507229358
+norm(F) = 0.1341749632567459
+norm(F) = 0.13387590186522458
+norm(F) = 0.13361998529905456
+norm(F) = 0.13338035785077376
+norm(F) = 0.1331417642172818
+norm(F) = 0.1328993373624652
+norm(F) = 0.1326721626769157
+norm(F) = 0.1324483619383924
+norm(F) = 0.13223446883301596
+norm(F) = 0.13203104566505988
+norm(F) = 0.13183183928172462
+norm(F) = 0.13164859979623805
+norm(F) = 0.13146540692579922
+norm(F) = 0.13129980230048963
+norm(F) = 0.13113468528026134
+norm(F) = 0.13098397877848666
+norm(F) = 0.1308377787028127
+norm(F) = 0.13070164202176085
+norm(F) = 0.13057261649862575
+norm(F) = 0.1304514831737521
+norm(F) = 0.1303377205496659
+norm(F) = 0.13023112466444944
+norm(F) = 0.130131438922661
+norm(F) = 0.13003839716008483
+norm(F) = 0.12995173680305425
+norm(F) = 0.1298711927445449
+norm(F) = 0.12979650074914983
+norm(F) = 0.12972739718453696
+norm(F) = 0.12966361952630145
+norm(F) = 0.12960490669997513
+norm(F) = 0.1295509995345795
+norm(F) = 0.12950164124926106
+norm(F) = 0.12945657795920687
+norm(F) = 0.12941555917084577
+norm(F) = 0.12937833824792697
+norm(F) = 0.12934467283626463
+norm(F) = 0.1293143252399452
+norm(F) = 0.12928706274605292
+norm(F) = 0.12926265789736419
+norm(F) = 0.12924088871442874
+norm(F) = 0.1292215388695155
+norm(F) = 0.1292043978157191
+norm(F) = 0.12918926087495505
+norm(F) = 0.12917592928862437
+norm(F) = 0.12916421023487012
+norm(F) = 0.12915391681599064
+norm(F) = 0.1291448680196487
+norm(F) = 0.12913688865696768
+norm(F) = 0.12912980928040657
+norm(F) = 0.12912346608406616
+norm(F) = 0.1291177007882866
+norm(F) = 0.1291123605098548
+norm(F) = 0.12910729761743983
+norm(F) = 0.12910236956915222
+norm(F) = 0.1290974387236093
+norm(F) = 0.12909237210554994
+norm(F) = 0.129087041087333
+norm(F) = 0.1290813209119149
+norm(F) = 0.12907508991686556
+norm(F) = 0.12906822819940272
+norm(F) = 0.12906061523985315
+norm(F) = 0.12905212557054574
+norm(F) = 0.12904262069351127
+norm(F) = 0.12903193354326878
+norm(F) = 0.129019837607691
+norm(F) = 0.12900598410014397
+norm(F) = 0.12898977890728858
+norm(F) = 0.12897033411645883
+norm(F) = 0.12894968870918133
+norm(F) = 0.12893676563144035
+norm(F) = 0.12892354567684994
+norm(F) = 0.12890445646584345
+norm(F) = 0.1288818403732601
+norm(F) = 0.12885700533397643
+norm(F) = 0.12883020601269654
+norm(F) = 0.12880144296713805
+norm(F) = 0.12877071294690515
+norm(F) = 0.12873811407796226
+norm(F) = 0.12870400515665598
+norm(F) = 0.1286711541609368
+norm(F) = 0.12864602705450784
+norm(F) = 0.12861049432709237
+norm(F) = 0.12857911832820546
+norm(F) = 0.12854419710801573
+norm(F) = 0.12850745774731798
+norm(F) = 0.12846616684585926
+norm(F) = 0.12842301356168764
+norm(F) = 0.12837584937493263
+norm(F) = 0.12832678729708846
+norm(F) = 0.1282745121680225
+norm(F) = 0.1282202268658165
+norm(F) = 0.12816331788867466
+norm(F) = 0.1281043679554392
+norm(F) = 0.12804314750699214
+norm(F) = 0.12797993030044544
+norm(F) = 0.12791465070918434
+norm(F) = 0.12784744421818148
+norm(F) = 0.12777830091856934
+norm(F) = 0.12770728828474917
+norm(F) = 0.12763440434334983
+norm(F) = 0.12755967498284884
+norm(F) = 0.12748308942170233
+norm(F) = 0.12740464795916556
+norm(F) = 0.1273243328729861
+norm(F) = 0.12724213533628012
+norm(F) = 0.1271580415364688
+norm(F) = 0.12707205012690817
+norm(F) = 0.1269841646775632
+norm(F) = 0.12689440641224461
+norm(F) = 0.12680280718294154
+norm(F) = 0.12670941728611737
+norm(F) = 0.1266142916891692
+norm(F) = 0.12651749151970945
+norm(F) = 0.12641905949943533
+norm(F) = 0.12631902755372834
+norm(F) = 0.12621739030174603
+norm(F) = 0.12611415224136874
+norm(F) = 0.12600927934957054
+norm(F) = 0.12590281473374235
+norm(F) = 0.12579469083702874
+norm(F) = 0.12568507351795072
+norm(F) = 0.12557369902685345
+norm(F) = 0.12546115669885693
+norm(F) = 0.12534638110348542
+norm(F) = 0.12523181101476308
+norm(F) = 0.12511357519288932
+norm(F) = 0.1250006770835042
+norm(F) = 0.12487821366880582
+norm(F) = 0.12476170348237921
+norm(F) = 0.12463144101332635
+norm(F) = 0.12450726293684466
+norm(F) = 0.12441503835279674
+norm(F) = 0.12426769546385233
+norm(F) = 0.12412654521614946
+norm(F) = 0.12399842682895787
+norm(F) = 0.12386517097675082
+norm(F) = 0.12373458575411904
+norm(F) = 0.12359616195567748
+norm(F) = 0.12346065277275571
+norm(F) = 0.12331945423226293
+norm(F) = 0.12317401902536018
+norm(F) = 0.12305177575556948
+norm(F) = 0.12290964974848123
+norm(F) = 0.12276646544367133
+norm(F) = 0.12262322628894107
+norm(F) = 0.12247759746394883
+norm(F) = 0.12233164663136609
+norm(F) = 0.12218434640582031
+norm(F) = 0.12203625837084718
+norm(F) = 0.12188710161537795
+norm(F) = 0.12173674823279447
+norm(F) = 0.12158561757676091
+norm(F) = 0.12143298927545633
+norm(F) = 0.12127979623259962
+norm(F) = 0.12112489606528917
+norm(F) = 0.12096960543740952
+norm(F) = 0.12081249852168789
+norm(F) = 0.1206551403411317
+norm(F) = 0.12049592822874843
+norm(F) = 0.12033655638364969
+norm(F) = 0.12017534099529986
+norm(F) = 0.12001401096733941
+norm(F) = 0.11985088486925592
+norm(F) = 0.11968765130590354
+norm(F) = 0.11952269919142705
+norm(F) = 0.11935761780013446
+norm(F) = 0.11919091869986143
+norm(F) = 0.11902404744470439
+norm(F) = 0.11885567597264841
+norm(F) = 0.11868707543944275
+norm(F) = 0.11851710245451524
+norm(F) = 0.11834683580794261
+norm(F) = 0.11817532881158632
+norm(F) = 0.11800346154811348
+norm(F) = 0.11783048494327303
+norm(F) = 0.11765708448832987
+norm(F) = 0.11748269974384307
+norm(F) = 0.11730783488123431
+norm(F) = 0.11713210064166635
+norm(F) = 0.11695584076622155
+norm(F) = 0.11677881299349806
+norm(F) = 0.1166012272396503
+norm(F) = 0.11642295954103855
+norm(F) = 0.11624411593961173
+norm(F) = 0.11606466025200089
+norm(F) = 0.11588462512964218
+norm(F) = 0.11570403279621402
+norm(F) = 0.11552287056422376
+norm(F) = 0.11534119356665805
+norm(F) = 0.11515896685903
+norm(F) = 0.11497625876706258
+norm(F) = 0.1147930287390828
+norm(F) = 0.1146093450378723
+norm(F) = 0.11442517165203973
+norm(F) = 0.11424056944669513
+norm(F) = 0.11405551168894938
+norm(F) = 0.1138700490638871
+norm(F) = 0.11368416510832582
+norm(F) = 0.11349790045621959
+norm(F) = 0.1133112477956452
+norm(F) = 0.11312423929999019
+norm(F) = 0.11293687483806683
+norm(F) = 0.11274918015047493
+norm(F) = 0.11256116024811584
+norm(F) = 0.1123728363224645
+norm(F) = 0.11218421680258459
+norm(F) = 0.11199531982856188
+norm(F) = 0.11180615595297169
+norm(F) = 0.1116167413415084
+norm(F) = 0.11142708777550943
+norm(F) = 0.11123721016570817
+norm(F) = 0.11104712094197788
+norm(F) = 0.11085683421374791
+norm(F) = 0.11066636270195884
+norm(F) = 0.11047571998777884
+norm(F) = 0.1102849188722808
+norm(F) = 0.11009397256664288
+norm(F) = 0.10990289383226466
+norm(F) = 0.10971169559947705
+norm(F) = 0.10952039052449043
+norm(F) = 0.10932899130618973
+norm(F) = 0.10913751046132614
+norm(F) = 0.10894596048477663
+norm(F) = 0.10875435373707903
+norm(F) = 0.10856270252482036
+norm(F) = 0.10837101904511556
+norm(F) = 0.10817931542572536
+norm(F) = 0.10798760369798988
+norm(F) = 0.1077958958167022
+norm(F) = 0.10760420364689219
+norm(F) = 0.10741253897333754
+norm(F) = 0.10722091349364346
+norm(F) = 0.10702933882197915
+norm(F) = 0.10683782648428997
+norm(F) = 0.1066463879179794
+norm(F) = 0.10645503446658534
+norm(F) = 0.1062637773755085
+norm(F) = 0.10607262778384652
+norm(F) = 0.10588159671497319
+norm(F) = 0.10569069506301505
+norm(F) = 0.10549993357596273
+norm(F) = 0.10530932283339274
+norm(F) = 0.10511887321849028
+norm(F) = 0.10495564316106498
+norm(F) = 0.104751703490447
+norm(F) = 0.10457246243895717
+norm(F) = 0.10437218860303206
+norm(F) = 0.10419132159187376
+norm(F) = 0.10399300628223539
+norm(F) = 0.10381079561886739
+norm(F) = 0.10361468973831318
+norm(F) = 0.10343119328295
+norm(F) = 0.10323733255424263
+norm(F) = 0.10305256763099066
+norm(F) = 0.10286101231575495
+norm(F) = 0.10267500657067735
+norm(F) = 0.10248905804523344
+norm(F) = 0.10230341423196507
+norm(F) = 0.10211578865674396
+norm(F) = 0.10192897456848907
+norm(F) = 0.10174225759160417
+norm(F) = 0.10155589493098124
+norm(F) = 0.10136983989264649
+norm(F) = 0.10118413807396962
+norm(F) = 0.1009987873255391
+norm(F) = 0.10081380077628302
+norm(F) = 0.10062918132507757
+norm(F) = 0.10044493393916258
+norm(F) = 0.1002610600120264
+norm(F) = 0.1000775599191217
+norm(F) = 0.09989443122554659
+norm(F) = 0.09971166880491816
+norm(F) = 0.09952926360986888
+norm(F) = 0.0993472016976542
+norm(F) = 0.09916546254245918
+norm(F) = 0.09898401712576954
+norm(F) = 0.09880282597843475
+norm(F) = 0.09862183937116456
+norm(F) = 0.0984410074213779
+norm(F) = 0.09826032833651076
+norm(F) = 0.09808002919227522
+norm(F) = 0.09790111811341985
+norm(F) = 0.09772619561459771
+norm(F) = 0.09755701321843306
+norm(F) = 0.09738890623478938
+norm(F) = 0.09721804710426882
+norm(F) = 0.09704500425539045
+norm(F) = 0.09687089316360192
+norm(F) = 0.09669653681653481
+norm(F) = 0.09652239604501207
+norm(F) = 0.09634870051668258
+norm(F) = 0.09617555710046037
+norm(F) = 0.09600301702658988
+norm(F) = 0.09583110587966819
+norm(F) = 0.09565983837119636
+norm(F) = 0.09548922407905933
+norm(F) = 0.09531927032498902
+norm(F) = 0.09514998316543288
+norm(F) = 0.09498136795599671
+norm(F) = 0.09481342951728967
+norm(F) = 0.09464617227320041
+norm(F) = 0.0944796003018204
+norm(F) = 0.09431371740108557
+norm(F) = 0.09414852713122192
+norm(F) = 0.09398403286398732
+norm(F) = 0.09382023782126968
+norm(F) = 0.09365714511259081
+norm(F) = 0.09349475776466416
+norm(F) = 0.0933330787464341
+norm(F) = 0.093172110987312
+norm(F) = 0.09301185739012155
+norm(F) = 0.09284482113093152
+norm(F) = 0.09275305705717679
+norm(F) = 0.09252920369826406
+norm(F) = 0.09236609093312562
+norm(F) = 0.09229565262496435
+norm(F) = 0.0920575957317331
+norm(F) = 0.09189803715051702
+norm(F) = 0.09182759057501574
+norm(F) = 0.09159556697603201
+norm(F) = 0.09143852300695475
+norm(F) = 0.09137317692328951
+norm(F) = 0.09113905140584432
+norm(F) = 0.09098470671018165
+norm(F) = 0.09092061146216883
+norm(F) = 0.09068983128727112
+norm(F) = 0.09053805815134512
+norm(F) = 0.09047647635333092
+norm(F) = 0.09024707684387283
+norm(F) = 0.0900978241362986
+norm(F) = 0.09003754313944656
+norm(F) = 0.0898111972939635
+norm(F) = 0.08966452304806005
+norm(F) = 0.08960556237672503
+norm(F) = 0.08938203603588947
+norm(F) = 0.0892379715660709
+norm(F) = 0.08917972356833702
+norm(F) = 0.08895967997797918
+norm(F) = 0.08881837296972322
+norm(F) = 0.08876049917173769
+norm(F) = 0.08854409629904897
+norm(F) = 0.08840570042124757
+norm(F) = 0.08834770443123935
+norm(F) = 0.08813529549460895
+norm(F) = 0.08800004017565242
+norm(F) = 0.08794148800108346
+norm(F) = 0.08773326651047057
+norm(F) = 0.08760138988074312
+norm(F) = 0.08754183072079433
+norm(F) = 0.08733800814145161
+norm(F) = 0.08720977399215467
+norm(F) = 0.08714880829168911
+norm(F) = 0.0869495205554231
+norm(F) = 0.08682517375208827
+norm(F) = 0.08676245496737417
+norm(F) = 0.08656780787258533
+norm(F) = 0.08644757358100098
+norm(F) = 0.08638283294094529
+norm(F) = 0.08619287715645035
+norm(F) = 0.0860769370942588
+norm(F) = 0.08600998902055679
+norm(F) = 0.08582473427637549
+norm(F) = 0.08571323090802446
+norm(F) = 0.08564396971355928
+norm(F) = 0.08546338353812927
+norm(F) = 0.08535641594461973
+norm(F) = 0.085284805396138
+norm(F) = 0.08510882383993247
+norm(F) = 0.08500645937736895
+norm(F) = 0.08493251329152791
+norm(F) = 0.08476104951227366
+norm(F) = 0.08466332845796426
+norm(F) = 0.08458709425187748
+norm(F) = 0.08442004842064241
+norm(F) = 0.08432699486452333
+norm(F) = 0.08424853534463965
+norm(F) = 0.08408580359274295
+norm(F) = 0.08399742899932307
+norm(F) = 0.08391681213296212
+norm(F) = 0.08375829235645973
+norm(F) = 0.08367460144455029
+norm(F) = 0.08359189097779493
+norm(F) = 0.08343748784897129
+norm(F) = 0.08335847881752005
+norm(F) = 0.08327373206725801
+norm(F) = 0.0831233583829906
+norm(F) = 0.08304902488184783
+norm(F) = 0.0829622904151511
+norm(F) = 0.08281586857663427
+norm(F) = 0.08274619802146924
+norm(F) = 0.08265751813767934
+norm(F) = 0.08251497875130792
+norm(F) = 0.082449952516322
+norm(F) = 0.0823593643825521
+norm(F) = 0.08222064577466587
+norm(F) = 0.08216023708445165
+norm(F) = 0.082067776923987
+norm(F) = 0.08193282247935092
+norm(F) = 0.08187699625831396
+norm(F) = 0.08178270151012405
+norm(F) = 0.08171575500514405
+norm(F) = 0.08159125946046693
+norm(F) = 0.0814680984011657
+norm(F) = 0.08141884124405464
+norm(F) = 0.08132158801850065
+norm(F) = 0.08126326343109862
+norm(F) = 0.08113800334262516
+norm(F) = 0.08109014552337782
+norm(F) = 0.08095825061803628
+norm(F) = 0.0809175077905504
+norm(F) = 0.08078252978201986
+norm(F) = 0.08074642716934771
+norm(F) = 0.08061036225780133
+norm(F) = 0.0805772617381365
+norm(F) = 0.08044111452760812
+norm(F) = 0.08041145032519817
+norm(F) = 0.08027465659706115
+norm(F) = 0.08024909677781794
+norm(F) = 0.08011115631349852
+norm(F) = 0.08008962869545673
+norm(F) = 0.07995048207662742
+norm(F) = 0.07993303786014047
+norm(F) = 0.07979261978381628
+norm(F) = 0.0797792338229139
+norm(F) = 0.07963753634444465
+norm(F) = 0.07962832958275864
+norm(F) = 0.07948531917525505
+norm(F) = 0.07948008514426218
+norm(F) = 0.0793359726331008
+norm(F) = 0.0793345277424032
+norm(F) = 0.07918958535822565
+norm(F) = 0.07919117695068119
+norm(F) = 0.07904597530952749
+norm(F) = 0.07905023835772601
+norm(F) = 0.07890512095418172
+norm(F) = 0.07891116638721965
+norm(F) = 0.07876667246274302
+norm(F) = 0.07877474146617455
+norm(F) = 0.07863083180772186
+norm(F) = 0.078639947954099
+norm(F) = 0.07849709056067927
+norm(F) = 0.07850873954583107
+norm(F) = 0.07836633105590285
+norm(F) = 0.07837776772459616
+norm(F) = 0.07823686855682861
+norm(F) = 0.07825505695673302
+norm(F) = 0.07811263330692919
+norm(F) = 0.07812838866349939
+norm(F) = 0.07798816859921014
+norm(F) = 0.07800884847128026
+norm(F) = 0.07786698580860082
+norm(F) = 0.07788645906161884
+norm(F) = 0.07774711653455914
+norm(F) = 0.07776995123747461
+norm(F) = 0.07763115882352761
+norm(F) = 0.07765425799865878
+norm(F) = 0.07751640629599459
+norm(F) = 0.0775437238321974
+norm(F) = 0.07740426892959497
+norm(F) = 0.07743115414735381
+norm(F) = 0.07729368425084761
+norm(F) = 0.07732258196230385
+norm(F) = 0.07718639551761318
+norm(F) = 0.07721680182043064
+norm(F) = 0.07708090483817391
+norm(F) = 0.0771136903362507
+norm(F) = 0.0769771643699246
+norm(F) = 0.07701036625160489
+norm(F) = 0.07687563437026165
+norm(F) = 0.076909371242136
+norm(F) = 0.07677664651878632
+norm(F) = 0.07681352644963589
+norm(F) = 0.07668009043004591
+norm(F) = 0.07671723244904591
+norm(F) = 0.07658446358690522
+norm(F) = 0.07662258019825742
+norm(F) = 0.07649173788048089
+norm(F) = 0.07652923021126402
+norm(F) = 0.0764006266663509
+norm(F) = 0.07644074585709691
+norm(F) = 0.07631156135683405
+norm(F) = 0.07635273882315202
+norm(F) = 0.07622475846538483
+norm(F) = 0.07626564283668133
+norm(F) = 0.0761391401914614
+norm(F) = 0.07618242878079072
+norm(F) = 0.07605640339780487
+norm(F) = 0.0760982880343652
+norm(F) = 0.07597401407504649
+norm(F) = 0.07601920896673851
+norm(F) = 0.07589531281633034
+norm(F) = 0.07593862475348245
+norm(F) = 0.0758165878950415
+norm(F) = 0.07586243057799806
+norm(F) = 0.07574037855162168
+norm(F) = 0.07578589657588933
+norm(F) = 0.07566606252730403
+norm(F) = 0.0757144856727555
+norm(F) = 0.07559332341480338
+norm(F) = 0.075638349376755
+norm(F) = 0.07551941681536695
+norm(F) = 0.07557483946351536
+norm(F) = 0.07545715101814822
+norm(F) = 0.07550237438920679
+norm(F) = 0.07538672723768952
+norm(F) = 0.07543000891847759
+norm(F) = 0.0753175330183263
+norm(F) = 0.07536369968761807
+norm(F) = 0.07525157171729813
+norm(F) = 0.07530672437029247
+norm(F) = 0.07518969850506212
+norm(F) = 0.07524264277870744
+norm(F) = 0.07512645533995507
+norm(F) = 0.07518142874364399
+norm(F) = 0.07506738061726528
+norm(F) = 0.07512154477362566
+norm(F) = 0.07500777389453456
+norm(F) = 0.07505657361723095
+norm(F) = 0.07494788641586292
+norm(F) = 0.07501009083544176
+norm(F) = 0.07490518536882718
+norm(F) = 0.07486170977220423
+norm(F) = 0.07485151879153161
+norm(F) = 0.07484909531185117
+norm(F) = 0.07480063387637433
+norm(F) = 0.07480030160843637
+norm(F) = 0.07474629943873247
+norm(F) = 0.07473477611685275
+norm(F) = 0.07469834814448656
+norm(F) = 0.07467932007675179
+norm(F) = 0.07464714373657695
+norm(F) = 0.07463800735819569
+norm(F) = 0.07459882781603905
+norm(F) = 0.07459309240483047
+norm(F) = 0.0745527190017326
+norm(F) = 0.07453621467966264
+norm(F) = 0.07450717074554479
+norm(F) = 0.07450117459510502
+norm(F) = 0.07446192671844402
+norm(F) = 0.0744544441462814
+norm(F) = 0.07442468245803038
+norm(F) = 0.07440263423952725
+norm(F) = 0.07437637195707943
+norm(F) = 0.07437229882905584
+norm(F) = 0.07433515860685946
+norm(F) = 0.07433895644300811
+norm(F) = 0.07429834108104699
+norm(F) = 0.07428394483867319
+norm(F) = 0.07425709940539574
+norm(F) = 0.0742196499566471
+norm(F) = 0.0741744478801079
+norm(F) = 0.07420829063217484
+norm(F) = 0.07418962726804086
+norm(F) = 0.07417524390731205
+norm(F) = 0.07415237651548857
+norm(F) = 0.07413517664865649
+norm(F) = 0.07411300476200326
+norm(F) = 0.07407727605099582
+norm(F) = 0.07408592315339557
+norm(F) = 0.07406612143094708
+norm(F) = 0.07404906768799188
+norm(F) = 0.07400283380521153
+norm(F) = 0.07401558810791566
+norm(F) = 0.07398034473031076
+norm(F) = 0.07399102491869364
+norm(F) = 0.07396795895301217
+norm(F) = 0.07395979103744982
+norm(F) = 0.07396073249345385
+norm(F) = 0.07393345274274708
+norm(F) = 0.07392500706266537
+norm(F) = 0.07389782307922366
+norm(F) = 0.07388570563310315
+norm(F) = 0.07387125497938582
+norm(F) = 0.0738759170614702
+norm(F) = 0.07384565291859943
+norm(F) = 0.07384585195165354
+norm(F) = 0.07381889720805795
+norm(F) = 0.07379444150155703
+norm(F) = 0.07379309741391028
+norm(F) = 0.07374537703258716
+norm(F) = 0.07377032939016087
+norm(F) = 0.07378058289668975
+norm(F) = 0.07374636369608525
+norm(F) = 0.07374749843540176
+norm(F) = 0.07372157222545431
+norm(F) = 0.07371434412108274
+norm(F) = 0.07370504466774394
+norm(F) = 0.07369613641380737
+norm(F) = 0.07368285085801633
+norm(F) = 0.0736764868331865
+norm(F) = 0.07365538208995154
+norm(F) = 0.07366463780866758
+norm(F) = 0.07364378943225128
+norm(F) = 0.07363883250515992
+norm(F) = 0.07361642319269364
+norm(F) = 0.0736132878812257
+norm(F) = 0.07360927416676655
+norm(F) = 0.07359787417493457
+norm(F) = 0.07358167399096018
+norm(F) = 0.0735807840960961
+norm(F) = 0.07357107318959664
+norm(F) = 0.0735680589696864
+norm(F) = 0.07355533450589209
+norm(F) = 0.07355308601550854
+norm(F) = 0.07353327566573727
+norm(F) = 0.07353349520431077
+norm(F) = 0.073519398742901
+norm(F) = 0.07351579165463151
+norm(F) = 0.07350144644833566
+norm(F) = 0.07352365105378823
+norm(F) = 0.07349062303270629
+norm(F) = 0.07345383058405079
+norm(F) = 0.07347916907000313
+norm(F) = 0.0734779716606848
+norm(F) = 0.07345911371032285
+norm(F) = 0.07347170824782749
+norm(F) = 0.07344837057598871
+norm(F) = 0.0734623243797905
+norm(F) = 0.07342941129991633
+norm(F) = 0.0734198024809314
+norm(F) = 0.0734243341503108
+norm(F) = 0.07342286737925761
+norm(F) = 0.07340948066314698
+norm(F) = 0.07342601383072585
+norm(F) = 0.07340280750071874
+norm(F) = 0.07341043505710758
+norm(F) = 0.07338625072075758
+norm(F) = 0.0733612338252887
+norm(F) = 0.07338246703580331
+norm(F) = 0.07338788964109974
+norm(F) = 0.07336503910679004
+norm(F) = 0.07337751608215808
+norm(F) = 0.07336049246253337
+norm(F) = 0.07332522878199055
+norm(F) = 0.07335643836629203
+norm(F) = 0.07335804722104086
+norm(F) = 0.07334230872376239
+norm(F) = 0.07335189028680003
+norm(F) = 0.07333230056157863
+norm(F) = 0.07333998527512024
+norm(F) = 0.0733030939201735
+norm(F) = 0.07333456008418474
+norm(F) = 0.07333672065450796
+norm(F) = 0.07332404017000775
+norm(F) = 0.07327529439754092
+norm(F) = 0.0733139736351358
+norm(F) = 0.07330625816823771
+norm(F) = 0.07329814414318749
+norm(F) = 0.0733190442975833
+norm(F) = 0.07329365349725646
+norm(F) = 0.07326164524802216
+norm(F) = 0.07329140552716384
+norm(F) = 0.0732945061419516
+norm(F) = 0.07328345365162833
+norm(F) = 0.07330617213802557
+norm(F) = 0.07327319421913513
+norm(F) = 0.07327687073733959
+norm(F) = 0.07327881224509207
+norm(F) = 0.07326429471763116
+norm(F) = 0.07326090064617904
+norm(F) = 0.07324813535164956
+norm(F) = 0.07325754895159921
+norm(F) = 0.07326356177716341
+norm(F) = 0.07325192538572547
+norm(F) = 0.07326131051089985
+norm(F) = 0.07324209357437117
+norm(F) = 0.07322616914427812
+norm(F) = 0.07324702850551087
+norm(F) = 0.07325884239796926
+norm(F) = 0.07324513111949396
+norm(F) = 0.07320568507902542
+norm(F) = 0.0732433316553583
+norm(F) = 0.07324785417941208
+norm(F) = 0.07323201866785298
+norm(F) = 0.07322988972199923
+norm(F) = 0.07323335556163424
+norm(F) = 0.07326102363173814
+norm(F) = 0.07323137525950259
+norm(F) = 0.07324382472433476
+norm(F) = 0.07323323937848542
+norm(F) = 0.0732217684065814
+norm(F) = 0.07322320335559232
+norm(F) = 0.07322510997526233
+norm(F) = 0.07321273042995584
+norm(F) = 0.07324756529581343
+norm(F) = 0.0732112555933365
+norm(F) = 0.07320244749930796
+norm(F) = 0.07322068891048417
+norm(F) = 0.07322972549312623
+norm(F) = 0.07321743435210418
+norm(F) = 0.07319546895137785
+norm(F) = 0.07321943296999654
+norm(F) = 0.07320691880902248
+norm(F) = 0.07320673208147957
+norm(F) = 0.07320408029373542
+norm(F) = 0.07320824679654453
+norm(F) = 0.07325534343939924
+norm(F) = 0.07321126072923191
+norm(F) = 0.07323071273458301
+norm(F) = 0.07321384470768601
+norm(F) = 0.07317210346756592
+norm(F) = 0.07320567729535211
+norm(F) = 0.07321306240028495
+norm(F) = 0.07321023208375285
+norm(F) = 0.07319284415467597
+norm(F) = 0.07319974867886682
+norm(F) = 0.07320945992130769
+norm(F) = 0.07319152811973072
+norm(F) = 0.0731836322988631
+norm(F) = 0.07320801564691787
+norm(F) = 0.0731939575368255
+norm(F) = 0.07320481341398748
+norm(F) = 0.0732417420367786
+norm(F) = 0.07320295007819233
+norm(F) = 0.07317397464149347
+norm(F) = 0.07320504294814077
+norm(F) = 0.07322019920449375
+norm(F) = 0.07320712930446543
+norm(F) = 0.07319436722083399
+norm(F) = 0.07320149266736285
+norm(F) = 0.07319684824656349
+norm(F) = 0.07319057226516483
+norm(F) = 0.07319176933246241
+norm(F) = 0.0731820118254847
+norm(F) = 0.07319931219751225
+norm(F) = 0.07319267080736257
+norm(F) = 0.07320083156197896
+norm(F) = 0.07319100900871124
+norm(F) = 0.0732113312016517
+norm(F) = 0.07317370698092193
+norm(F) = 0.07320624751601361
+norm(F) = 0.07318415970611498
+norm(F) = 0.07320387136777771
+norm(F) = 0.07317947243041965
+norm(F) = 0.07320416357303058
+norm(F) = 0.07318035552308076
+norm(F) = 0.07320362500308585
+norm(F) = 0.07318315131274114
+norm(F) = 0.07320341017349066
+norm(F) = 0.07320393230639713
+norm(F) = 0.07321364578791088
+norm(F) = 0.07318787071398294
+norm(F) = 0.07320565286579321
+norm(F) = 0.07318831171552452
+norm(F) = 0.07320372079051657
+norm(F) = 0.07319077303602875
+norm(F) = 0.07320502243919037
+norm(F) = 0.0731780369876225
+norm(F) = 0.07320785652306006
+norm(F) = 0.07318309364811747
+norm(F) = 0.07320425477742332
+norm(F) = 0.0731981636772039
+norm(F) = 0.07323621443245355
+norm(F) = 0.07319158147012457
+norm(F) = 0.07320006356451292
+norm(F) = 0.07320275986493943
+norm(F) = 0.07316679264993406
+norm(F) = 0.07320264611293309
+norm(F) = 0.07317738003309983
+norm(F) = 0.07321340753002666
+norm(F) = 0.07318360316172924
+norm(F) = 0.0732152332666809
+norm(F) = 0.07318251192120434
+norm(F) = 0.07321055335743776
+norm(F) = 0.07318802007569346
+norm(F) = 0.07321175395670271
+norm(F) = 0.07326961979506104
+norm(F) = 0.07320836077365914
+norm(F) = 0.07318591990740403
+norm(F) = 0.07317907047864301
+norm(F) = 0.07321114401962456
+norm(F) = 0.07320709227241187
+norm(F) = 0.0732152947226194
+norm(F) = 0.07319264910288019
+norm(F) = 0.07325128316900686
+norm(F) = 0.07320140172560195
+norm(F) = 0.0731824749705979
+norm(F) = 0.07321768207058284
+norm(F) = 0.07319458519922173
+norm(F) = 0.07321391424667167
+norm(F) = 0.07320247083738174
+norm(F) = 0.07321170282182055
+norm(F) = 0.07320696963237855
+norm(F) = 0.07325407458262802
+norm(F) = 0.07320937889505881
+norm(F) = 0.0732052037361255
+norm(F) = 0.07320884634715605
+norm(F) = 0.07320963105991644
+norm(F) = 0.07322112770562811
+norm(F) = 0.07321022290254102
+norm(F) = 0.0731983056270162
+norm(F) = 0.0732719104810652
+norm(F) = 0.07321383821833279
+norm(F) = 0.07320714427147594
+norm(F) = 0.07321557001222762
+norm(F) = 0.07321531404739079
+norm(F) = 0.07321142631498263
+norm(F) = 0.07319702680630494
+norm(F) = 0.07322980910748053
+norm(F) = 0.07319611152204196
+norm(F) = 0.07321575473514
+norm(F) = 0.0732150428439411
+norm(F) = 0.0732082963040032
+norm(F) = 0.07321814712944544
+norm(F) = 0.07320254670028557
+norm(F) = 0.07319101370014841
+norm(F) = 0.07325102695254014
+norm(F) = 0.07321064193403144
+norm(F) = 0.0732155111334135
+norm(F) = 0.07325563323131895
+norm(F) = 0.07322131002790636
+norm(F) = 0.07320633621652066
+norm(F) = 0.07321507854074732
+norm(F) = 0.0732251073955506
+norm(F) = 0.07320210196929793
+norm(F) = 0.07320901083110416
+norm(F) = 0.07324872317952379
+norm(F) = 0.0732248773474442
+norm(F) = 0.07324583382631138
+norm(F) = 0.07322601705362015
+norm(F) = 0.07322175794522208
+norm(F) = 0.07323056568493365
+norm(F) = 0.07325205593982614
+norm(F) = 0.07318652182036828
+norm(F) = 0.0732317785040453
+norm(F) = 0.07323386908370201
+norm(F) = 0.07322125890847479
+norm(F) = 0.07322871427780785
+norm(F) = 0.07322243454843048
+norm(F) = 0.07323254117673306
+norm(F) = 0.07323751252445135
+norm(F) = 0.0731739632356981
+norm(F) = 0.07320671955703227
+norm(F) = 0.07323691320375193
+norm(F) = 0.07320804760259175
+norm(F) = 0.07325534881808526
+norm(F) = 0.07322425026397113
+norm(F) = 0.07321594257041004
+norm(F) = 0.07323467881321295
+norm(F) = 0.07317993772243327
+norm(F) = 0.07322350315908138
+norm(F) = 0.07323891671194953
+norm(F) = 0.07322494087096333
+norm(F) = 0.0732185448717206
+norm(F) = 0.07322940584502757
+norm(F) = 0.07322922890573694
+norm(F) = 0.0732589888478995
+norm(F) = 0.07322646432060556
+norm(F) = 0.07323455822851326
+norm(F) = 0.07323376357925342
+norm(F) = 0.07322909821282009
+norm(F) = 0.07319978744138665
+norm(F) = 0.0732453895702854
+norm(F) = 0.07322674823966353
+norm(F) = 0.07322191200864903
+norm(F) = 0.0732281608894036
+norm(F) = 0.07322436621381297
+norm(F) = 0.07320792379563726
+norm(F) = 0.0732227143540942
+norm(F) = 0.07326537065053162
+norm(F) = 0.07317451389017694
+norm(F) = 0.07322158338115932
+norm(F) = 0.07323472346098397
+norm(F) = 0.07320568956294847
+norm(F) = 0.07323685635895254
+norm(F) = 0.07324988913324394
+norm(F) = 0.07322323908282556
+norm(F) = 0.07326623164995913
+norm(F) = 0.07324203292275719
+norm(F) = 0.0732198274706579
+norm(F) = 0.07324547609323427
+norm(F) = 0.07322330773743492
+norm(F) = 0.07327393566762387
+norm(F) = 0.07317855414854864
+norm(F) = 0.07320976067761084
+norm(F) = 0.07323788300216032
+norm(F) = 0.07320101060044677
+norm(F) = 0.07324385456004896
+norm(F) = 0.07325287121033205
+norm(F) = 0.0732377877180287
+norm(F) = 0.07320439213951883
+norm(F) = 0.07322280507658965
+norm(F) = 0.0732460972231564
+norm(F) = 0.07326250696677211
+norm(F) = 0.07324378876122586
+norm(F) = 0.07324032016336018
+norm(F) = 0.07324435164299631
+norm(F) = 0.07321994656630472
+norm(F) = 0.07324623594890828
+norm(F) = 0.07320729537966084
+norm(F) = 0.07323724790157382
+norm(F) = 0.0732305364945815
+norm(F) = 0.07323615570943715
+norm(F) = 0.07324048430848923
+norm(F) = 0.0732254396106417
+norm(F) = 0.07322428782164377
+norm(F) = 0.07324710322880046
+norm(F) = 0.07327059035283294
+norm(F) = 0.0732368461560918
+norm(F) = 0.07323967466447419
+norm(F) = 0.07323097666931
+norm(F) = 0.0732457097007077
+norm(F) = 0.07325665303921512
+norm(F) = 0.07324279148719662
+norm(F) = 0.0732457700148084
+norm(F) = 0.07324207641187828
+norm(F) = 0.07323682862153122
+norm(F) = 0.07320209806701027
+norm(F) = 0.07322863548303857
+norm(F) = 0.07327481304026325
+norm(F) = 0.0732446794097807
+norm(F) = 0.07322464396214459
+norm(F) = 0.07322541524016658
+norm(F) = 0.07323628886217504
+norm(F) = 0.07324127812268769
+norm(F) = 0.07323718482227617
+norm(F) = 0.07324553702954958
+norm(F) = 0.07322863463706614
+norm(F) = 0.07325431688654742
+norm(F) = 0.07324939558333944
+norm(F) = 0.0732394403076706
+norm(F) = 0.0732424326839571
+norm(F) = 0.07324663549352121
+norm(F) = 0.07321073811001456
+norm(F) = 0.07325949908118738
+norm(F) = 0.07317831102365666
+norm(F) = 0.07322369923564381
+norm(F) = 0.07324539450063108
+norm(F) = 0.07324063621817672
+norm(F) = 0.07319161879772326
+norm(F) = 0.07322215603026512
+norm(F) = 0.07329295054134805
+norm(F) = 0.07324908952832451
+norm(F) = 0.07323589871392747
+norm(F) = 0.07321390977338109
+norm(F) = 0.07331930615319605
+norm(F) = 0.0732462996676779
+norm(F) = 0.07323470940277935
+norm(F) = 0.0732277094367467
+norm(F) = 0.07322025978979657
+norm(F) = 0.07323159876095921
+norm(F) = 0.07323900330250901
+norm(F) = 0.07323690413507093
+norm(F) = 0.07320464865445978
+norm(F) = 0.07324105756870684
+norm(F) = 0.07324053409231125
+norm(F) = 0.07321828424792066
+norm(F) = 0.07327995713949417
+norm(F) = 0.07323360583559618
+norm(F) = 0.07321383239180489
+norm(F) = 0.07325808116418271
+norm(F) = 0.07322259232159464
+norm(F) = 0.0732735376069355
+norm(F) = 0.07320659415877294
+norm(F) = 0.07325992596084939
+norm(F) = 0.07323262847328002
+norm(F) = 0.07316058461430482
+norm(F) = 0.07318991259932262
+norm(F) = 0.07324759002268759
+norm(F) = 0.07321024976101385
+norm(F) = 0.07324897367807826
+norm(F) = 0.0732174993442639
+norm(F) = 0.0732530073177872
+norm(F) = 0.07323241871148517
+norm(F) = 0.0732371885434917
+norm(F) = 0.07324978300628283
+norm(F) = 0.07323840192111755
+norm(F) = 0.07321609900320426
+norm(F) = 0.07324924171157694
+norm(F) = 0.07325157697280446
+norm(F) = 0.07317589100178287
+norm(F) = 0.07323501803375601
+norm(F) = 0.0732354950727462
+norm(F) = 0.07323710748992558
+norm(F) = 0.07324051019542267
+norm(F) = 0.07323056737670071
+norm(F) = 0.07322680317544247
+norm(F) = 0.07318955757821213
+norm(F) = 0.07323901460225454
+norm(F) = 0.07323032757938681
+norm(F) = 0.07323706352377095
+norm(F) = 0.07317695985633738
+norm(F) = 0.07323814153066234
+norm(F) = 0.07322992889160582
+norm(F) = 0.07322041378036305
+norm(F) = 0.07325032875456701
+norm(F) = 0.07325965878869478
+norm(F) = 0.07327097910864679
+norm(F) = 0.07321094701679196
+norm(F) = 0.07322191018439198
+norm(F) = 0.07321650069887761
+norm(F) = 0.07324065758698735
+norm(F) = 0.07322831834473947
+norm(F) = 0.07319860313611963
+norm(F) = 0.07321714378029033
+norm(F) = 0.07325980263234984
+norm(F) = 0.073200742364698
+norm(F) = 0.0732424125691399
+norm(F) = 0.07325810009572306
+norm(F) = 0.07323426377243214
+norm(F) = 0.0732305074733383
+norm(F) = 0.07319839496505326
+norm(F) = 0.07323408022516215
+norm(F) = 0.07320945659030487
+norm(F) = 0.07320252041380633
+norm(F) = 0.07328259496967059
+norm(F) = 0.073250303754102
+norm(F) = 0.07331822304197305
+norm(F) = 0.07324350846635065
+norm(F) = 0.07327953283847342
+norm(F) = 0.07323306900130265
+norm(F) = 0.07324550585343496
+norm(F) = 0.07322650047843415
+norm(F) = 0.07323738342921748
+norm(F) = 0.0732683692061708
+norm(F) = 0.07324421769816422
+norm(F) = 0.07322274581938913
+norm(F) = 0.07326765736642285
+norm(F) = 0.07319530975514722
+norm(F) = 0.07322119074693724
+norm(F) = 0.0732111769740766
+norm(F) = 0.07327887330269196
+norm(F) = 0.07323264596532579
+norm(F) = 0.07321233732745296
+norm(F) = 0.07322649320581825
+norm(F) = 0.07321419251070838
+norm(F) = 0.07326624594836105
+norm(F) = 0.07322481967711722
+norm(F) = 0.07325081338365842
+norm(F) = 0.07315660394029398
+norm(F) = 0.07324696268525786
+norm(F) = 0.0732177570081419
+norm(F) = 0.07322357520134849
+norm(F) = 0.0732260631196971
+norm(F) = 0.07324222526218878
+norm(F) = 0.07320298315065903
+norm(F) = 0.07319603347071033
+norm(F) = 0.07327436214003807
+norm(F) = 0.0732111620825109
+norm(F) = 0.07325130837578418
+norm(F) = 0.07319898474137398
+norm(F) = 0.07331766954819466
+norm(F) = 0.07317057030453673
+norm(F) = 0.07328781185730533
+norm(F) = 0.07321279098160947
+norm(F) = 0.07326969028519047
+norm(F) = 0.07326875497699428
+norm(F) = 0.07324537230202509
+norm(F) = 0.07326939963984787
+norm(F) = 0.07324324256071296
+norm(F) = 0.07326819035118179
+norm(F) = 0.07324029547739158
+norm(F) = 0.07326610966634874
+norm(F) = 0.07324856776429461
+norm(F) = 0.07325430709559623
+norm(F) = 0.07322223386682243
+norm(F) = 0.07325543707436424
+norm(F) = 0.07320548587407728
+norm(F) = 0.0732529583799612
+norm(F) = 0.0732732405845327
+norm(F) = 0.07324614733514943
+norm(F) = 0.07322654611987388
+norm(F) = 0.07321234752160523
+norm(F) = 0.07328554793577763
+norm(F) = 0.07323101701989854
+norm(F) = 0.07322680169906606
+norm(F) = 0.07321621330266014
+norm(F) = 0.0732063002590848
+norm(F) = 0.07321953529522114
+norm(F) = 0.07325460494255034
+norm(F) = 0.07321827339640935
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_cgmres_nmpc.py: 401.3680462837219s cumulative, 24.599778413772583s individual
+
+
+tests/test_fast_slam2.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/FastSLAM2/fast_slam2.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_fast_slam2.py: 422.8990364074707s cumulative, 21.53099012374878s individual
+
+
+tests/test_cubature_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/cubature_kalman_filter/cubature_kalman_filter.py start!!
+CKF Over
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_cubature_kalman_filter.py: 424.31435894966125s cumulative, 1.4153225421905518s individual
+
+
+tests/test_n_joint_arm_to_point_control.py Solution found in 1977 iterations.
+Solution found in 12 iterations.
+Solution found in 7730 iterations.
+Solution could not be found.
+Solution found in 2031 iterations.
+Solution found in 6 iterations.
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_n_joint_arm_to_point_control.py: 512.2205083370209s cumulative, 87.90614938735962s individual
+
+
+tests/test_pure_pursuit.py .
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_pure_pursuit.py: 512.241617679596s cumulative, 0.021109342575073242s individual
+
+
+tests/test_histogram_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/histogram_filter/histogram_filter.py start!!
+time=0.1
+time=0.2
+time=0.3
+time=0.4
+time=0.5
+time=0.6
+time=0.7
+time=0.8
+time=0.9
+time=1.0
+time=1.1
+Done
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_histogram_filter.py: 531.0071930885315s cumulative, 18.765575408935547s individual
+
+
+tests/test_rrt.py .
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt.py: 531.035933971405s cumulative, 0.028740882873535156s individual
+
+start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRT/rrt.py
+found path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt.py: 531.0392484664917s cumulative, 0.003314495086669922s individual
+
+
+tests/test_circle_fitting.py Error: -0.004531975117957554
+Error: -0.0318399223801622
+Error: -0.0037026007428021535
+Error: -0.0012166037961776066
+Error: -0.01251984183611643
+Error: -0.001323230083015492
+Error: -0.012154346054260912
+Error: -0.037840742660208426
+Error: -0.039512719428871135
+Error: -0.04298897918557765
+Error: -0.002210842752778497
+Error: -0.030920395546933044
+Error: -0.0013727608666180835
+Error: -0.003343481737759779
+Error: -0.0018942655715639134
+Error: -0.0028441894653001842
+Done
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_circle_fitting.py: 531.0571119785309s cumulative, 0.01786351203918457s individual
+
+
+tests/test_dijkstra.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/Dijkstra/dijkstra.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dijkstra.py: 531.3059747219086s cumulative, 0.24886274337768555s individual
+
+
+tests/test_rocket_powered_landing.py start!!
+------------------ Iteration 01 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.413705110549927 s
+------------------ Iteration 02 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.347606897354126 s
+------------------ Iteration 03 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.4662652015686035 s
+------------------ Iteration 04 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 3.5588908195495605 s
+------------------ Iteration 05 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 3.5298125743865967 s
+------------------ Iteration 06 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 5.47977352142334 s
+------------------ Iteration 07 ------------------
+delta_norm 61.23145133201717
+sigma_norm 9.900000000028509
+nu_norm 2.798258485547903e-12
+Time for iteration 4.04625940322876 s
+------------------ Iteration 08 ------------------
+delta_norm 256.62884235174687
+sigma_norm 3.74968918841504
+nu_norm 0.5152538755836552
+Time for iteration 5.698585271835327 s
+------------------ Iteration 09 ------------------
+delta_norm 177.3699232722239
+sigma_norm 0.5010839936412497
+nu_norm 2.683386916753744e-12
+Time for iteration 3.3437376022338867 s
+------------------ Iteration 10 ------------------
+delta_norm 768.3857268796684
+sigma_norm 0.5600011673276949
+nu_norm 0.06444913752001621
+Time for iteration 3.68609619140625 s
+------------------ Iteration 11 ------------------
+delta_norm 375.496913126428
+sigma_norm 0.15212083751239794
+nu_norm 0.06838111206962495
+Time for iteration 3.558037042617798 s
+------------------ Iteration 12 ------------------
+delta_norm 59.06618195249257
+sigma_norm 0.7657596847691621
+nu_norm 1.0072054051565893e-12
+Time for iteration 4.063016653060913 s
+------------------ Iteration 13 ------------------
+delta_norm 204.441934846538
+sigma_norm 0.7382017167699559
+nu_norm 4.6409045456830006e-11
+Time for iteration 4.967571973800659 s
+------------------ Iteration 14 ------------------
+delta_norm 34.39523681714569
+sigma_norm 0.04042909456233701
+nu_norm 1.2821713039873021e-11
+Time for iteration 3.634159803390503 s
+------------------ Iteration 15 ------------------
+delta_norm 14.905723353579978
+sigma_norm 0.11527396300629311
+nu_norm 2.307108158507574e-11
+Time for iteration 3.242017984390259 s
+------------------ Iteration 16 ------------------
+delta_norm 1.3342210234648642
+sigma_norm 0.0011836570303610846
+nu_norm 9.563510119328835e-12
+Time for iteration 3.1853082180023193 s
+------------------ Iteration 17 ------------------
+delta_norm 0.019476310735108675
+sigma_norm 0.0036709060223305513
+nu_norm 4.0744904378745226e-11
+Time for iteration 5.007350206375122 s
+------------------ Iteration 18 ------------------
+delta_norm 0.000300997177788909
+sigma_norm 0.0006654551441603513
+nu_norm 6.575165992772809e-11
+Time for iteration 6.819920301437378 s
+Converged after 18 iterations.
+done!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rocket_powered_landing.py: 608.6787478923798s cumulative, 77.37277317047119s individual
+
+
+tests/test_state_lattice_planner.py path is ok cost is:0.04221100365766913
+find good path
+path is ok cost is:0.019844473759990926
+find good path
+path is ok cost is:0.014291111746631733
+find good path
+path is ok cost is:0.011092663444560391
+find good path
+path is ok cost is:0.0873473869552384
+find good path
+path is ok cost is:0.05251336932405904
+find good path
+path is ok cost is:0.007148028178927957
+find good path
+path is ok cost is:0.000828533873370531
+find good path
+path is ok cost is:0.043942717497843564
+find good path
+path is ok cost is:0.01736925929436362
+find good path
+path is ok cost is:0.07066982916339272
+find good path
+path is ok cost is:0.01071010406958354
+find good path
+path is ok cost is:0.03216622419285561
+find good path
+path is ok cost is:0.01541532343351105
+find good path
+path is ok cost is:0.0067777139692366045
+find good path
+finish path generation
+Done
+path is ok cost is:0.019294739969345075
+find good path
+path is ok cost is:0.05169225782639636
+find good path
+path is ok cost is:0.017776082082962563
+find good path
+path is ok cost is:0.06373256278821715
+find good path
+path is ok cost is:0.08587967949918521
+find good path
+path is ok cost is:0.08418700482439834
+find good path
+path is ok cost is:0.01897726050227365
+find good path
+path is ok cost is:0.02984413530254466
+find good path
+path is ok cost is:0.02788680094576185
+find good path
+path is ok cost is:0.01837353953874741
+find good path
+path is ok cost is:0.021854293193754967
+find good path
+path is ok cost is:0.03057818844073531
+find good path
+path is ok cost is:0.04448412769337831
+find good path
+path is ok cost is:0.07350762219422942
+find good path
+path is ok cost is:0.05386842699925778
+find good path
+path is ok cost is:0.04674010974511508
+find good path
+path is ok cost is:0.08530333385154258
+find good path
+path is ok cost is:0.06682698249907659
+find good path
+finish path generation
+Done
+path is ok cost is:0.02540015369942225
+find good path
+path is ok cost is:0.04088378647101566
+find good path
+path is ok cost is:0.023166666446306432
+find good path
+path is ok cost is:0.09035576747280247
+find good path
+path is ok cost is:0.015340441509203977
+find good path
+path is ok cost is:0.03802924316706426
+find good path
+path is ok cost is:0.005111837690109362
+find good path
+path is ok cost is:0.007411050330047442
+find good path
+path is ok cost is:0.022930606856218866
+find good path
+path is ok cost is:0.08744605925542065
+find good path
+path is ok cost is:0.04920566742515244
+find good path
+path is ok cost is:0.03529331501828848
+find good path
+path is ok cost is:0.023373900640072363
+find good path
+path is ok cost is:0.017526985880430127
+find good path
+path is ok cost is:0.0038959760247210774
+find good path
+path is ok cost is:0.017525828657050182
+find good path
+path is ok cost is:0.04152272758790844
+find good path
+path is ok cost is:0.07138061429504076
+find good path
+path is ok cost is:0.015599875959042985
+find good path
+path is ok cost is:0.03215160739194317
+find good path
+path is ok cost is:0.05462787739872502
+find good path
+path is ok cost is:0.01575043960373134
+find good path
+path is ok cost is:0.038678062190271145
+find good path
+path is ok cost is:0.0063119855932111365
+find good path
+path is ok cost is:0.024442792858028792
+find good path
+path is ok cost is:0.0005596115175286807
+find good path
+path is ok cost is:0.01912282388422721
+find good path
+path is ok cost is:0.0010098815201312254
+find good path
+path is ok cost is:0.017159359713049514
+find good path
+path is ok cost is:0.0998229909125277
+find good path
+path is ok cost is:0.0162128761420572
+find good path
+path is ok cost is:0.09954992957961259
+find good path
+path is ok cost is:0.08775593536319738
+find good path
+path is ok cost is:0.09848505293240498
+find good path
+path is ok cost is:0.09336415044034964
+find good path
+path is ok cost is:0.004384700025206569
+find good path
+path is ok cost is:0.09915340007700318
+find good path
+path is ok cost is:0.00809590823817753
+find good path
+path is ok cost is:0.09885967334232006
+find good path
+path is ok cost is:0.02594526662205015
+find good path
+path is ok cost is:0.028594560230795176
+find good path
+path is ok cost is:0.06498090798284674
+find good path
+path is ok cost is:0.03153112383597395
+find good path
+path is ok cost is:0.02997609184075338
+find good path
+path is ok cost is:0.047087714703664636
+find good path
+path is ok cost is:0.062124439164398235
+find good path
+path is ok cost is:0.04738154848155065
+find good path
+path is ok cost is:0.07139773312806509
+find good path
+path is ok cost is:0.04919864049528032
+find good path
+path is ok cost is:0.038368130977485114
+find good path
+path is ok cost is:0.05576393524435756
+find good path
+path is ok cost is:0.056652221559717435
+find good path
+path is ok cost is:0.06641441051837423
+find good path
+path is ok cost is:0.034429584659219664
+find good path
+path is ok cost is:0.003976314441029788
+find good path
+path is ok cost is:0.043074548124525464
+find good path
+path is ok cost is:0.0951788970684111
+find good path
+path is ok cost is:0.04371490596516535
+find good path
+finish path generation
+path is ok cost is:0.011624057265900772
+find good path
+path is ok cost is:0.058264086616448885
+find good path
+path is ok cost is:0.028880433392484972
+find good path
+path is ok cost is:0.04212660844031317
+find good path
+path is ok cost is:0.08670102380460931
+find good path
+path is ok cost is:0.07734058054078179
+find good path
+path is ok cost is:0.03700663798440769
+find good path
+path is ok cost is:0.01039155045378387
+find good path
+path is ok cost is:0.05405424413887301
+find good path
+path is ok cost is:0.006219351458018206
+find good path
+path is ok cost is:0.013546046562169118
+find good path
+path is ok cost is:0.06488222409110173
+find good path
+path is ok cost is:0.04027835208928918
+find good path
+path is ok cost is:0.025954807910385274
+find good path
+path is ok cost is:0.0061127430536620534
+find good path
+path is ok cost is:0.04568056781465162
+find good path
+path is ok cost is:0.007528215673857807
+find good path
+path is ok cost is:0.021564135979154745
+find good path
+path is ok cost is:0.041263857381764635
+find good path
+path is ok cost is:0.044575268967232455
+find good path
+path is ok cost is:0.04926081718065855
+find good path
+path is ok cost is:0.02544281379095104
+find good path
+path is ok cost is:0.007120206937893008
+find good path
+path is ok cost is:0.03613499097848104
+find good path
+path is ok cost is:0.020961307067125002
+find good path
+path is ok cost is:0.015934839668882584
+find good path
+path is ok cost is:0.003638218934719396
+find good path
+path is ok cost is:0.041943902816062216
+find good path
+path is ok cost is:0.048771575177718955
+find good path
+finish path generation
+path is ok cost is:0.062268517597409326
+find good path
+path is ok cost is:0.07898796281478135
+find good path
+path is ok cost is:0.0029391252951607894
+find good path
+path is ok cost is:0.03003033233491929
+find good path
+path is ok cost is:0.05055814422140915
+find good path
+finish path generation
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_state_lattice_planner.py: 772.1118595600128s cumulative, 163.43311166763306s individual
+
+
+tests/test_closed_loop_rrt_star_car.py Start/home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/ClosedLoopRRTStar/closed_loop_rrt_star_car.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 3
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 5
+Iter: 4 , number of nodes: 5
+reached max iteration
+goal_indexes: 3
+final_goal_indexes: 3
+min_cost: 15.917567866742035
+OK XY TH num is
+3
+OK YAW TH num is
+3
+Start search feasible path
+feasible path is found
+feasible path is found
+best time is
+0.49999999999999994
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_closed_loop_rrt_star_car.py: 773.1436233520508s cumulative, 1.0317637920379639s individual
+
+
+tests/test_hybrid_a_star.py Start Hybrid A* planning
+start :  [10.0, 10.0, 1.5707963267948966]
+goal :  [50.0, 50.0, -1.5707963267948966]
+path found
+/home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/HybridAStar/hybrid_a_star.py done!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_hybrid_a_star.py: 794.1415228843689s cumulative, 20.997899532318115s individual
+
+
+tests/test_wavefront_coverage_path_planner.py .
+current test PASSED/SKIPPED -- test_wavefront_CPP_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 794.939727306366s cumulative, 0.7982044219970703s individual
+
+backtracing to (16, 20)
+backtracing to (16, 20)
+.
+current test PASSED/SKIPPED -- test_wavefront_CPP_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 795.7385747432709s cumulative, 0.7988474369049072s individual
+
+.
+current test PASSED/SKIPPED -- test_wavefront_CPP_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_wavefront_coverage_path_planner.py: 796.5948207378387s cumulative, 0.8562459945678711s individual
+
+
+tests/test_ekf_slam.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/EKFSLAM/ekf_slam.py start!!
+New LM
+New LM
+New LM
+New LM
+New LM
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_ekf_slam.py: 810.569726228714s cumulative, 13.974905490875244s individual
+
+
+tests/test_d_star_lite.py Initializing
+New obstacle detected
+Path found
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_d_star_lite.py: 857.6671717166901s cumulative, 47.097445487976074s individual
+
+
+tests/test_bug.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bug.py: 908.1304016113281s cumulative, 50.46322989463806s individual
+
+
+tests/test_probabilistic_road_map.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/ProbabilisticRoadMap/probabilistic_road_map.py start!!
+goal is found!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_probabilistic_road_map.py: 909.9776895046234s cumulative, 1.847287893295288s individual
+
+
+tests/test_depth_first_search.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/DepthFirstSearch/depth_first_search.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_depth_first_search.py: 910.2257070541382s cumulative, 0.2480175495147705s individual
+
+
+tests/test_breadth_first_search.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/BreadthFirstSearch/breadth_first_search.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_breadth_first_search.py: 910.539256811142s cumulative, 0.3135497570037842s individual
+
+
+tests/test_potential_field_planning.py potential_field_planning start
+Goal!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_potential_field_planning.py: 910.961864233017s cumulative, 0.422607421875s individual
+
+
+tests/test_gaussian_grid_map.py /home/kaiyaok2/PythonProjects/PythonRobotics/Mapping/gaussian_grid_map/gaussian_grid_map.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_gaussian_grid_map.py: 912.5652208328247s cumulative, 1.6033565998077393s individual
+
+
+tests/test_point_cloud_sampling.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_point_cloud_sampling.py: 912.7668600082397s cumulative, 0.20163917541503906s individual
+
+
+tests/test_rrt_with_sobol_sampler.py start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRT/rrt_with_sobol_sampler.py
+found path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_with_sobol_sampler.py: 912.7725651264191s cumulative, 0.005705118179321289s individual
+
+
+tests/test_kmeans_clustering.py /home/kaiyaok2/PythonProjects/PythonRobotics/Mapping/kmeans_clustering/kmeans_clustering.py start!!
+Time: 0.0
+loop: 0
+loop: 1
+loop: 2
+Time: 1.0
+loop: 0
+loop: 1
+loop: 2
+Time: 2.0
+loop: 0
+loop: 1
+loop: 2
+Time: 3.0
+loop: 0
+loop: 1
+loop: 2
+Time: 4.0
+loop: 0
+loop: 1
+loop: 2
+Time: 5.0
+loop: 0
+loop: 1
+loop: 2
+loop: 3
+loop: 4
+Time: 6.0
+loop: 0
+loop: 1
+loop: 2
+loop: 3
+Time: 7.0
+loop: 0
+loop: 1
+loop: 2
+loop: 3
+Time: 8.0
+loop: 0
+loop: 1
+loop: 2
+Time: 9.0
+loop: 0
+loop: 1
+loop: 2
+Time: 10.0
+loop: 0
+loop: 1
+loop: 2
+loop: 3
+Time: 11.0
+loop: 0
+loop: 1
+loop: 2
+Time: 12.0
+loop: 0
+loop: 1
+loop: 2
+Time: 13.0
+loop: 0
+loop: 1
+loop: 2
+Time: 14.0
+loop: 0
+loop: 1
+loop: 2
+Time: 15.0
+loop: 0
+loop: 1
+loop: 2
+Done
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_kmeans_clustering.py: 912.7851266860962s cumulative, 0.012561559677124023s individual
+
+
+tests/test_spiral_spanning_tree_coverage_path_planner.py .
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 912.8085262775421s cumulative, 0.02339959144592285s individual
+
+.
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 912.8332862854004s cumulative, 0.024760007858276367s individual
+
+.
+current test PASSED/SKIPPED -- test_spiral_stc_cpp_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_spiral_spanning_tree_coverage_path_planner.py: 912.859842300415s cumulative, 0.026556015014648438s individual
+
+
+tests/test_stanley_controller.py .
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_stanley_controller.py: 913.3675730228424s cumulative, 0.5077307224273682s individual
+
+
+tests/test_quintic_polynomials_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/QuinticPolynomialsPlanner/quintic_polynomials_planner.py start!!
+find path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_quintic_polynomials_planner.py: 913.3838999271393s cumulative, 0.016326904296875s individual
+
+
+tests/test_rear_wheel_feedback.py rear wheel feedback tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rear_wheel_feedback.py: 914.8245215415955s cumulative, 1.4406216144561768s individual
+
+
+tests/test_unscented_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/unscented_kalman_filter/unscented_kalman_filter.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_unscented_kalman_filter.py: 917.0349540710449s cumulative, 2.210432529449463s individual
+
+
+tests/test_drone_3d_trajectory_following.py Done
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_drone_3d_trajectory_following.py: 917.1973903179169s cumulative, 0.16243624687194824s individual
+
+
+tests/test_a_star_searching_two_side.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star_searching_from_two_side.py start!
+Path found!
+[[21 55]
+ [20 54]
+ [20 53]
+ [19 52]
+ [19 51]
+ [19 50]
+ [19 49]
+ [19 48]
+ [18 47]
+ [19 46]
+ [18 45]
+ [18 45]
+ [18 44]
+ [18 43]
+ [18 42]
+ [18 41]
+ [18 40]
+ [18 39]
+ [18 38]
+ [18 37]
+ [18 36]
+ [18 35]
+ [18 34]
+ [17 33]
+ [16 32]
+ [16 31]
+ [16 30]
+ [16 29]]
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_searching_two_side.py: 917.3051431179047s cumulative, 0.10775279998779297s individual
+
+/home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star_searching_from_two_side.py start!
+There is no path to the goal! End point is blocked!
+None
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_searching_two_side.py: 917.3300004005432s cumulative, 0.024857282638549805s individual
+
+
+tests/test_inverted_pendulum_lqr_control.py calc time:0.005966 [sec]
+calc time:0.004928 [sec]
+calc time:0.006477 [sec]
+calc time:0.005848 [sec]
+calc time:0.005909 [sec]
+calc time:0.005486 [sec]
+calc time:0.004766 [sec]
+calc time:0.004637 [sec]
+calc time:0.005499 [sec]
+calc time:0.004764 [sec]
+calc time:0.005734 [sec]
+calc time:0.004899 [sec]
+calc time:0.005798 [sec]
+calc time:0.005538 [sec]
+calc time:0.004701 [sec]
+calc time:0.004613 [sec]
+calc time:0.004481 [sec]
+calc time:0.004297 [sec]
+calc time:0.004615 [sec]
+calc time:0.004441 [sec]
+calc time:0.004517 [sec]
+calc time:0.004334 [sec]
+calc time:0.004289 [sec]
+calc time:0.004238 [sec]
+calc time:0.004255 [sec]
+calc time:0.004527 [sec]
+calc time:0.004443 [sec]
+calc time:0.004328 [sec]
+calc time:0.004238 [sec]
+calc time:0.004277 [sec]
+calc time:0.004249 [sec]
+calc time:0.004369 [sec]
+calc time:0.004767 [sec]
+calc time:0.004461 [sec]
+calc time:0.004321 [sec]
+calc time:0.004514 [sec]
+calc time:0.004568 [sec]
+calc time:0.004441 [sec]
+calc time:0.004817 [sec]
+calc time:0.004754 [sec]
+calc time:0.004551 [sec]
+calc time:0.004788 [sec]
+calc time:0.004418 [sec]
+calc time:0.004697 [sec]
+calc time:0.004882 [sec]
+calc time:0.004875 [sec]
+calc time:0.004451 [sec]
+calc time:0.004249 [sec]
+calc time:0.005312 [sec]
+calc time:0.004616 [sec]
+calc time:0.004823 [sec]
+Finish
+x=-1.82 [m] , theta=-0.01 [deg]
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_inverted_pendulum_lqr_control.py: 917.5855836868286s cumulative, 0.2555832862854004s individual
+
+
+tests/test_clothoidal_paths.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_clothoidal_paths.py: 926.4773411750793s cumulative, 8.891757488250732s individual
+
+
+tests/test_flow_field.py .
+current test PASSED/SKIPPED -- test in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_flow_field.py: 927.4862260818481s cumulative, 1.0088849067687988s individual
+
+
+tests/test_move_to_pose.py Initial x: 15.1 m
+Initial y: 5.42 m
+Initial theta: -0.55 rad
+
+Goal x: 4.35 m
+Goal y: 16.74 m
+Goal theta: -2.62 rad
+
+Initial x: 0.57 m
+Initial y: 0.25 m
+Initial theta: -2.84 rad
+
+Goal x: 6.03 m
+Goal y: 12.17 m
+Goal theta: -0.92 rad
+
+Initial x: 14.54 m
+Initial y: 9.27 m
+Initial theta: -2.11 rad
+
+Goal x: 12.64 m
+Goal y: 3.41 m
+Goal theta: 1.38 rad
+
+Initial x: 4.51 m
+Initial y: 1.65 m
+Initial theta: -2.55 rad
+
+Goal x: 6.11 m
+Goal y: 17.77 m
+Goal theta: -0.15 rad
+
+Initial x: 12.58 m
+Initial y: 7.82 m
+Initial theta: -2.04 rad
+
+Goal x: 3.91 m
+Goal y: 17.73 m
+Goal theta: -0.23 rad
+
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_move_to_pose.py: 927.8353264331818s cumulative, 0.34910035133361816s individual
+
+Initial x: 15.1 m
+Initial y: 5.42 m
+Initial theta: -0.55 rad
+
+Goal x: 4.35 m
+Goal y: 16.74 m
+Goal theta: -2.62 rad
+
+Initial x: 0.57 m
+Initial y: 0.25 m
+Initial theta: -2.84 rad
+
+Goal x: 6.03 m
+Goal y: 12.17 m
+Goal theta: -0.92 rad
+
+Initial x: 14.54 m
+Initial y: 9.27 m
+Initial theta: -2.11 rad
+
+Goal x: 12.64 m
+Goal y: 3.41 m
+Goal theta: 1.38 rad
+
+Initial x: 4.51 m
+Initial y: 1.65 m
+Initial theta: -2.55 rad
+
+Goal x: 6.11 m
+Goal y: 17.77 m
+Goal theta: -0.15 rad
+
+Initial x: 12.58 m
+Initial y: 7.82 m
+Initial theta: -2.04 rad
+
+Goal x: 3.91 m
+Goal y: 17.73 m
+Goal theta: -0.23 rad
+
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_move_to_pose.py: 928.2684013843536s cumulative, 0.433074951171875s individual
+
+
+tests/test_rrt_star_reeds_shepp.py Iter: 0 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 1 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 2 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 3 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 4 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 5 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 6 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 7 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 8 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 9 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 10 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 11 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 12 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 13 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 14 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 15 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 16 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 17 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 18 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 19 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 20 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 21 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 22 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 23 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 24 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 25 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 26 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 27 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 28 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 29 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 30 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 31 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 32 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 33 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 34 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 35 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 36 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 37 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 38 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 39 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 40 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 41 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 42 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 43 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 44 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 45 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 46 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 47 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 48 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 49 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 50 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 51 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 52 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 53 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 54 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 55 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 56 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 57 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 58 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 59 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 60 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 61 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 62 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 63 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 64 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 65 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 66 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 67 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 68 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 69 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 70 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 71 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 72 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 73 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 74 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 75 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 76 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 77 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 78 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 79 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 80 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 81 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 82 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 83 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 84 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 85 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 86 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 87 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 88 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 89 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 90 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 91 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 92 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 93 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 94 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 95 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 96 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 97 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 98 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+Iter: 99 , number of nodes: 1
+Step size too large for Reeds-Shepp paths.
+reached max iteration
+goal_indexes: 0
+final_goal_indexes: 0
+Cannot find path
+.
+current test PASSED/SKIPPED -- test_too_big_step_size in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 928.3102352619171s cumulative, 0.04183387756347656s individual
+
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 4
+Iter: 4 , number of nodes: 4
+Iter: 5 , number of nodes: 5
+Iter: 6 , number of nodes: 6
+Iter: 7 , number of nodes: 8
+Iter: 8 , number of nodes: 9
+Iter: 9 , number of nodes: 10
+Iter: 10 , number of nodes: 11
+Iter: 11 , number of nodes: 13
+Iter: 12 , number of nodes: 14
+Iter: 13 , number of nodes: 15
+Iter: 14 , number of nodes: 16
+Iter: 15 , number of nodes: 17
+Iter: 16 , number of nodes: 18
+Iter: 17 , number of nodes: 19
+Iter: 18 , number of nodes: 20
+Iter: 19 , number of nodes: 21
+Iter: 20 , number of nodes: 22
+Iter: 21 , number of nodes: 24
+Step size too large for Reeds-Shepp paths.
+Iter: 22 , number of nodes: 24
+Iter: 23 , number of nodes: 25
+Iter: 24 , number of nodes: 26
+Iter: 25 , number of nodes: 27
+Iter: 26 , number of nodes: 28
+Iter: 27 , number of nodes: 29
+Iter: 28 , number of nodes: 30
+Iter: 29 , number of nodes: 31
+Iter: 30 , number of nodes: 33
+Iter: 31 , number of nodes: 34
+Iter: 32 , number of nodes: 34
+Iter: 33 , number of nodes: 36
+Iter: 34 , number of nodes: 37
+Iter: 35 , number of nodes: 37
+Iter: 36 , number of nodes: 39
+Step size too large for Reeds-Shepp paths.
+Iter: 37 , number of nodes: 39
+Iter: 38 , number of nodes: 40
+Iter: 39 , number of nodes: 41
+Iter: 40 , number of nodes: 42
+Iter: 41 , number of nodes: 42
+Step size too large for Reeds-Shepp paths.
+Iter: 42 , number of nodes: 42
+Iter: 43 , number of nodes: 43
+Iter: 44 , number of nodes: 44
+Iter: 45 , number of nodes: 44
+Iter: 46 , number of nodes: 45
+Step size too large for Reeds-Shepp paths.
+Iter: 47 , number of nodes: 45
+Iter: 48 , number of nodes: 46
+Iter: 49 , number of nodes: 47
+Step size too large for Reeds-Shepp paths.
+Step size too large for Reeds-Shepp paths.
+Iter: 50 , number of nodes: 49
+Iter: 51 , number of nodes: 50
+Iter: 52 , number of nodes: 51
+Iter: 53 , number of nodes: 52
+Iter: 54 , number of nodes: 53
+Iter: 55 , number of nodes: 55
+Step size too large for Reeds-Shepp paths.
+Iter: 56 , number of nodes: 55
+Iter: 57 , number of nodes: 56
+Iter: 58 , number of nodes: 57
+Step size too large for Reeds-Shepp paths.
+Iter: 59 , number of nodes: 57
+Iter: 60 , number of nodes: 58
+Iter: 61 , number of nodes: 59
+Iter: 62 , number of nodes: 60
+Iter: 63 , number of nodes: 60
+Iter: 64 , number of nodes: 62
+Iter: 65 , number of nodes: 63
+Step size too large for Reeds-Shepp paths.
+Step size too large for Reeds-Shepp paths.
+Iter: 66 , number of nodes: 64
+Iter: 67 , number of nodes: 65
+Iter: 68 , number of nodes: 66
+Iter: 69 , number of nodes: 66
+Iter: 70 , number of nodes: 67
+Iter: 71 , number of nodes: 68
+Iter: 72 , number of nodes: 69
+Iter: 73 , number of nodes: 69
+Iter: 74 , number of nodes: 70
+Iter: 75 , number of nodes: 71
+Iter: 76 , number of nodes: 72
+Iter: 77 , number of nodes: 73
+Iter: 78 , number of nodes: 74
+Iter: 79 , number of nodes: 75
+Iter: 80 , number of nodes: 76
+Iter: 81 , number of nodes: 77
+Iter: 82 , number of nodes: 78
+Step size too large for Reeds-Shepp paths.
+Iter: 83 , number of nodes: 78
+Iter: 84 , number of nodes: 79
+Iter: 85 , number of nodes: 80
+Iter: 86 , number of nodes: 82
+Iter: 87 , number of nodes: 83
+Iter: 88 , number of nodes: 84
+Iter: 89 , number of nodes: 84
+Iter: 90 , number of nodes: 85
+Iter: 91 , number of nodes: 86
+Step size too large for Reeds-Shepp paths.
+Step size too large for Reeds-Shepp paths.
+Iter: 92 , number of nodes: 87
+Iter: 93 , number of nodes: 88
+Iter: 94 , number of nodes: 89
+Iter: 95 , number of nodes: 90
+Step size too large for Reeds-Shepp paths.
+Iter: 96 , number of nodes: 90
+Iter: 97 , number of nodes: 91
+Step size too large for Reeds-Shepp paths.
+Step size too large for Reeds-Shepp paths.
+Iter: 98 , number of nodes: 92
+Iter: 99 , number of nodes: 93
+reached max iteration
+goal_indexes: 10
+final_goal_indexes: 10
+min_cost: 21.67681332981514
+.
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 1093.543065071106s cumulative, 165.23282980918884s individual
+
+Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRTStarReedsShepp/rrt_star_reeds_shepp.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 4
+Iter: 4 , number of nodes: 4
+reached max iteration
+goal_indexes: 0
+final_goal_indexes: 0
+Cannot find path
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_reeds_shepp.py: 1094.3800070285797s cumulative, 0.8369419574737549s individual
+
+
+tests/test_fast_slam1.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/FastSLAM1/fast_slam1.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_fast_slam1.py: 1105.0487174987793s cumulative, 10.668710470199585s individual
+
+
+tests/test_a_star_variants.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star_variants.py: 1125.0558519363403s cumulative, 20.007134437561035s individual
+
+
+tests/test_inverted_pendulum_mpc_control.py calc time:0.383902 [sec]
+calc time:0.255097 [sec]
+calc time:0.312501 [sec]
+calc time:0.437741 [sec]
+calc time:0.311432 [sec]
+calc time:0.218822 [sec]
+calc time:0.227710 [sec]
+calc time:0.207275 [sec]
+calc time:0.213456 [sec]
+calc time:2.440820 [sec]
+calc time:0.218290 [sec]
+calc time:0.277980 [sec]
+calc time:0.230548 [sec]
+calc time:0.238325 [sec]
+calc time:0.218060 [sec]
+calc time:0.220172 [sec]
+calc time:0.199162 [sec]
+calc time:0.224927 [sec]
+calc time:0.235672 [sec]
+calc time:0.200763 [sec]
+calc time:0.241419 [sec]
+calc time:0.238717 [sec]
+calc time:0.252346 [sec]
+calc time:2.533236 [sec]
+calc time:0.653349 [sec]
+calc time:0.736226 [sec]
+calc time:0.393106 [sec]
+calc time:0.237285 [sec]
+calc time:0.259481 [sec]
+calc time:0.203267 [sec]
+calc time:0.218434 [sec]
+calc time:0.308195 [sec]
+calc time:0.291142 [sec]
+calc time:0.450759 [sec]
+calc time:0.267802 [sec]
+calc time:2.116558 [sec]
+calc time:0.443899 [sec]
+calc time:0.434694 [sec]
+calc time:0.358279 [sec]
+calc time:0.371918 [sec]
+calc time:0.467115 [sec]
+calc time:0.381390 [sec]
+calc time:0.472432 [sec]
+calc time:0.256269 [sec]
+calc time:0.236757 [sec]
+calc time:0.314777 [sec]
+calc time:0.519638 [sec]
+calc time:0.363377 [sec]
+calc time:0.290434 [sec]
+calc time:0.462955 [sec]
+calc time:0.438336 [sec]
+Finish
+x=-1.83 [m] , theta=-0.01 [deg]
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_inverted_pendulum_mpc_control.py: 1154.2095172405243s cumulative, 29.15366530418396s individual
+
+
+tests/test_eta3_spline_path.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_eta3_spline_path.py: 1158.3974702358246s cumulative, 4.187952995300293s individual
+
+
+tests/test_iterative_closest_point.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/iterative_closest_point/iterative_closest_point.py start!!
+Residual: 3761.2862095119576
+Residual: 3597.2075653140505
+Residual: 3467.209461916043
+Residual: 3345.152900339378
+Residual: 3257.1398502288066
+Residual: 3172.6542305378002
+Residual: 3110.7688409223683
+Residual: 3038.1767352540164
+Residual: 2975.4557540238006
+Residual: 2899.8422816851125
+Residual: 2805.6548284658043
+Residual: 2714.7762527466466
+Residual: 2654.869444822023
+Residual: 2601.0056920438064
+Residual: 2562.1254259018083
+Residual: 2513.2795286627806
+Residual: 2462.401805133483
+Residual: 2410.2358207343855
+Residual: 2359.556502885038
+Residual: 2310.8470154779393
+Residual: 2265.688793653213
+Residual: 2212.99534860508
+Residual: 2169.2586032908894
+Residual: 2133.054213085643
+Residual: 2080.694981177301
+Residual: 2018.371013891275
+Residual: 1938.0224783958906
+Residual: 1845.931873538863
+Residual: 1750.2650107162574
+Residual: 1665.7645488775752
+Residual: 1577.1722009891375
+Residual: 1458.3676487785108
+Residual: 1329.475436164335
+Residual: 1175.009855793552
+Residual: 1008.3299929442244
+Residual: 777.7393380189476
+Residual: 472.84520671517436
+Residual: 170.47285157188483
+Residual: 11.545587200660197
+Residual: 1.0872272754924648e-11
+Residual: 1.0190812012259585e-11
+Converge 1.0190812012259585e-11 6.814607426650626e-13 41
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.27498769 -2.11116996]
+Residual: 3716.378381368643
+Residual: 3563.266287938352
+Residual: 3414.4905602722683
+Residual: 3260.508659691739
+Residual: 3120.8598645204625
+Residual: 2992.727553756625
+Residual: 2841.250945797912
+Residual: 2696.300978063454
+Residual: 2579.4311898174965
+Residual: 2466.9340348651576
+Residual: 2353.1960914863944
+Residual: 2262.0789932403773
+Residual: 2163.009176979978
+Residual: 2069.9753160228206
+Residual: 1973.6173890710027
+Residual: 1869.9242295535962
+Residual: 1765.6564648854767
+Residual: 1655.5298856945176
+Residual: 1538.5275270475152
+Residual: 1397.3812459865594
+Residual: 1268.308313677082
+Residual: 1121.9397796842716
+Residual: 946.6398827073386
+Residual: 726.3698400686291
+Residual: 453.54629232850283
+Residual: 178.28482329382442
+Residual: 11.623873969334511
+Residual: 1.166251178241422e-11
+Residual: 1.1516197040317834e-11
+Converge 1.1516197040317834e-11 1.463147420963857e-13 29
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.12605583 -2.0569296 ]
+Residual: 3812.557852729491
+Residual: 3664.9518857490957
+Residual: 3526.384210688616
+Residual: 3380.649794727751
+Residual: 3241.1227939539067
+Residual: 3126.863874974135
+Residual: 3022.6516809459295
+Residual: 2953.3585533550395
+Residual: 2868.5473681293906
+Residual: 2780.898692191872
+Residual: 2667.866064868516
+Residual: 2549.910715763924
+Residual: 2446.0168104187323
+Residual: 2332.791354548146
+Residual: 2215.1696061740686
+Residual: 2103.608249308721
+Residual: 1987.7921603970594
+Residual: 1875.85415142857
+Residual: 1739.253640912069
+Residual: 1617.0038694660486
+Residual: 1483.5949655248287
+Residual: 1342.8013872712872
+Residual: 1206.390904134216
+Residual: 1048.968515651911
+Residual: 874.5267659714673
+Residual: 629.2949635636764
+Residual: 349.8450782836181
+Residual: 96.9871149932095
+Residual: 1.6413899843894555
+Residual: 3.387871728102231e-11
+Residual: 3.5647292140906374e-11
+Not Converge... 3.387871728102231e-11 -1.7685748598840655e-12 31
+R: [[ 0.98480775 -0.17364818]
+ [ 0.17364818  0.98480775]]
+T: [-0.13336047 -2.07984822]
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_iterative_closest_point.py: 1202.1951377391815s cumulative, 43.797667503356934s individual
+
+/home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/iterative_closest_point/iterative_closest_point.py start!!
+Residual: 6117.8715481815625
+Residual: 5387.641136008537
+Residual: 4729.432186839368
+Residual: 4071.727378749123
+Residual: 3287.95850113251
+Residual: 2449.458029024538
+Residual: 1398.126688828748
+Residual: 282.14905893488736
+Residual: 1.569331618201836
+Residual: 4.465298484250596e-11
+Residual: 4.633376338766103e-11
+Not Converge... 4.465298484250596e-11 -1.680778545155067e-12 11
+R: [[ 9.84804686e-01 -1.59761475e-03 -1.73658220e-01]
+ [ 8.50959968e-04  9.99990072e-01 -4.37393360e-03]
+ [ 1.73663484e-01  4.15969411e-03  9.84796269e-01]]
+T: [-1.15508837 -1.99951785  4.87115578]
+Residual: 6163.976705766737
+Residual: 5507.5281559283885
+Residual: 4885.503346132193
+Residual: 4257.747551557208
+Residual: 3643.038872697021
+Residual: 2895.5560976511356
+Residual: 2016.0265166993154
+Residual: 880.1973273450276
+Residual: 40.547069599120604
+Residual: 3.248057490937527e-11
+Residual: 3.225742257215789e-11
+Converge 3.225742257215789e-11 2.2315233721738337e-13 11
+R: [[ 0.9848344   0.00204414 -0.17348497]
+ [-0.00275561  0.99998875 -0.00386031]
+ [ 0.17347512  0.00427983  0.98482895]]
+T: [-1.14839212 -2.09345072  4.81031298]
+Residual: 6067.464889431226
+Residual: 5465.62312560567
+Residual: 4765.4909614563885
+Residual: 4045.7350756210726
+Residual: 3281.6514902865965
+Residual: 2512.8809907500363
+Residual: 1637.7357434824157
+Residual: 493.71603876121026
+Residual: 7.62250366380006
+Residual: 1.2198868200505651e-11
+Residual: 1.5404923363861747e-11
+Not Converge... 1.2198868200505651e-11 -3.206055163356096e-12 11
+R: [[ 9.84834524e-01 -1.10309589e-03 -1.73492774e-01]
+ [ 6.60667298e-05  9.99982099e-01 -5.98302352e-03]
+ [ 1.73496269e-01  5.88082602e-03  9.84816968e-01]]
+T: [-1.10159504 -2.02663275  4.85242068]
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_iterative_closest_point.py: 1220.1554636955261s cumulative, 17.960325956344604s individual
+
+
+tests/test_greedy_best_first_search.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/GreedyBestFirstSearch/greedy_best_first_search.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Found goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_greedy_best_first_search.py: 1220.3840999603271s cumulative, 0.2286362648010254s individual
+
+
+tests/test_frenet_optimal_trajectory.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/FrenetOptimalTrajectory/frenet_optimal_trajectory.py start!!
+Finish
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_frenet_optimal_trajectory.py: 1222.433854341507s cumulative, 2.0497543811798096s individual
+
+
+tests/test_particle_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/particle_filter/particle_filter.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_particle_filter.py: 1226.7472200393677s cumulative, 4.313365697860718s individual
+
+
+tests/test_bipedal_planner.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bipedal_planner.py: 1226.752865076065s cumulative, 0.005645036697387695s individual
+
+
+tests/test_rrt_star.py Start /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/RRTStar/rrt_star.py
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 2
+Iter: 2 , number of nodes: 3
+Iter: 3 , number of nodes: 4
+Iter: 4 , number of nodes: 5
+Iter: 5 , number of nodes: 5
+Iter: 6 , number of nodes: 6
+Iter: 7 , number of nodes: 6
+Iter: 8 , number of nodes: 7
+Iter: 9 , number of nodes: 8
+Iter: 10 , number of nodes: 9
+Iter: 11 , number of nodes: 9
+Iter: 12 , number of nodes: 9
+Iter: 13 , number of nodes: 10
+Iter: 14 , number of nodes: 11
+Iter: 15 , number of nodes: 11
+Iter: 16 , number of nodes: 11
+Iter: 17 , number of nodes: 12
+Iter: 18 , number of nodes: 13
+Iter: 19 , number of nodes: 14
+Iter: 20 , number of nodes: 14
+Iter: 21 , number of nodes: 14
+Iter: 22 , number of nodes: 14
+Iter: 23 , number of nodes: 14
+Iter: 24 , number of nodes: 14
+Iter: 25 , number of nodes: 14
+Iter: 26 , number of nodes: 14
+Iter: 27 , number of nodes: 14
+Iter: 28 , number of nodes: 15
+Iter: 29 , number of nodes: 15
+Iter: 30 , number of nodes: 15
+Iter: 31 , number of nodes: 15
+Iter: 32 , number of nodes: 15
+Iter: 33 , number of nodes: 16
+Iter: 34 , number of nodes: 16
+Iter: 35 , number of nodes: 16
+Iter: 36 , number of nodes: 16
+Iter: 37 , number of nodes: 16
+Iter: 38 , number of nodes: 16
+Iter: 39 , number of nodes: 16
+Iter: 40 , number of nodes: 16
+Iter: 41 , number of nodes: 16
+Iter: 42 , number of nodes: 17
+Iter: 43 , number of nodes: 17
+Iter: 44 , number of nodes: 18
+Iter: 45 , number of nodes: 19
+Iter: 46 , number of nodes: 19
+Iter: 47 , number of nodes: 19
+Iter: 48 , number of nodes: 20
+Iter: 49 , number of nodes: 20
+Iter: 50 , number of nodes: 20
+Iter: 51 , number of nodes: 21
+Iter: 52 , number of nodes: 21
+Iter: 53 , number of nodes: 21
+Iter: 54 , number of nodes: 22
+Iter: 55 , number of nodes: 23
+Iter: 56 , number of nodes: 23
+Iter: 57 , number of nodes: 24
+Iter: 58 , number of nodes: 24
+Iter: 59 , number of nodes: 24
+Iter: 60 , number of nodes: 24
+Iter: 61 , number of nodes: 24
+Iter: 62 , number of nodes: 24
+Iter: 63 , number of nodes: 25
+Iter: 64 , number of nodes: 26
+Iter: 65 , number of nodes: 26
+Iter: 66 , number of nodes: 26
+Iter: 67 , number of nodes: 26
+Iter: 68 , number of nodes: 26
+Iter: 69 , number of nodes: 27
+Iter: 70 , number of nodes: 27
+Iter: 71 , number of nodes: 27
+Iter: 72 , number of nodes: 27
+Iter: 73 , number of nodes: 27
+Iter: 74 , number of nodes: 27
+Iter: 75 , number of nodes: 28
+Iter: 76 , number of nodes: 29
+Iter: 77 , number of nodes: 29
+Iter: 78 , number of nodes: 30
+Iter: 79 , number of nodes: 30
+Iter: 80 , number of nodes: 30
+Iter: 81 , number of nodes: 30
+Iter: 82 , number of nodes: 31
+Iter: 83 , number of nodes: 31
+Iter: 84 , number of nodes: 32
+Iter: 85 , number of nodes: 33
+Iter: 86 , number of nodes: 34
+Iter: 87 , number of nodes: 34
+Iter: 88 , number of nodes: 35
+Iter: 89 , number of nodes: 36
+Iter: 90 , number of nodes: 36
+Iter: 91 , number of nodes: 37
+Iter: 92 , number of nodes: 37
+Iter: 93 , number of nodes: 37
+Iter: 94 , number of nodes: 38
+Iter: 95 , number of nodes: 39
+Iter: 96 , number of nodes: 39
+Iter: 97 , number of nodes: 39
+Iter: 98 , number of nodes: 39
+Iter: 99 , number of nodes: 39
+Iter: 100 , number of nodes: 40
+Iter: 101 , number of nodes: 41
+Iter: 102 , number of nodes: 41
+Iter: 103 , number of nodes: 42
+Iter: 104 , number of nodes: 42
+Iter: 105 , number of nodes: 42
+Iter: 106 , number of nodes: 43
+Iter: 107 , number of nodes: 44
+Iter: 108 , number of nodes: 44
+Iter: 109 , number of nodes: 44
+Iter: 110 , number of nodes: 45
+Iter: 111 , number of nodes: 46
+Iter: 112 , number of nodes: 47
+Iter: 113 , number of nodes: 48
+Iter: 114 , number of nodes: 49
+Iter: 115 , number of nodes: 50
+Iter: 116 , number of nodes: 51
+Iter: 117 , number of nodes: 52
+Iter: 118 , number of nodes: 53
+Iter: 119 , number of nodes: 54
+Iter: 120 , number of nodes: 54
+Iter: 121 , number of nodes: 55
+Iter: 122 , number of nodes: 56
+Iter: 123 , number of nodes: 57
+Iter: 124 , number of nodes: 58
+Iter: 125 , number of nodes: 59
+Iter: 126 , number of nodes: 60
+Iter: 127 , number of nodes: 61
+Iter: 128 , number of nodes: 62
+Iter: 129 , number of nodes: 63
+Iter: 130 , number of nodes: 63
+Iter: 131 , number of nodes: 63
+Iter: 132 , number of nodes: 64
+Iter: 133 , number of nodes: 64
+Iter: 134 , number of nodes: 65
+Iter: 135 , number of nodes: 66
+Iter: 136 , number of nodes: 66
+Iter: 137 , number of nodes: 67
+Iter: 138 , number of nodes: 67
+Iter: 139 , number of nodes: 68
+Iter: 140 , number of nodes: 69
+Iter: 141 , number of nodes: 70
+Iter: 142 , number of nodes: 70
+Iter: 143 , number of nodes: 70
+Iter: 144 , number of nodes: 70
+Iter: 145 , number of nodes: 71
+Iter: 146 , number of nodes: 72
+Iter: 147 , number of nodes: 72
+Iter: 148 , number of nodes: 73
+Iter: 149 , number of nodes: 73
+Iter: 150 , number of nodes: 74
+Iter: 151 , number of nodes: 75
+Iter: 152 , number of nodes: 75
+Iter: 153 , number of nodes: 76
+Iter: 154 , number of nodes: 76
+Iter: 155 , number of nodes: 76
+Iter: 156 , number of nodes: 77
+Iter: 157 , number of nodes: 77
+Iter: 158 , number of nodes: 77
+Iter: 159 , number of nodes: 78
+Iter: 160 , number of nodes: 78
+Iter: 161 , number of nodes: 78
+Iter: 162 , number of nodes: 78
+Iter: 163 , number of nodes: 79
+Iter: 164 , number of nodes: 80
+Iter: 165 , number of nodes: 80
+Iter: 166 , number of nodes: 80
+Iter: 167 , number of nodes: 81
+Iter: 168 , number of nodes: 82
+Iter: 169 , number of nodes: 83
+Iter: 170 , number of nodes: 83
+Iter: 171 , number of nodes: 83
+Iter: 172 , number of nodes: 84
+Iter: 173 , number of nodes: 84
+Iter: 174 , number of nodes: 85
+Iter: 175 , number of nodes: 85
+Iter: 176 , number of nodes: 86
+Iter: 177 , number of nodes: 87
+Iter: 178 , number of nodes: 87
+Iter: 179 , number of nodes: 88
+Iter: 180 , number of nodes: 88
+Iter: 181 , number of nodes: 88
+Iter: 182 , number of nodes: 89
+Iter: 183 , number of nodes: 90
+Iter: 184 , number of nodes: 91
+Iter: 185 , number of nodes: 92
+Iter: 186 , number of nodes: 93
+Iter: 187 , number of nodes: 94
+Iter: 188 , number of nodes: 94
+Iter: 189 , number of nodes: 95
+Iter: 190 , number of nodes: 96
+Iter: 191 , number of nodes: 96
+Iter: 192 , number of nodes: 96
+Iter: 193 , number of nodes: 97
+Iter: 194 , number of nodes: 98
+Iter: 195 , number of nodes: 99
+Iter: 196 , number of nodes: 100
+Iter: 197 , number of nodes: 101
+Iter: 198 , number of nodes: 102
+Iter: 199 , number of nodes: 103
+Iter: 200 , number of nodes: 104
+Iter: 201 , number of nodes: 105
+Iter: 202 , number of nodes: 106
+Iter: 203 , number of nodes: 107
+Iter: 204 , number of nodes: 108
+Iter: 205 , number of nodes: 109
+Iter: 206 , number of nodes: 109
+Iter: 207 , number of nodes: 110
+Iter: 208 , number of nodes: 111
+found path!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star.py: 1226.8118932247162s cumulative, 0.05902814865112305s individual
+
+Iter: 0 , number of nodes: 1
+.
+current test PASSED/SKIPPED -- test_no_obstacle in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star.py: 1226.8145847320557s cumulative, 0.002691507339477539s individual
+
+Iter: 0 , number of nodes: 1
+.
+current test PASSED/SKIPPED -- test_no_obstacle_and_robot_radius in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star.py: 1226.8178367614746s cumulative, 0.0032520294189453125s individual
+
+
+tests/test_batch_informed_rrt_star.py Starting Batch Informed Trees Star planning
+g_Score goal id:  inf
+Batch:  0
+Finding the path
+cannot find Path
+Done
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_batch_informed_rrt_star.py: 1227.165105342865s cumulative, 0.34726858139038086s individual
+
+
+tests/test_bspline_path.py .
+current test PASSED/SKIPPED -- test_degree_change in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1227.1868698596954s cumulative, 0.021764516830444336s individual
+
+.
+current test PASSED/SKIPPED -- test_list_input in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1227.1959471702576s cumulative, 0.009077310562133789s individual
+
+.
+current test PASSED/SKIPPED -- test_array_input in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_bspline_path.py: 1227.203460931778s cumulative, 0.007513761520385742s individual
+
+
+tests/test_utils.py .
+current test PASSED/SKIPPED -- test_rot_mat_2d in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_utils.py: 1227.2090966701508s cumulative, 0.005635738372802734s individual
+
+.
+current test PASSED/SKIPPED -- test_angle_mod in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_utils.py: 1227.2147965431213s cumulative, 0.005699872970581055s individual
+
+
+tests/test_grid_map_lib.py .
+current test PASSED/SKIPPED -- test_xy_and_grid_index_conversion in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 1227.2300508022308s cumulative, 0.01525425910949707s individual
+
+.
+current test PASSED/SKIPPED -- test_polygon_set in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 1229.686931848526s cumulative, 2.456881046295166s individual
+
+.
+current test PASSED/SKIPPED -- test_position_set in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_map_lib.py: 1229.6903886795044s cumulative, 0.0034568309783935547s individual
+
+
+tests/test_raycasting_grid_map.py /home/kaiyaok2/PythonProjects/PythonRobotics/Mapping/raycasting_grid_map/raycasting_grid_map.py start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_raycasting_grid_map.py: 1229.8091111183167s cumulative, 0.11872243881225586s individual
+
+
+tests/test_dstar.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dstar.py: 1230.315773010254s cumulative, 0.5066618919372559s individual
+
+
+tests/test_lqr_steer_control.py LQR steering control tracking start!!
+Goal
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_lqr_steer_control.py: 1231.8120005130768s cumulative, 1.496227502822876s individual
+
+
+tests/test_grid_based_sweep_coverage_path_planner.py width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 336
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 310
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 315
+width: 50
+height: 40
+resolution: 5.1
+center_x: 51.970775811618765
+center_y: 3.9223227027636867
+left_lower_x: -75.52922418838122
+left_lower_y: -98.0776772972363
+n_data: 2000
+Done
+Path length: 336
+.
+current test PASSED/SKIPPED -- test_planning3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 1232.0160081386566s cumulative, 0.20400762557983398s individual
+
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+width: 49
+height: 34
+resolution: 1.3
+center_x: 25.0
+center_y: 15.0
+left_lower_x: -6.850000000000001
+left_lower_y: -7.100000000000001
+n_data: 1666
+Done
+Path length: 814
+.
+current test PASSED/SKIPPED -- test_planning2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 1232.1836915016174s cumulative, 0.16768336296081543s individual
+
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 197
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 197
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 198
+width: 33
+height: 31
+resolution: 5.0
+center_x: 56.94424517739724
+center_y: 50.978657587384205
+left_lower_x: -25.555754822602758
+left_lower_y: -26.521342412615795
+n_data: 1023
+Done
+Path length: 198
+.
+current test PASSED/SKIPPED -- test_planning1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_grid_based_sweep_coverage_path_planner.py: 1232.2961864471436s cumulative, 0.11249494552612305s individual
+
+
+tests/test_rrt_star_dubins.py Start rrt star with dubins planning
+Iter: 0 , number of nodes: 1
+Iter: 1 , number of nodes: 1
+Iter: 2 , number of nodes: 2
+Iter: 3 , number of nodes: 2
+Iter: 4 , number of nodes: 3
+Iter: 5 , number of nodes: 4
+Iter: 6 , number of nodes: 5
+Iter: 7 , number of nodes: 5
+Iter: 8 , number of nodes: 6
+Iter: 9 , number of nodes: 7
+Iter: 10 , number of nodes: 7
+Iter: 11 , number of nodes: 8
+Iter: 12 , number of nodes: 8
+Iter: 13 , number of nodes: 8
+Iter: 14 , number of nodes: 9
+Iter: 15 , number of nodes: 10
+Iter: 16 , number of nodes: 10
+Iter: 17 , number of nodes: 10
+Iter: 18 , number of nodes: 11
+Iter: 19 , number of nodes: 12
+Iter: 20 , number of nodes: 13
+Iter: 21 , number of nodes: 13
+Iter: 22 , number of nodes: 13
+Iter: 23 , number of nodes: 14
+Iter: 24 , number of nodes: 14
+Iter: 25 , number of nodes: 15
+Iter: 26 , number of nodes: 15
+Iter: 27 , number of nodes: 16
+Iter: 28 , number of nodes: 17
+Iter: 29 , number of nodes: 17
+Iter: 30 , number of nodes: 18
+Iter: 31 , number of nodes: 18
+Iter: 32 , number of nodes: 18
+Iter: 33 , number of nodes: 19
+Iter: 34 , number of nodes: 20
+Iter: 35 , number of nodes: 20
+Iter: 36 , number of nodes: 21
+Iter: 37 , number of nodes: 22
+Iter: 38 , number of nodes: 22
+Iter: 39 , number of nodes: 22
+Iter: 40 , number of nodes: 23
+Iter: 41 , number of nodes: 24
+Iter: 42 , number of nodes: 25
+Iter: 43 , number of nodes: 26
+Iter: 44 , number of nodes: 27
+Iter: 45 , number of nodes: 28
+Iter: 46 , number of nodes: 28
+Iter: 47 , number of nodes: 28
+Iter: 48 , number of nodes: 29
+Iter: 49 , number of nodes: 30
+Iter: 50 , number of nodes: 31
+Iter: 51 , number of nodes: 32
+Iter: 52 , number of nodes: 33
+Iter: 53 , number of nodes: 34
+Iter: 54 , number of nodes: 35
+Iter: 55 , number of nodes: 35
+Iter: 56 , number of nodes: 36
+Iter: 57 , number of nodes: 37
+Iter: 58 , number of nodes: 37
+Iter: 59 , number of nodes: 38
+Iter: 60 , number of nodes: 39
+Iter: 61 , number of nodes: 40
+Iter: 62 , number of nodes: 41
+Iter: 63 , number of nodes: 42
+Iter: 64 , number of nodes: 43
+Iter: 65 , number of nodes: 44
+Iter: 66 , number of nodes: 44
+Iter: 67 , number of nodes: 45
+Iter: 68 , number of nodes: 45
+Iter: 69 , number of nodes: 45
+Iter: 70 , number of nodes: 45
+Iter: 71 , number of nodes: 46
+Iter: 72 , number of nodes: 47
+Iter: 73 , number of nodes: 48
+Iter: 74 , number of nodes: 49
+Iter: 75 , number of nodes: 50
+Iter: 76 , number of nodes: 50
+Iter: 77 , number of nodes: 51
+Iter: 78 , number of nodes: 52
+Iter: 79 , number of nodes: 53
+Iter: 80 , number of nodes: 54
+Iter: 81 , number of nodes: 54
+Iter: 82 , number of nodes: 55
+Iter: 83 , number of nodes: 56
+Iter: 84 , number of nodes: 57
+Iter: 85 , number of nodes: 58
+Iter: 86 , number of nodes: 59
+Iter: 87 , number of nodes: 59
+Iter: 88 , number of nodes: 59
+Iter: 89 , number of nodes: 59
+Iter: 90 , number of nodes: 60
+Iter: 91 , number of nodes: 61
+Iter: 92 , number of nodes: 62
+Iter: 93 , number of nodes: 63
+Iter: 94 , number of nodes: 64
+Iter: 95 , number of nodes: 65
+Iter: 96 , number of nodes: 65
+Iter: 97 , number of nodes: 66
+Iter: 98 , number of nodes: 66
+Iter: 99 , number of nodes: 67
+Iter: 100 , number of nodes: 68
+Iter: 101 , number of nodes: 69
+Iter: 102 , number of nodes: 70
+Iter: 103 , number of nodes: 70
+Iter: 104 , number of nodes: 70
+Iter: 105 , number of nodes: 71
+Iter: 106 , number of nodes: 72
+Iter: 107 , number of nodes: 72
+Iter: 108 , number of nodes: 72
+Iter: 109 , number of nodes: 72
+Iter: 110 , number of nodes: 72
+Iter: 111 , number of nodes: 73
+Iter: 112 , number of nodes: 74
+Iter: 113 , number of nodes: 75
+Iter: 114 , number of nodes: 76
+Iter: 115 , number of nodes: 77
+Iter: 116 , number of nodes: 77
+Iter: 117 , number of nodes: 78
+Iter: 118 , number of nodes: 79
+Iter: 119 , number of nodes: 80
+Iter: 120 , number of nodes: 80
+Iter: 121 , number of nodes: 81
+Iter: 122 , number of nodes: 81
+Iter: 123 , number of nodes: 82
+Iter: 124 , number of nodes: 83
+Iter: 125 , number of nodes: 83
+Iter: 126 , number of nodes: 83
+Iter: 127 , number of nodes: 83
+Iter: 128 , number of nodes: 84
+Iter: 129 , number of nodes: 84
+Iter: 130 , number of nodes: 84
+Iter: 131 , number of nodes: 85
+Iter: 132 , number of nodes: 86
+Iter: 133 , number of nodes: 87
+Iter: 134 , number of nodes: 87
+Iter: 135 , number of nodes: 88
+Iter: 136 , number of nodes: 89
+Iter: 137 , number of nodes: 90
+Iter: 138 , number of nodes: 91
+Iter: 139 , number of nodes: 92
+Iter: 140 , number of nodes: 93
+Iter: 141 , number of nodes: 94
+Iter: 142 , number of nodes: 94
+Iter: 143 , number of nodes: 95
+Iter: 144 , number of nodes: 96
+Iter: 145 , number of nodes: 97
+Iter: 146 , number of nodes: 98
+Iter: 147 , number of nodes: 99
+Iter: 148 , number of nodes: 100
+Iter: 149 , number of nodes: 101
+Iter: 150 , number of nodes: 102
+Iter: 151 , number of nodes: 102
+Iter: 152 , number of nodes: 103
+Iter: 153 , number of nodes: 104
+Iter: 154 , number of nodes: 105
+Iter: 155 , number of nodes: 106
+Iter: 156 , number of nodes: 106
+Iter: 157 , number of nodes: 106
+Iter: 158 , number of nodes: 107
+Iter: 159 , number of nodes: 107
+Iter: 160 , number of nodes: 107
+Iter: 161 , number of nodes: 108
+Iter: 162 , number of nodes: 109
+Iter: 163 , number of nodes: 109
+Iter: 164 , number of nodes: 110
+Iter: 165 , number of nodes: 111
+Iter: 166 , number of nodes: 112
+Iter: 167 , number of nodes: 113
+Iter: 168 , number of nodes: 114
+Iter: 169 , number of nodes: 114
+Iter: 170 , number of nodes: 114
+Iter: 171 , number of nodes: 114
+Iter: 172 , number of nodes: 114
+Iter: 173 , number of nodes: 115
+Iter: 174 , number of nodes: 115
+Iter: 175 , number of nodes: 116
+Iter: 176 , number of nodes: 116
+Iter: 177 , number of nodes: 117
+Iter: 178 , number of nodes: 118
+Iter: 179 , number of nodes: 119
+Iter: 180 , number of nodes: 119
+Iter: 181 , number of nodes: 119
+Iter: 182 , number of nodes: 120
+Iter: 183 , number of nodes: 120
+Iter: 184 , number of nodes: 121
+Iter: 185 , number of nodes: 121
+Iter: 186 , number of nodes: 121
+Iter: 187 , number of nodes: 122
+Iter: 188 , number of nodes: 123
+Iter: 189 , number of nodes: 124
+Iter: 190 , number of nodes: 125
+Iter: 191 , number of nodes: 125
+Iter: 192 , number of nodes: 125
+Iter: 193 , number of nodes: 126
+Iter: 194 , number of nodes: 127
+Iter: 195 , number of nodes: 128
+Iter: 196 , number of nodes: 128
+Iter: 197 , number of nodes: 129
+Iter: 198 , number of nodes: 129
+Iter: 199 , number of nodes: 130
+reached max iteration
+final
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rrt_star_dubins.py: 1263.5223135948181s cumulative, 31.22612714767456s individual
+
+
+tests/test_rectangle_fitting.py Done
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_rectangle_fitting.py: 1279.6782567501068s cumulative, 16.155943155288696s individual
+
+
+tests/test_dubins_path_planning.py .
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 1279.6863842010498s cumulative, 0.008127450942993164s individual
+
+.
+current test PASSED/SKIPPED -- test_path_plannings_types in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 1279.6944630146027s cumulative, 0.008078813552856445s individual
+
+.
+current test PASSED/SKIPPED -- test_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 1279.7178964614868s cumulative, 0.023433446884155273s individual
+
+Dubins path planner sample start!!
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dubins_path_planning.py: 1279.7243599891663s cumulative, 0.006463527679443359s individual
+
+
+tests/test_voronoi_road_map_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/VisibilityRoadMap/visibility_road_map.py start!!
+goal is found!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_voronoi_road_map_planner.py: 1279.7450501918793s cumulative, 0.020690202713012695s individual
+
+
+tests/test_a_star.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/AStar/a_star.py start!!
+min_x: -10
+min_y: -10
+max_x: 60
+max_y: 60
+x_width: 35
+y_width: 35
+Find goal
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_a_star.py: 1280.0619370937347s cumulative, 0.31688690185546875s individual
+
+
+tests/test_dynamic_movement_primitives.py .
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dynamic_movement_primitives.py: 1280.553807258606s cumulative, 0.4918701648712158s individual
+
+.
+current test PASSED/SKIPPED -- test_3 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dynamic_movement_primitives.py: 1280.971179485321s cumulative, 0.4173722267150879s individual
+
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_dynamic_movement_primitives.py: 1281.3588526248932s cumulative, 0.38767313957214355s individual
+
+
+tests/test_graph_based_slam.py /home/kaiyaok2/PythonProjects/PythonRobotics/SLAM/GraphBasedSLAM/graph_based_slam.py start!!
+start graph based slam
+cost: 51621.50867257932 ,n_edge: 225
+iteration: 1, diff: 2.850337
+cost: 81.04428828943614 ,n_edge: 225
+iteration: 2, diff: 0.588508
+cost: 30.06903569561254 ,n_edge: 225
+iteration: 3, diff: 0.085696
+cost: 29.958351276878723 ,n_edge: 225
+iteration: 4, diff: 0.009840
+cost: 29.956349241250546 ,n_edge: 225
+iteration: 5, diff: 0.001133
+cost: 29.956260640212495 ,n_edge: 225
+iteration: 6, diff: 0.000130
+cost: 29.95625232102884 ,n_edge: 225
+iteration: 7, diff: 0.000015
+cost: 29.95625138839555 ,n_edge: 225
+iteration: 8, diff: 0.000002
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_graph_based_slam.py: 1282.7331981658936s cumulative, 1.3743455410003662s individual
+
+
+tests/test_normal_vector_estimation.py center=array([0.33333333, 0.66666667, 0.33333333])
+normal_vector=array([0.        , 0.70710678, 0.70710678])
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_normal_vector_estimation.py: 1282.7406702041626s cumulative, 0.007472038269042969s individual
+
+points_3d.shape=(100, 3)
+Iter:0, inlier_ratio=0.32
+Iter:1, inlier_ratio=0.15
+Iter:2, inlier_ratio=0.36
+Iter:3, inlier_ratio=0.65
+Iter:4, inlier_ratio=0.11
+Iter:5, inlier_ratio=0.43
+Iter:6, inlier_ratio=0.29
+Iter:7, inlier_ratio=0.6
+Iter:8, inlier_ratio=0.53
+Iter:9, inlier_ratio=0.48
+Iter:10, inlier_ratio=0.07
+Iter:11, inlier_ratio=0.05
+Iter:12, inlier_ratio=0.6
+Iter:13, inlier_ratio=0.59
+Iter:14, inlier_ratio=0.22
+Iter:15, inlier_ratio=0.36
+Iter:16, inlier_ratio=0.46
+Iter:17, inlier_ratio=0.26
+Iter:18, inlier_ratio=0.28
+Iter:19, inlier_ratio=0.16
+Iter:20, inlier_ratio=0.19
+Iter:21, inlier_ratio=0.22
+Iter:22, inlier_ratio=0.55
+Iter:23, inlier_ratio=0.26
+Iter:24, inlier_ratio=0.21
+Iter:25, inlier_ratio=0.51
+Iter:26, inlier_ratio=0.51
+Iter:27, inlier_ratio=0.32
+Iter:28, inlier_ratio=0.43
+Iter:29, inlier_ratio=0.08
+Iter:30, inlier_ratio=0.19
+Iter:31, inlier_ratio=0.1
+Iter:32, inlier_ratio=0.6
+Iter:33, inlier_ratio=0.24
+Iter:34, inlier_ratio=0.65
+Iter:35, inlier_ratio=0.51
+Iter:36, inlier_ratio=0.27
+Iter:37, inlier_ratio=0.28
+Iter:38, inlier_ratio=0.15
+Iter:39, inlier_ratio=0.58
+Iter:40, inlier_ratio=0.37
+Iter:41, inlier_ratio=0.11
+Iter:42, inlier_ratio=0.65
+Iter:43, inlier_ratio=0.45
+Iter:44, inlier_ratio=0.62
+Iter:45, inlier_ratio=0.22
+Iter:46, inlier_ratio=0.24
+Iter:47, inlier_ratio=0.6
+Iter:48, inlier_ratio=0.4
+Iter:49, inlier_ratio=0.43
+Iter:50, inlier_ratio=0.16
+Iter:51, inlier_ratio=0.27
+Iter:52, inlier_ratio=0.09
+Iter:53, inlier_ratio=0.57
+Iter:54, inlier_ratio=0.22
+Iter:55, inlier_ratio=0.44
+Iter:56, inlier_ratio=0.34
+Iter:57, inlier_ratio=0.65
+Iter:58, inlier_ratio=0.61
+Iter:59, inlier_ratio=0.13
+Iter:60, inlier_ratio=0.68
+Iter:61, inlier_ratio=0.11
+Iter:62, inlier_ratio=0.3
+Iter:63, inlier_ratio=0.16
+Iter:64, inlier_ratio=0.24
+Iter:65, inlier_ratio=0.62
+Iter:66, inlier_ratio=0.54
+Iter:67, inlier_ratio=0.34
+Iter:68, inlier_ratio=0.52
+Iter:69, inlier_ratio=0.31
+Iter:70, inlier_ratio=0.17
+Iter:71, inlier_ratio=0.51
+Iter:72, inlier_ratio=0.3
+Iter:73, inlier_ratio=0.28
+Iter:74, inlier_ratio=0.15
+Iter:75, inlier_ratio=0.29
+Iter:76, inlier_ratio=0.08
+Iter:77, inlier_ratio=0.69
+Iter:78, inlier_ratio=0.21
+Iter:79, inlier_ratio=0.55
+Iter:80, inlier_ratio=0.67
+Iter:81, inlier_ratio=0.62
+Iter:82, inlier_ratio=0.63
+Iter:83, inlier_ratio=0.37
+Iter:84, inlier_ratio=0.13
+Iter:85, inlier_ratio=0.28
+Iter:86, inlier_ratio=0.65
+Iter:87, inlier_ratio=0.62
+Iter:88, inlier_ratio=0.51
+Iter:89, inlier_ratio=0.67
+Iter:90, inlier_ratio=0.08
+Iter:91, inlier_ratio=0.41
+Iter:92, inlier_ratio=0.6
+Iter:93, inlier_ratio=0.32
+Iter:94, inlier_ratio=0.55
+Iter:95, inlier_ratio=0.17
+Iter:96, inlier_ratio=0.42
+Iter:97, inlier_ratio=0.12
+Iter:98, inlier_ratio=0.63
+Iter:99, inlier_ratio=0.26
+Iter:100, inlier_ratio=0.16
+Iter:101, inlier_ratio=0.52
+Iter:102, inlier_ratio=0.3
+Iter:103, inlier_ratio=0.42
+Iter:104, inlier_ratio=0.15
+Iter:105, inlier_ratio=0.1
+Iter:106, inlier_ratio=0.65
+Iter:107, inlier_ratio=0.16
+Iter:108, inlier_ratio=0.09
+Iter:109, inlier_ratio=0.39
+Iter:110, inlier_ratio=0.19
+Iter:111, inlier_ratio=0.15
+Iter:112, inlier_ratio=0.12
+Iter:113, inlier_ratio=0.23
+Iter:114, inlier_ratio=0.53
+Iter:115, inlier_ratio=0.46
+Iter:116, inlier_ratio=0.41
+Iter:117, inlier_ratio=0.44
+Iter:118, inlier_ratio=0.3
+Iter:119, inlier_ratio=0.26
+Iter:120, inlier_ratio=0.49
+Iter:121, inlier_ratio=0.15
+Iter:122, inlier_ratio=0.14
+Iter:123, inlier_ratio=0.18
+Iter:124, inlier_ratio=0.21
+Iter:125, inlier_ratio=0.56
+Iter:126, inlier_ratio=0.17
+Iter:127, inlier_ratio=0.68
+Iter:128, inlier_ratio=0.13
+Iter:129, inlier_ratio=0.57
+Iter:130, inlier_ratio=0.48
+Iter:131, inlier_ratio=0.27
+Iter:132, inlier_ratio=0.2
+Iter:133, inlier_ratio=0.15
+Iter:134, inlier_ratio=0.11
+Iter:135, inlier_ratio=0.09
+Iter:136, inlier_ratio=0.57
+Iter:137, inlier_ratio=0.13
+Iter:138, inlier_ratio=0.28
+Iter:139, inlier_ratio=0.09
+Iter:140, inlier_ratio=0.5
+Iter:141, inlier_ratio=0.3
+Iter:142, inlier_ratio=0.39
+Iter:143, inlier_ratio=0.12
+Iter:144, inlier_ratio=0.4
+Iter:145, inlier_ratio=0.61
+Iter:146, inlier_ratio=0.41
+Iter:147, inlier_ratio=0.69
+Iter:148, inlier_ratio=0.12
+Iter:149, inlier_ratio=0.68
+Iter:150, inlier_ratio=0.57
+Iter:151, inlier_ratio=0.19
+Iter:152, inlier_ratio=0.64
+Iter:153, inlier_ratio=0.6
+Iter:154, inlier_ratio=0.4
+Iter:155, inlier_ratio=0.24
+Iter:156, inlier_ratio=0.2
+Iter:157, inlier_ratio=0.22
+Iter:158, inlier_ratio=0.19
+Iter:159, inlier_ratio=0.32
+Iter:160, inlier_ratio=0.42
+Iter:161, inlier_ratio=0.52
+Iter:162, inlier_ratio=0.62
+Iter:163, inlier_ratio=0.12
+Iter:164, inlier_ratio=0.23
+Iter:165, inlier_ratio=0.57
+Iter:166, inlier_ratio=0.62
+Iter:167, inlier_ratio=0.2
+Failed to estimate normal vector
+.
+current test PASSED/SKIPPED -- test_2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_normal_vector_estimation.py: 1285.5215809345245s cumulative, 2.7809107303619385s individual
+
+
+tests/test_extended_kalman_filter.py /home/kaiyaok2/PythonProjects/PythonRobotics/Localization/extended_kalman_filter/extended_kalman_filter.py start!!
+.
+current test PASSED/SKIPPED -- test_1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_extended_kalman_filter.py: 1286.0059101581573s cumulative, 0.4843292236328125s individual
+
+
+tests/test_visibility_road_map_planner.py /home/kaiyaok2/PythonProjects/PythonRobotics/PathPlanning/VoronoiRoadMap/voronoi_road_map.py start!!
+goal is found!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_visibility_road_map_planner.py: 1287.4558992385864s cumulative, 1.4499890804290771s individual
+
+
+tests/test_reeds_shepp_path_planning.py .
+current test PASSED/SKIPPED -- test2 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_reeds_shepp_path_planning.py: 1287.6554312705994s cumulative, 0.19953203201293945s individual
+
+Reeds Shepp path planner sample start!!
+.
+current test PASSED/SKIPPED -- test1 in /home/kaiyaok2/PythonProjects/PythonRobotics/tests/test_reeds_shepp_path_planning.py: 1287.7792074680328s cumulative, 0.12377619743347168s individual
+
+
+
+=================================== FAILURES ===================================
+_____________________________________ test _____________________________________
+
+    def test():
+        project_dir_path = os.path.dirname(
+            os.path.dirname(os.path.abspath(__file__)))
+        print(f"{project_dir_path=}")
+    
+        config_path = os.path.join(project_dir_path, "mypy.ini")
+        print(f"{config_path=}")
+    
+        for sub_package_name in SUBPACKAGE_LIST:
+>           rc, errors = run_mypy(sub_package_name, project_dir_path, config_path)
+
+tests/test_mypy_type_check.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_mypy_type_check.py:20: in run_mypy
+    res = subprocess.run(
+/usr/lib/python3.10/subprocess.py:503: in run
+    with Popen(*popenargs, **kwargs) as process:
+/usr/lib/python3.10/subprocess.py:971: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['mypy', '--config-file', '/home/kaiyaok2/Pyth...>
+args = ['mypy', '--config-file', '/home/kaiyaok2/PythonProjects/PythonRobotics/mypy.ini', '-p', 'AerialNavigation']
+executable = b'mypy', preexec_fn = None, close_fds = True, pass_fds = ()
+cwd = '/home/kaiyaok2/PythonProjects/PythonRobotics', env = None
+startupinfo = None, creationflags = 0, shell = False, p2cread = -1
+p2cwrite = -1, c2pread = 6, c2pwrite = 7, errread = -1, errwrite = -1
+restore_signals = True, gid = None, gids = None, uid = None, umask = -1
+start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: 'mypy'
+
+/usr/lib/python3.10/subprocess.py:1863: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_mypy_type_check.py::test - FileNotFoundError: [Errno 2] No ...
+================== 1 failed, 105 passed in 1313.16s (0:21:53) ==================

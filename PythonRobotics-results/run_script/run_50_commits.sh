@@ -5,6 +5,7 @@ cat last_50_commits | while read line; do
 	cur=$(echo $line | cut -d ' ' -f 1)
 	echo ====working on commit $cur======
 	git checkout -f $cur
+	rm tests/test_dynamic_window_approach.py  # This test appears in some commits and occasionally hangs
 	pip install -r requirements.txt
 	#cp ../../conftest.py ./
 	python3 -m pytest -s > ${cur}_no_tcp.log
