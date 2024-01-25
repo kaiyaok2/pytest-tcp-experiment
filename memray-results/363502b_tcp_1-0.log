@@ -1,0 +1,1325 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-7.2.2, pluggy-1.3.0
+Using --randomly-seed=1706167323
+PyQt5 5.15.10 -- Qt runtime 5.15.2 -- Qt compiled 5.15.2
+rootdir: /home/kaiyaok2/PythonProjects/memray, configfile: pyproject.toml
+plugins: hypothesis-6.81.1, cov-4.1.0, randomly-3.1.0, typeguard-4.1.5, timeout-1.4.2, qt-4.3.1, nbval-0.10.0, mock-3.12.0, tcp-0.1.1, textual-snapshot-0.4.0, asyncio-0.21.1, xdist-3.2.1, cookies-0.7.0, instafail-0.5.0, syrupy-4.6.0, anyio-3.7.1
+asyncio: mode=strict
+collected 596 items
+Using TCP weights 1-0
+Collect TCP features took 0.17075514793395996s.
+Compute TCP order took 0.015227317810058594s.
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_basic_node_selected_leaf in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 3.2247238159179688s cumulative, 3.2247238159179688s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_get_header_after_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 4.735383033752441s cumulative, 1.5106592178344727s individual
+
+.
+current test PASSED/SKIPPED -- test_get_header in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 6.141543626785278s cumulative, 1.406160593032837s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_high_watermark in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 7.502970218658447s cumulative, 1.361426591873169s individual
+
+
+unit/test_flamegraph_reporter.py .
+current test PASSED/SKIPPED -- test_inverted_sanity_check_with_real_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 8.575592517852783s cumulative, 1.072622299194336s individual
+
+.
+current test PASSED/SKIPPED -- test_sanity_check_with_real_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 9.63113260269165s cumulative, 1.0555400848388672s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_multiple_points_scattered in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 9.658023118972778s cumulative, 0.02689051628112793s individual
+
+.
+current test PASSED/SKIPPED -- test_pid_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 10.525394678115845s cumulative, 0.8673715591430664s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_pause in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 13.473893642425537s cumulative, 2.9484989643096924s individual
+
+
+unit/test_allocation_lifetime_aggregator.py .
+current test PASSED/SKIPPED -- test_no_allocations_at_start in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.478497743606567s cumulative, 0.0046041011810302734s individual
+
+.
+current test PASSED/SKIPPED -- test_range_leaked in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.484282493591309s cumulative, 0.005784749984741211s individual
+
+.
+current test PASSED/SKIPPED -- test_leaked_allocations_from_different_locations_are_not_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.488561630249023s cumulative, 0.004279136657714844s individual
+
+.
+current test PASSED/SKIPPED -- test_split_then_freed_range in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.492859840393066s cumulative, 0.004298210144042969s individual
+
+.
+current test PASSED/SKIPPED -- test_range_freed_in_different_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.496270895004272s cumulative, 0.0034110546112060547s individual
+
+.
+current test PASSED/SKIPPED -- test_shrunk_then_leaked_range in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.499852180480957s cumulative, 0.0035812854766845703s individual
+
+.
+current test PASSED/SKIPPED -- test_allocation_not_reported_when_freed_within_same_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.50328278541565s cumulative, 0.003430604934692383s individual
+
+.
+current test PASSED/SKIPPED -- test_freed_allocations_from_different_locations_are_not_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.506553173065186s cumulative, 0.003270387649536133s individual
+
+.
+current test PASSED/SKIPPED -- test_two_leaked_allocations_from_one_location in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.509935140609741s cumulative, 0.003381967544555664s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_from_same_location_and_snapshot_freed_in_different_snapshots in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.513311624526978s cumulative, 0.003376483917236328s individual
+
+.
+current test PASSED/SKIPPED -- test_shrunk_then_freed_range in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.516740798950195s cumulative, 0.0034291744232177734s individual
+
+.
+current test PASSED/SKIPPED -- test_range_freed_in_same_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.520370960235596s cumulative, 0.0036301612854003906s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_made_and_freed_together_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.524132013320923s cumulative, 0.0037610530853271484s individual
+
+.
+current test PASSED/SKIPPED -- test_allocation_reported_when_leaked in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.52727460861206s cumulative, 0.0031425952911376953s individual
+
+.
+current test PASSED/SKIPPED -- test_leaked_allocations_within_one_snapshot_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.530746698379517s cumulative, 0.0034720897674560547s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_from_same_location_and_different_snapshots_freed_in_one_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.53401255607605s cumulative, 0.003265857696533203s individual
+
+.
+current test PASSED/SKIPPED -- test_split_then_leaked_range in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.53946042060852s cumulative, 0.005447864532470703s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_snapshots_between_allocation_and_deallocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.54374361038208s cumulative, 0.00428318977355957s individual
+
+.
+current test PASSED/SKIPPED -- test_allocation_reported_when_freed_within_different_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_allocation_lifetime_aggregator.py: 13.548850536346436s cumulative, 0.005106925964355469s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_live_tracking_server_exits_properly_on_sigint in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 15.069387197494507s cumulative, 1.5205366611480713s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_update_thread in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 15.580010414123535s cumulative, 0.5106232166290283s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 16.252662897109985s cumulative, 0.6726524829864502s individual
+
+.
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 19.85375165939331s cumulative, 3.601088762283325s individual
+
+
+integration/test_api.py .
+current test PASSED/SKIPPED -- test_file_reader_as_context_manager in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_api.py: 20.87839937210083s cumulative, 1.0246477127075195s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_temporary_allocations_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 25.797255039215088s cumulative, 4.918855667114258s individual
+
+.
+current test PASSED/SKIPPED -- test_reads_from_correct_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 31.928297519683838s cumulative, 6.13104248046875s individual
+
+
+integration/test_greenlet.py .
+current test PASSED/SKIPPED -- test_integration_with_greenlet in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_greenlet.py: 32.51503825187683s cumulative, 0.5867407321929932s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_show_uninteresting_idempotency in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 33.26577854156494s cumulative, 0.7507402896881104s individual
+
+.
+current test PASSED/SKIPPED -- test_only_biggest_chain_is_expanded in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 34.31795048713684s cumulative, 1.0521719455718994s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 35.463279485702515s cumulative, 1.1453289985656738s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 36.31421709060669s cumulative, 0.8509376049041748s individual
+
+.
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 36.90177321434021s cumulative, 0.5875561237335205s individual
+
+
+integration/test_threads.py .
+current test PASSED/SKIPPED -- test_thread_name in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_threads.py: 38.04369902610779s cumulative, 1.1419258117675781s individual
+
+
+unit/test_summary_reporter.py .
+current test PASSED/SKIPPED -- test_with_multiple_allocations_and_native_traces in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 38.0699827671051s cumulative, 0.026283740997314453s individual
+
+.
+current test PASSED/SKIPPED -- test_sort_column in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 38.10921311378479s cumulative, 0.0392303466796875s individual
+
+.
+current test PASSED/SKIPPED -- test_with_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_summary_reporter.py: 38.1430504322052s cumulative, 0.033837318420410156s individual
+
+
+integration/test_extensions.py .
+current test PASSED/SKIPPED -- test_hard_exit in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 38.50018239021301s cumulative, 0.3571319580078125s individual
+
+
+unit/test_tree_reporter.py F
+current test FAILED -- test_show_uninteresting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 39.593377113342285s cumulative, 1.0931947231292725s individual
+
+.
+current test PASSED/SKIPPED -- test_select_screen in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 42.79719161987305s cumulative, 3.2038145065307617s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_hybrid_stack_in_a_thread in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 48.61125087738037s cumulative, 5.814059257507324s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_generated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 51.70542120933533s cumulative, 3.094170331954956s individual
+
+
+unit/test_table_reporter.py .
+current test PASSED/SKIPPED -- test_empty_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 51.71077823638916s cumulative, 0.005357027053833008s individual
+
+.
+current test PASSED/SKIPPED -- test_single_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 51.716270208358765s cumulative, 0.005491971969604492s individual
+
+.
+current test PASSED/SKIPPED -- test_single_native_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 51.72138714790344s cumulative, 0.005116939544677734s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_stack_trace in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 51.727335691452026s cumulative, 0.005948543548583984s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_table_reporter.py: 51.73312520980835s cumulative, 0.005789518356323242s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_leaks_with_pymalloc_warning in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 55.72378158569336s cumulative, 3.9906563758850098s individual
+
+.
+current test PASSED/SKIPPED -- test_run_file_with_args in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 57.00874042510986s cumulative, 1.284958839416504s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_deep_call_chain_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 61.90320444107056s cumulative, 4.894464015960693s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_reads_from_correct_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 67.31452560424805s cumulative, 5.41132116317749s individual
+
+.
+current test PASSED/SKIPPED -- test_not_quiet_and_fork in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 70.21443319320679s cumulative, 2.8999075889587402s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_tree in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 74.06537222862244s cumulative, 3.8509390354156494s individual
+
+.
+current test PASSED/SKIPPED -- test_json_generated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 77.1633710861206s cumulative, 3.097998857498169s individual
+
+.
+current test PASSED/SKIPPED -- test_report_both_temporary_allocation_arguments in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 79.89552974700928s cumulative, 2.732158660888672s individual
+
+.
+current test PASSED/SKIPPED -- test_json_generated_to_known_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 82.67487072944641s cumulative, 2.779340982437134s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_hybrid_stack_of_python_thread_starts_with_native_frames in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 83.89352083206177s cumulative, 1.2186501026153564s individual
+
+
+integration/test_tracking.py s
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 85.09162163734436s cumulative, 1.1981008052825928s individual
+
+s
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 86.37016606330872s cumulative, 1.2785444259643555s individual
+
+s
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 87.5162136554718s cumulative, 1.146047592163086s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_header_with_no_snapshots in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 88.53798317909241s cumulative, 1.0217695236206055s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_header_allocator in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 89.18510413169861s cumulative, 0.6471209526062012s individual
+
+
+unit/test_reader.py .
+current test PASSED/SKIPPED -- test_rejects_different_header_version in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 90.30565357208252s cumulative, 1.1205494403839111s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_incompatible_arguments in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 93.0479564666748s cumulative, 2.742302894592285s individual
+
+.
+current test PASSED/SKIPPED -- test_live_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 97.64794206619263s cumulative, 4.599985599517822s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_update_thread in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 98.23817491531372s cumulative, 0.5902328491210938s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_run_output_file_directory_does_not_exist in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 98.27247762680054s cumulative, 0.034302711486816406s individual
+
+.
+current test PASSED/SKIPPED -- test_run_file_that_is_not_python in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 98.33875489234924s cumulative, 0.06627726554870605s individual
+
+.
+current test PASSED/SKIPPED -- test_split_threads_subcommand in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 102.69267320632935s cumulative, 4.3539183139801025s individual
+
+.
+current test PASSED/SKIPPED -- test_report_both_temporary_allocation_arguments in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 105.71311593055725s cumulative, 3.0204427242279053s individual
+
+.
+current test PASSED/SKIPPED -- test_no_split_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 106.84572982788086s cumulative, 1.1326138973236084s individual
+
+.
+current test PASSED/SKIPPED -- test_json_generated_to_pretty_file_name in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 109.32775449752808s cumulative, 2.482024669647217s individual
+
+.
+current test PASSED/SKIPPED -- test_summary_generated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 112.40374302864075s cumulative, 3.075988531112671s individual
+
+.
+current test PASSED/SKIPPED -- test_sys_manipulations_when_running_script in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 113.6741099357605s cumulative, 1.270366907119751s individual
+
+.
+current test PASSED/SKIPPED -- test_run_override_output in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 114.91060400009155s cumulative, 1.2364940643310547s individual
+
+.
+current test PASSED/SKIPPED -- test_report_detects_corrupt_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 116.28819680213928s cumulative, 1.3775928020477295s individual
+
+.
+current test PASSED/SKIPPED -- test_json_generated_to_existing_known_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 119.82628321647644s cumulative, 3.538086414337158s individual
+
+
+unit/test_highwatermark_command.py .
+current test PASSED/SKIPPED -- test_fails_when_fallback_output_exists in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.83753514289856s cumulative, 0.01125192642211914s individual
+
+.
+current test PASSED/SKIPPED -- test_fails_when_given_output_exists in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.84655570983887s cumulative, 0.009020566940307617s individual
+
+.
+current test PASSED/SKIPPED -- test_succeeds_when_fallback_output_exists_but_can_overwrite in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.85292458534241s cumulative, 0.006368875503540039s individual
+
+.
+current test PASSED/SKIPPED -- test_uses_determine_output_filename_when_output_is_none in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.86278557777405s cumulative, 0.009860992431640625s individual
+
+.
+current test PASSED/SKIPPED -- test_generates_output_name_when_none in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.87645554542542s cumulative, 0.013669967651367188s individual
+
+.
+current test PASSED/SKIPPED -- test_succeeds_when_given_output_exists_but_can_overwrite in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.88562154769897s cumulative, 0.00916600227355957s individual
+
+.
+current test PASSED/SKIPPED -- test_fails_when_results_does_not_exist in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.89411354064941s cumulative, 0.008491992950439453s individual
+
+.
+current test PASSED/SKIPPED -- test_uses_output_name_as_given in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 119.90227246284485s cumulative, 0.00815892219543457s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_successful_parse in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 123.28159260749817s cumulative, 3.3793201446533203s individual
+
+.
+current test PASSED/SKIPPED -- test_report_leaks_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 127.14150333404541s cumulative, 3.859910726547241s individual
+
+.
+current test PASSED/SKIPPED -- test_report_detects_corrupt_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 128.51479959487915s cumulative, 1.3732962608337402s individual
+
+.
+current test PASSED/SKIPPED -- test_report_detects_missing_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 129.89397716522217s cumulative, 1.3791775703430176s individual
+
+
+unit/test_tree_reporter.py F
+current test FAILED -- test_allocations_of_different_sizes in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 131.1697142124176s cumulative, 1.2757370471954346s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_identical_stack_traces_started_in_different_lines_in_the_root_do_not_compare_equal in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 132.32190227508545s cumulative, 1.1521880626678467s individual
+
+.
+current test PASSED/SKIPPED -- test_traceback_for_high_watermark in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 133.57229852676392s cumulative, 1.2503962516784668s individual
+
+.
+current test PASSED/SKIPPED -- test_traceback_iteration_does_not_depend_on_the_order_of_elements in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 134.79027581214905s cumulative, 1.2179772853851318s individual
+
+
+unit/test_reader.py .
+current test PASSED/SKIPPED -- test_filereader_fails_to_open_file in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 134.80109548568726s cumulative, 0.010819673538208008s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_allocations_after_high_watermark_is_freed_do_not_appear in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 136.0856590270996s cumulative, 1.2845635414123535s individual
+
+
+unit/test_transform_reporter.py .
+current test PASSED/SKIPPED -- test_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.09567046165466s cumulative, 0.010011434555053711s individual
+
+.
+current test PASSED/SKIPPED -- test_single_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.10457491874695s cumulative, 0.008904457092285156s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.11153864860535s cumulative, 0.0069637298583984375s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_stack_trace in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.11838674545288s cumulative, 0.00684809684753418s individual
+
+.
+current test PASSED/SKIPPED -- test_single_native_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.1231987476349s cumulative, 0.004812002182006836s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_stack_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.12757921218872s cumulative, 0.004380464553833008s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.1332905292511s cumulative, 0.00571131706237793s individual
+
+.
+current test PASSED/SKIPPED -- test_single_native_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.1381642818451s cumulative, 0.004873752593994141s individual
+
+.
+current test PASSED/SKIPPED -- test_single_allocation in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.1427628993988s cumulative, 0.0045986175537109375s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.14751815795898s cumulative, 0.004755258560180664s individual
+
+.
+current test PASSED/SKIPPED -- test_empty_stack_trace in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_transform_reporter.py: 136.1523928642273s cumulative, 0.004874706268310547s individual
+
+
+integration/test_threads.py .
+current test PASSED/SKIPPED -- test_thread_allocations_after_tracker_is_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_threads.py: 138.15389251708984s cumulative, 2.001499652862549s individual
+
+
+unit/test_highwatermark_command.py ⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_temporary_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 139.90510654449463s cumulative, 1.7512140274047852s individual
+
+
+integration/test_ipython.py .
+current test PASSED/SKIPPED -- test_passing_valid_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_ipython.py: 141.77378106117249s cumulative, 1.8686745166778564s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_very_deep_call_is_limited in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 148.4850516319275s cumulative, 6.711270570755005s individual
+
+
+integration/test_extensions.py .
+current test PASSED/SKIPPED -- test_valloc_at_thread_exit_in_subprocess in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 152.53470134735107s cumulative, 4.049649715423584s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_no_allocations in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 153.265704870224s cumulative, 0.7310035228729248s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 154.7764401435852s cumulative, 1.510735273361206s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_non_freed_allocations_are_accounted_for in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 156.16396403312683s cumulative, 1.387523889541626s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_with_two_allocators_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 157.53531622886658s cumulative, 1.371352195739746s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_switching_threads in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 159.83456420898438s cumulative, 2.299247980117798s individual
+
+.
+current test PASSED/SKIPPED -- test_tui_pause in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 162.0271134376526s cumulative, 2.192549228668213s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_json_overwrites_existing_known_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 165.16944813728333s cumulative, 3.1423346996307373s individual
+
+.
+current test PASSED/SKIPPED -- test_run_overwrite_output_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 166.94627261161804s cumulative, 1.7768244743347168s individual
+
+.
+current test PASSED/SKIPPED -- test_output_file_already_exists in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 168.54580903053284s cumulative, 1.599536418914795s individual
+
+.
+current test PASSED/SKIPPED -- test_writes_to_correct_file in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 172.30324006080627s cumulative, 3.7574310302734375s individual
+
+.
+current test PASSED/SKIPPED -- test_error_when_stdout_is_a_tty in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 175.54227948188782s cumulative, 3.239039421081543s individual
+
+
+integration/test_processes.py .
+current test PASSED/SKIPPED -- test_allocations_with_multiprocessing in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_processes.py: 178.4015336036682s cumulative, 2.8592541217803955s individual
+
+
+unit/test_frame_tools.py .
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.41012120246887s cumulative, 0.00858759880065918s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.41637468338013s cumulative, 0.006253480911254883s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.42367362976074s cumulative, 0.007298946380615234s individual
+
+.
+current test PASSED/SKIPPED -- test_frame_interesting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.43082809448242s cumulative, 0.0071544647216796875s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.43803000450134s cumulative, 0.0072019100189208984s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.44266533851624s cumulative, 0.004635334014892578s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.44762587547302s cumulative, 0.004960536956787109s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.45230841636658s cumulative, 0.0046825408935546875s individual
+
+.
+current test PASSED/SKIPPED -- test_frame_interesting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.45702743530273s cumulative, 0.0047190189361572266s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.4621434211731s cumulative, 0.005115985870361328s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.46751999855042s cumulative, 0.005376577377319336s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.47186064720154s cumulative, 0.004340648651123047s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.47677063941956s cumulative, 0.004909992218017578s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.48236966133118s cumulative, 0.005599021911621094s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.48761415481567s cumulative, 0.00524449348449707s individual
+
+.
+current test PASSED/SKIPPED -- test_cpython_internal_calls in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.49473762512207s cumulative, 0.007123470306396484s individual
+
+.
+current test PASSED/SKIPPED -- test_frame_interesting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.50100660324097s cumulative, 0.006268978118896484s individual
+
+.
+current test PASSED/SKIPPED -- test_frame_interesting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.50873804092407s cumulative, 0.007731437683105469s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.5140838623047s cumulative, 0.005345821380615234s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.52020287513733s cumulative, 0.0061190128326416016s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.5275707244873s cumulative, 0.007367849349975586s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.5386781692505s cumulative, 0.011107444763183594s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.54961848258972s cumulative, 0.010940313339233398s individual
+
+.
+current test PASSED/SKIPPED -- test_frame_interesting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.55795645713806s cumulative, 0.008337974548339844s individual
+
+.
+current test PASSED/SKIPPED -- test_is_frame_from_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_frame_tools.py: 178.56644320487976s cumulative, 0.008486747741699219s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_partial_munmap_split_in_middle in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 180.2989022731781s cumulative, 1.7324590682983398s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 182.05693316459656s cumulative, 1.758030891418457s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations_while_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 183.9251058101654s cumulative, 1.8681726455688477s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 185.54683232307434s cumulative, 1.6217265129089355s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 186.81367754936218s cumulative, 1.2668452262878418s individual
+
+.
+current test PASSED/SKIPPED -- test_munmap_multiple_mmaps in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 187.92156386375427s cumulative, 1.1078863143920898s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_aggregation_on_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 189.06292128562927s cumulative, 1.141357421875s individual
+
+.
+current test PASSED/SKIPPED -- test_unmatched_deallocations_are_not_reported in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 190.31271123886108s cumulative, 1.2497899532318115s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 191.53397870063782s cumulative, 1.2212674617767334s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 192.78688311576843s cumulative, 1.2529044151306152s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_that_happen_in_the_same_function_are_aggregated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 194.1554090976715s cumulative, 1.3685259819030762s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 195.46388173103333s cumulative, 1.3084726333618164s individual
+
+
+unit/test_cli.py .
+current test PASSED/SKIPPED -- test_parser_rejects_when_no_results_provided in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.48209381103516s cumulative, 0.018212080001831055s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.49265837669373s cumulative, 0.010564565658569336s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.50042486190796s cumulative, 0.0077664852142333984s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.50987577438354s cumulative, 0.009450912475585938s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.51700067520142s cumulative, 0.007124900817871094s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_force_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.52507090568542s cumulative, 0.008070230484008789s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.53436374664307s cumulative, 0.009292840957641602s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.54547882080078s cumulative, 0.011115074157714844s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_memory_leaks_as_a_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.55442070960999s cumulative, 0.008941888809204102s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.56189131736755s cumulative, 0.007470607757568359s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_max_rows_sort_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.56918835639954s cumulative, 0.007297039031982422s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_sort_column_incorrect_values in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.57885432243347s cumulative, 0.009665966033935547s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_sort_column_incorrect_values in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.58769869804382s cumulative, 0.008844375610351562s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.59573483467102s cumulative, 0.008036136627197266s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_max_rows_long_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.6019458770752s cumulative, 0.006211042404174805s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_sort_column_sort_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.60733127593994s cumulative, 0.005385398864746094s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_sort_column_long_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.61356806755066s cumulative, 0.0062367916107177734s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.61994671821594s cumulative, 0.006378650665283203s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.62903332710266s cumulative, 0.00908660888671875s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_memory_leaks_as_a_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.63532972335815s cumulative, 0.006296396255493164s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_when_no_results_provided in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.64104294776917s cumulative, 0.005713224411010742s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.64592933654785s cumulative, 0.0048863887786865234s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.65147614479065s cumulative, 0.0055468082427978516s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.65816926956177s cumulative, 0.006693124771118164s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_force_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.66488981246948s cumulative, 0.006720542907714844s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.67342925071716s cumulative, 0.008539438247680664s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.68312644958496s cumulative, 0.009697198867797852s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_short_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.69089221954346s cumulative, 0.007765769958496094s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_memory_leaks_as_a_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.69705986976624s cumulative, 0.00616765022277832s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.70378613471985s cumulative, 0.006726264953613281s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_1 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.7085223197937s cumulative, 0.004736185073852539s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument_with_format in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.71353936195374s cumulative, 0.00501704216003418s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_long_form_output_2 in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.71934914588928s cumulative, 0.005809783935546875s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_takes_force_flag in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 195.72545623779297s cumulative, 0.0061070919036865234s individual
+
+F
+current test FAILED -- test_run_with_live in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.01811122894287s cumulative, 0.29265499114990234s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_valid_num_largest_allocators in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.02722883224487s cumulative, 0.009117603302001953s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.0347125530243s cumulative, 0.007483720779418945s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_invalid_num_largest_allocators in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.04291772842407s cumulative, 0.008205175399780273s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.04968404769897s cumulative, 0.006766319274902344s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.0549247264862s cumulative, 0.005240678787231445s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.05929684638977s cumulative, 0.004372119903564453s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_when_no_results_provided in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.06642961502075s cumulative, 0.007132768630981445s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_acceps_biggest_allocs_long_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.07621717453003s cumulative, 0.009787559509277344s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.08313035964966s cumulative, 0.006913185119628906s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_rejects_no_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.09105849266052s cumulative, 0.007928133010864258s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_accepts_single_argument in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.0963807106018s cumulative, 0.00532221794128418s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.10160326957703s cumulative, 0.0052225589752197266s individual
+
+.
+current test PASSED/SKIPPED -- test_parser_acceps_biggest_allocs_short_form in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.1065559387207s cumulative, 0.004952669143676758s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.11032724380493s cumulative, 0.0037713050842285156s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.1141746044159s cumulative, 0.003847360610961914s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.11826848983765s cumulative, 0.00409388542175293s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.1228039264679s cumulative, 0.0045354366302490234s individual
+
+.
+current test PASSED/SKIPPED -- test_determine_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 196.12782979011536s cumulative, 0.0050258636474609375s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_command_line_display in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 196.82434129714966s cumulative, 0.6965115070343018s individual
+
+
+unit/test_tree_reporter.py F
+current test FAILED -- test_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 200.35785722732544s cumulative, 3.5335159301757812s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_memory_snapshots_are_written in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 201.7132556438446s cumulative, 1.355398416519165s individual
+
+.
+current test PASSED/SKIPPED -- test_thread_allocations_multiple_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 202.9817442893982s cumulative, 1.2684886455535889s individual
+
+.
+current test PASSED/SKIPPED -- test_leak_that_happens_in_the_middle_is_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 204.55564618110657s cumulative, 1.573901891708374s individual
+
+.
+current test PASSED/SKIPPED -- test_non_freed_allocations_are_accounted_for in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 205.93065094947815s cumulative, 1.375004768371582s individual
+
+.
+current test PASSED/SKIPPED -- test_partial_munmap_multiple_split_in_middle in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 207.23731780052185s cumulative, 1.3066668510437012s individual
+
+.
+current test PASSED/SKIPPED -- test_aggregation_same_python_stack_but_different_native_stack in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 208.43045687675476s cumulative, 1.1931390762329102s individual
+
+.
+current test PASSED/SKIPPED -- test_partial_munmap_gap in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 209.7855405807495s cumulative, 1.355083703994751s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_aggregation_on_same_line in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 211.17167401313782s cumulative, 1.3861334323883057s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_initial_tracking_frames_are_correctly_populated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 212.8001253604889s cumulative, 1.6284513473510742s individual
+
+
+integration/test_main.py E
+current test FAILED -- test_live_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 212.82703948020935s cumulative, 0.026914119720458984s individual
+
+
+integration/test_socket.py E
+current test FAILED -- test_multiple_context_entries_does_not_crash in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 212.83809733390808s cumulative, 0.011057853698730469s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_single_chain_is_expanded in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 213.49815607070923s cumulative, 0.6600587368011475s individual
+
+.
+current test PASSED/SKIPPED -- test_uninteresting_leaves in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 214.2585883140564s cumulative, 0.760432243347168s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_leaks_allocations_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 216.5348401069641s cumulative, 2.276251792907715s individual
+
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 218.691073179245s cumulative, 2.156233072280884s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 221.06995058059692s cumulative, 2.3788774013519287s individual
+
+.
+current test PASSED/SKIPPED -- test_pthread_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 222.66031742095947s cumulative, 1.5903668403625488s individual
+
+.
+current test PASSED/SKIPPED -- test_aggregation_same_python_stack_and_same_native_stack in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 224.91341185569763s cumulative, 2.253094434738159s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 226.86857199668884s cumulative, 1.955160140991211s individual
+
+.
+current test PASSED/SKIPPED -- test_aggregation_same_python_stack_but_different_native_stack in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 228.90701055526733s cumulative, 2.038438558578491s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_aggregation_on_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 230.46383428573608s cumulative, 1.55682373046875s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 232.66423511505127s cumulative, 2.2004008293151855s individual
+
+.
+current test PASSED/SKIPPED -- test_leaks_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 234.44288539886475s cumulative, 1.7786502838134766s individual
+
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 235.83980178833008s cumulative, 1.396916389465332s individual
+
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 237.3416428565979s cumulative, 1.5018410682678223s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 238.73325061798096s cumulative, 1.3916077613830566s individual
+
+.
+current test PASSED/SKIPPED -- test_munmap_multiple_mmaps_multiple_munmaps in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 240.1252841949463s cumulative, 1.392033576965332s individual
+
+.
+current test PASSED/SKIPPED -- test_partial_munmap_gap in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 241.46102571487427s cumulative, 1.3357415199279785s individual
+
+.
+current test PASSED/SKIPPED -- test_freed_before_high_watermark_do_not_appear in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 243.1475956439972s cumulative, 1.6865699291229248s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_leaks_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 247.28327107429504s cumulative, 4.135675430297852s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 248.41865801811218s cumulative, 1.1353869438171387s individual
+
+
+unit/test_templates.py .
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.42965984344482s cumulative, 0.011001825332641602s individual
+
+.
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.4379599094391s cumulative, 0.008300065994262695s individual
+
+.
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.44581699371338s cumulative, 0.007857084274291992s individual
+
+.
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.45105862617493s cumulative, 0.0052416324615478516s individual
+
+.
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.455708026886s cumulative, 0.00464940071105957s individual
+
+.
+current test PASSED/SKIPPED -- test_title_for_regular_report in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_templates.py: 248.46001982688904s cumulative, 0.004311800003051758s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_quiet in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 250.00374555587769s cumulative, 1.5437257289886475s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_summary in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 253.514244556427s cumulative, 3.5104990005493164s individual
+
+.
+current test PASSED/SKIPPED -- test_report_leaks_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 257.431782245636s cumulative, 3.9175376892089844s individual
+
+
+integration/test_api.py .
+current test PASSED/SKIPPED -- test_file_destination in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_api.py: 258.7571222782135s cumulative, 1.3253400325775146s individual
+
+.
+current test PASSED/SKIPPED -- test_file_destination_str_path in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_api.py: 259.8990705013275s cumulative, 1.1419482231140137s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_temporary_allocations_that_happen_in_different_lines in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 261.23294472694397s cumulative, 1.333874225616455s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 262.41338324546814s cumulative, 1.18043851852417s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_are_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 263.87860083580017s cumulative, 1.4652175903320312s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_pymalloc_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 265.4370322227478s cumulative, 1.5584313869476318s individual
+
+
+integration/test_socket.py E
+current test FAILED -- test_nested_context_is_diallowed in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 265.4472963809967s cumulative, 0.010264158248901367s individual
+
+E
+current test FAILED -- test_get_is_active_after_context in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 265.4534935951233s cumulative, 0.006197214126586914s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_two_chains_after_expanding_second in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 267.68464827537537s cumulative, 2.231154680252075s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_equal_stack_traces_compare_equal in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 269.06932282447815s cumulative, 1.3846745491027832s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_detects_missing_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 270.6281831264496s cumulative, 1.5588603019714355s individual
+
+.
+current test PASSED/SKIPPED -- test_report_both_temporary_allocation_arguments in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 274.8753020763397s cumulative, 4.247118949890137s individual
+
+.
+current test PASSED/SKIPPED -- test_report_temporary_allocations_argument in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 279.31230425834656s cumulative, 4.437002182006836s individual
+
+
+unit/test_cli.py Writing profile results into memray-foobar.0.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-foobar.0.bin
+.
+current test PASSED/SKIPPED -- test_run_with_native_mode in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.3664150238037s cumulative, 0.05411076545715332s individual
+
+Writing profile results into memray-string.<MagicMock name='getpid()' id='140664292656704'>.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-string.<MagicMock name='getpid()' id='140664292656704'>.bin
+Writing profile results into memray-string.<MagicMock name='getpid()' id='140664292656704'>.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-string.<MagicMock name='getpid()' id='140664292656704'>.bin
+.
+current test PASSED/SKIPPED -- test_run_cmd_is_validated in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.4379756450653s cumulative, 0.07156062126159668s individual
+
+Run 'memray3.10 live 1234' in another shell to see live results
+.
+current test PASSED/SKIPPED -- test_run_with_live_remote in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.4866781234741s cumulative, 0.04870247840881348s individual
+
+.
+current test PASSED/SKIPPED -- test_run_without_arguments in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.52006697654724s cumulative, 0.03338885307312012s individual
+
+Writing profile results into memray-foobar.0.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-foobar.0.bin
+.
+current test PASSED/SKIPPED -- test_run_default_output in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.564249753952s cumulative, 0.044182777404785156s individual
+
+Writing profile results into ./directory/memray-foobar.py.0.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph ./directory/memray-foobar.py.0.bin
+.
+current test PASSED/SKIPPED -- test_run_relative_file in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.60707998275757s cumulative, 0.04283022880554199s individual
+
+Run 'memray3.10 live 1111' in another shell to see live results
+.
+current test PASSED/SKIPPED -- test_run_with_live_remote_and_live_port in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.6434369087219s cumulative, 0.03635692596435547s individual
+
+Run 'memray3.10 live 1234' in another shell to see live results
+.
+current test PASSED/SKIPPED -- test_run_with_trace_python_allocators_and_live_remote_mode in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.6729645729065s cumulative, 0.029527664184570312s individual
+
+Writing profile results into memray-string.<MagicMock name='getpid()' id='140664291050784'>.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-string.<MagicMock name='getpid()' id='140664291050784'>.bin
+.
+current test PASSED/SKIPPED -- test_run_cmd in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.7082314491272s cumulative, 0.035266876220703125s individual
+
+Writing profile results into memray-foobar.py.<MagicMock name='getpid()' id='140664292594384'>.bin
+[memray] Successfully generated profile results.
+
+You can now generate reports from the stored allocation records.
+Some example commands to generate reports:
+
+/usr/bin/python3 -m memray flamegraph memray-foobar.py.<MagicMock name='getpid()' id='140664292594384'>.bin
+.
+current test PASSED/SKIPPED -- test_run_file in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_cli.py: 279.7374818325043s cumulative, 0.029250383377075195s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_cython_traceback in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 281.3847954273224s cumulative, 1.6473135948181152s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_unsupported_operations_on_aggregated_capture in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 282.0913996696472s cumulative, 0.7066042423248291s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_both_temporary_allocation_arguments in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 287.293771982193s cumulative, 5.202372312545776s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_sorting in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 289.86520981788635s cumulative, 2.5714378356933594s individual
+
+
+integration/test_socket.py E
+current test FAILED -- test_get_current_snapshot_first_yield_after_context_raises in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.8812167644501s cumulative, 0.016006946563720703s individual
+
+E
+current test FAILED -- test_get_current_snapshot_raises_after_context in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.89370942115784s cumulative, 0.012492656707763672s individual
+
+E
+current test FAILED -- test_single_allocation_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.91192841529846s cumulative, 0.018218994140625s individual
+
+E
+current test FAILED -- test_command_line in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.92319679260254s cumulative, 0.011268377304077148s individual
+
+E
+current test FAILED -- test_empty_snapshot_after_free in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.9635226726532s cumulative, 0.04032588005065918s individual
+
+E
+current test FAILED -- test_multi_allocation_snapshot in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_socket.py: 289.97694516181946s cumulative, 0.013422489166259766s individual
+
+
+unit/test_flamegraph_reporter.py .
+current test PASSED/SKIPPED -- test_very_deep_call_is_limited in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_flamegraph_reporter.py: 290.5534610748291s cumulative, 0.5765159130096436s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_tracking_with_SIGKILL in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 293.21206974983215s cumulative, 2.6586086750030518s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_restart_tracing_function_gets_correctly_the_frames in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 296.95225739479065s cumulative, 3.740187644958496s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_run_file_exists in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 296.9946503639221s cumulative, 0.04239296913146973s individual
+
+.
+current test PASSED/SKIPPED -- test_run_file_that_is_not_python in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 297.07270550727844s cumulative, 0.07805514335632324s individual
+
+.
+current test PASSED/SKIPPED -- test_run_file_that_is_not_python in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 297.14269638061523s cumulative, 0.06999087333679199s individual
+
+
+integration/test_native_tracking.py ['PyType_GenericAlloc', '<unknown>', '_PyObject_MakeTpCall', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+['_PyObject_GC_NewVar', '<unknown>', '<unknown>', '<unknown>', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+['_PyObject_GC_NewVar', '<unknown>', '_PyFunction_Vectorcall', '_PyObject_CallFunction_SizeT', 'run_recursive', '<unknown>', '_PyObject_MakeTpCall', '<unknown>', 'foo', '<unknown>', '<unknown>', '<module>', '<unknown>', 'PyEval_EvalCode', '<unknown>', '<unknown>', 'PyRun_StringFlags', 'PyRun_SimpleStringFlags', 'Py_RunMain', 'Py_BytesMain', '<unknown>', '__libc_start_main', '_start']
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_of_allocations_inside_ceval in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 305.2556269168854s cumulative, 8.112930536270142s individual
+
+
+unit/test_tree_reporter.py .
+current test PASSED/SKIPPED -- test_show_uninteresting_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 309.4602851867676s cumulative, 4.204658269882202s individual
+
+
+integration/test_extensions.py .
+current test PASSED/SKIPPED -- test_misbehaving_extension in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 315.6785469055176s cumulative, 6.21826171875s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_allocation_in_thread_before_reacquiring_gil_after_tracking_starts in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 317.6477282047272s cumulative, 1.9691812992095947s individual
+
+.
+current test PASSED/SKIPPED -- test_high_watermark_records_can_be_retrieved_twice in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 319.71056485176086s cumulative, 2.0628366470336914s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_leaks_with_pymalloc_warning in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 325.68365144729614s cumulative, 5.973086595535278s individual
+
+.
+current test PASSED/SKIPPED -- test_report_detects_missing_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 327.9394598007202s cumulative, 2.2558083534240723s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 329.74405241012573s cumulative, 1.8045926094055176s individual
+
+.
+current test PASSED/SKIPPED -- test_temporary_allocations_outside_buffer_are_not_detected in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 331.32188630104065s cumulative, 1.577833890914917s individual
+
+.
+current test PASSED/SKIPPED -- test_unmatched_deallocations_are_not_reported in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 333.0918276309967s cumulative, 1.7699413299560547s individual
+
+.
+current test PASSED/SKIPPED -- test_no_allocations_while_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 334.6537735462189s cumulative, 1.561945915222168s individual
+
+.
+current test PASSED/SKIPPED -- test_partial_munmap in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 336.1902894973755s cumulative, 1.5365159511566162s individual
+
+
+unit/test_tree_reporter.py F
+current test FAILED -- test_show_uninteresting_and_hide_import_system in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tree_reporter.py: 337.7175135612488s cumulative, 1.527224063873291s individual
+
+
+unit/test_reader.py .
+current test PASSED/SKIPPED -- test_read_pid in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_reader.py: 339.1934790611267s cumulative, 1.4759654998779297s individual
+
+
+integration/test_extensions.py .
+current test PASSED/SKIPPED -- test_extension_that_uses_pygilstate_ensure in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_extensions.py: 344.7126169204712s cumulative, 5.519137859344482s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_hybrid_stack_in_pure_python_with_callbacks in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 346.54041743278503s cumulative, 1.8278005123138428s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_sys_manipulations_when_running_module in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 348.4035258293152s cumulative, 1.8631083965301514s individual
+
+.
+current test PASSED/SKIPPED -- test_live_tracking_invalid_port in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 349.7991235256195s cumulative, 1.3955976963043213s individual
+
+.
+current test PASSED/SKIPPED -- test_report_detects_corrupt_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 351.3959918022156s cumulative, 1.5968682765960693s individual
+
+
+integration/test_processes.py [AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=1.205KB, allocator=13, allocations=1>, AllocationRecord<tid=0x1, address=0x556a63c26710, size=N/A, allocator=15, allocations=1>]
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocations_after_fork in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_processes.py: 355.09798789024353s cumulative, 3.701996088027954s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_with_multiprocessing_following_fork in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_processes.py: 358.65836334228516s cumulative, 3.560375452041626s individual
+
+
+integration/test_native_tracking.py .
+current test PASSED/SKIPPED -- test_multithreaded_extension_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 365.897180557251s cumulative, 7.23881721496582s individual
+
+.
+current test PASSED/SKIPPED -- test_inlined_call_chain_with_native_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 369.42512607574463s cumulative, 3.5279455184936523s individual
+
+.
+current test PASSED/SKIPPED -- test_hybrid_stack_in_recursive_python_c_call in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_native_tracking.py: 373.32625246047974s cumulative, 3.9011263847351074s individual
+
+
+integration/test_tracking.py .
+current test PASSED/SKIPPED -- test_thread_allocations_multiple_threads in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 374.742799282074s cumulative, 1.4165468215942383s individual
+
+.
+current test PASSED/SKIPPED -- test_allocations_that_are_freed_do_not_appear_as_leaks in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 376.27618741989136s cumulative, 1.5333881378173828s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 377.70993423461914s cumulative, 1.4337468147277832s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 378.9311842918396s cumulative, 1.221250057220459s individual
+
+.
+current test PASSED/SKIPPED -- test_memory_snapshots_limit_when_reading in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 380.435373544693s cumulative, 1.5041892528533936s individual
+
+.
+current test PASSED/SKIPPED -- test_pymalloc_allocation_tracking_deactivated in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 381.83766436576843s cumulative, 1.4022908210754395s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 383.2570285797119s cumulative, 1.4193642139434814s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 384.6647672653198s cumulative, 1.4077386856079102s individual
+
+.
+current test PASSED/SKIPPED -- test_aggregation_same_python_stack_and_same_native_stack in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 386.0597712993622s cumulative, 1.3950040340423584s individual
+
+.
+current test PASSED/SKIPPED -- test_final_allocation_is_peak in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 387.4899642467499s cumulative, 1.4301929473876953s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 388.9239146709442s cumulative, 1.433950424194336s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 390.3100643157959s cumulative, 1.3861496448516846s individual
+
++10 kB
++ 9 kB
+- 9 kB
++ 8 kB
++ 7 kB
+- 7 kB
++ 6 kB
++ 5 kB
+- 5 kB
++ 4 kB
++ 3 kB
+- 3 kB
++ 2 kB
++ 1 kB
+- 1 kB
+- 2 kB
+- 4 kB
+- 6 kB
+- 8 kB
+-10 kB
+.
+current test PASSED/SKIPPED -- test_spiky_generally_increasing_to_final_peak in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 391.85039925575256s cumulative, 1.540334939956665s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocation_tracking in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 393.24755358695984s cumulative, 1.3971543312072754s individual
+
++10 kB
++ 9 kB
+- 9 kB
++ 8 kB
++ 7 kB
+- 7 kB
++ 6 kB
++ 5 kB
+- 5 kB
++ 4 kB
++ 3 kB
+- 3 kB
++ 2 kB
++ 1 kB
+- 1 kB
+- 2 kB
+- 4 kB
+- 6 kB
+- 8 kB
+-10 kB
+.
+current test PASSED/SKIPPED -- test_spiky_generally_increasing_to_final_peak in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracking.py: 394.6767337322235s cumulative, 1.4291801452636719s individual
+
+
+unit/test_tui_reporter.py .
+current test PASSED/SKIPPED -- test_tui_basic in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.82322692871094s cumulative, 1.1464931964874268s individual
+
+.
+current test PASSED/SKIPPED -- test_simple_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.83170914649963s cumulative, 0.008482217788696289s individual
+
+.
+current test PASSED/SKIPPED -- test_native_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.83811235427856s cumulative, 0.006403207778930664s individual
+
+.
+current test PASSED/SKIPPED -- test_missing_frames in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.84549736976624s cumulative, 0.0073850154876708984s individual
+
+.
+current test PASSED/SKIPPED -- test_empty in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.85831356048584s cumulative, 0.012816190719604492s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_bigger_than_max in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.86937642097473s cumulative, 0.011062860488891602s individual
+
+.
+current test PASSED/SKIPPED -- test_size_of_graph in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.88485169410706s cumulative, 0.015475273132324219s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_bigger_than_max_after_resize in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.9006209373474s cumulative, 0.015769243240356445s individual
+
+.
+current test PASSED/SKIPPED -- test_multiple_points in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.9219603538513s cumulative, 0.02133941650390625s individual
+
+.
+current test PASSED/SKIPPED -- test_one_point_lower_than_max in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_tui_reporter.py: 395.9304430484772s cumulative, 0.008482694625854492s individual
+
+
+unit/test_highwatermark_command.py ⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_leak in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 397.3032259941101s cumulative, 1.3727829456329346s individual
+
+⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_leak in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 398.55752205848694s cumulative, 1.254296064376831s individual
+
+⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_temporary_allocations in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 399.81677865982056s cumulative, 1.2592566013336182s individual
+
+⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_peak in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 401.0496623516083s cumulative, 1.2328836917877197s individual
+
+⚠  No debug information was found for the Python interpreter  ⚠
+
+Without debug information reports showing native traces may not include file 
+names and line numbers. Please use an interpreter built with debug symbols for 
+best results. Check https://bloomberg.github.io/memray/native_mode.html for more
+information regarding how memray resolves symbols.
+
+.
+current test PASSED/SKIPPED -- test_tracker_and_reporter_interactions_for_peak in /home/kaiyaok2/PythonProjects/memray/tests/unit/test_highwatermark_command.py: 402.29203486442566s cumulative, 1.2423725128173828s individual
+
+
+integration/test_main.py .
+current test PASSED/SKIPPED -- test_report_detects_corrupt_input in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 403.6882219314575s cumulative, 1.3961870670318604s individual
+
+E
+current test FAILED -- test_live_client_exits_properly_on_sigint_before_connecting in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_main.py: 403.7026331424713s cumulative, 0.014411211013793945s individual
+
+
+integration/test_tracing.py .
+current test PASSED/SKIPPED -- test_records_can_be_retrieved_twice in /home/kaiyaok2/PythonProjects/memray/tests/integration/test_tracing.py: 405.1259286403656s cumulative, 1.423295497894287s individual
+
+
+integration/test_extensions.py 

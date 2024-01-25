@@ -1,0 +1,50 @@
+c12b31d build(deps): bump actions/setup-python from 4 to 5
+593a6d9 ci: Update linters to more recent versions
+e0acce9 Update marketing copy
+51aa84e Prepare for 1.11.0 release
+8e3b65c docs: Add news entries for a few more items
+c2caf25 tests: Update for tree reporter changes
+167e964 Summarize elided locations in the tree reporter
+f954b6c Hide labels in the tree TUI that don't apply
+ba8a124 Show 200 allocations in `memray tree` by default
+ca8a005 Use a gradient for row colors in `memray tree`
+64f498d docs: Update some prose for the Live TUI
+73f3071 docs: Update live mode screenshots
+22bc40e Port the tree reporter to textual
+3f0447b tui: Use half-block characters for memory graph
+1cce4cb ci: Ensure `prettier` runs with the right NodeJS
+e112027 lint: Update code to latest linter standards
+2a88d06 Update pre-commit linters to the latest versions
+138d9c5 lint: Upgrade to the latest `ruff` release
+ff321c9 Make minor performance improvements
+c4b35f3 Leverage pkg-config in setup.py
+986a17e Add a "memory overview" section to the docs
+26f04e2 Abbreviate Memray's path displayed in the TUI
+38e9ac8 tests: Prevent tests from showing the TUI
+7915f10 tests: Remove a test that's flaky under textual
+525f2e5 Complete the Textual TUI implementation
+fdb7255 Decouple the summary reporter from the TUI
+5554604 tests: Fix a side-effect persisting past a test
+195d7c9 Migrate the TUI to Textual
+694bf84 Limit the number of memory records reported
+2defa44 Refresh the progress bars on exit
+aa3470a Disable leaks warning if tracing Python allocators
+0065289 Record if `--trace-python-allocators` was used
+d38ae3c news: Fix a misspelled news entry
+7ee88fc Fix debugger output parsing in attach command
+f33d028 build(deps): bump actions/setup-node from 3 to 4
+b86b54a Always run required CI checks
+0c9484d Fix Dockerfile - python3.9
+98cfed3 build(deps-dev): bump @babel/traverse from 7.17.9 to 7.23.2
+27c1f73 Prepare for 1.10.0 release
+8072257 Do not patch PLT stubs for MallocStackLogging in MacOS
+0348de8 build(deps): bump pypa/cibuildwheel from 2.16.1 to 2.16.2
+002dcf3 Drop `--heap-limit` from `memray attach`
+abbb033 tests: Ensure input to subprocess is flushed
+e334951 Make `memray detach` fail no tracker is found
+8cb866e Split out new `memray detach` command
+9674c79 Add new commands to `memray attach`
+31b0dab Add docs for inverted flame graph
+baf7f41 Document that Python 3.12 is supported
+363502b Declare our minimum supported Cython version
+1d5ffd5 Avoid creating more `backtrace_state*` than needed
